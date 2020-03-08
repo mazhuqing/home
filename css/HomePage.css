@@ -1,0 +1,5921 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+    padding:0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #8a8d93;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+}
+body{
+    font-family: "Muli", sans-serif;
+     font-size: 1rem;
+     font-weight: 400; 
+     line-height: 1.5; 
+     color: #8a8d93; 
+     overflow:-Scroll;
+     overflow-x:hidden;
+     background-color:#22252a;
+     
+}
+@media screen and (min-width: 1200px){
+
+        /* header */
+
+        .header{
+                width: 100%;
+                height: 83px;
+                background-color: #2d3035;
+                position: relative;
+                border-bottom: 1px solid #34373d;
+        }
+        .h-top{
+            width: 97%;
+            height: 42px;
+            position: absolute;
+            left: 1.5%;
+            top: 25%;
+        }
+
+        /* 头部左边 */
+        .topLeft{
+            width:200px ;
+            height:40px ;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            display: block;
+            padding: 5px;
+            /* display: none; */
+        }
+        .leftDark{
+           color: #db6574;
+          
+        }
+        .leftAdmin{
+            font-weight: bold;
+            color: #8a8d93;
+
+        }
+        .leftImg{
+            float: right;
+            margin-top: -38px;
+
+        }
+        .DA{
+            font-size: 1.25rem;
+            display: none;
+            padding: 5px;
+        }
+        .leftD{
+            color: #db6574;
+        }
+        .leftA{
+            font-weight: bold;
+            color: #8a8d93;
+        }
+        .leftImg1{
+            float: right;
+            position: relative;
+            left: -115px;
+            top:-36px ;
+            display: none;
+        }
+
+        .topRight{
+            width:412px ;
+            height:42px ;
+            float: right;
+            margin-top: -44px;
+            /* background-color: turquoise; */
+           
+        }
+        .topRight a .icon-shousuo{
+            font-size: 1.3rem;
+           color:#8a8d93 ; 
+           margin-left: -2px;
+        }
+        .topRight a .icon-youjian{
+            color:#8a8d93 ; 
+            margin-left: -7px;
+            font-size: 1.3rem;
+         }
+        .topRight a .icon-jishiben{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+            font-size: 1.3rem;
+         }
+         .topRight a{
+            color:#888b91;
+            display: inline-block;
+            margin-top: -12px;
+         }
+         .topRight a .icon-Mega{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+         }
+         .topRight a .icon-english{
+            color:#8a8d93 ; 
+            margin-left: -4px;
+         }
+         .topRight .logRight{
+             position: relative;
+         }
+         .topRight .logImg{
+           position: absolute;
+           top: 0px;
+           right:-27px;
+         }
+
+
+
+         /* middle content */
+         .middle{
+             width:100% ;
+             height:3029px ;
+             /* background-color: cornflowerblue; */
+         }
+         /* 左边 */
+         .m-left{
+             float: left;
+             width:278px ;
+             height: 3092px;
+             background-color: #2d3035;
+             border-right: 1px solid #3d3934;
+         }
+         /* 左边顶部 */
+         .leftMask{
+             width:100%;
+             height:120px ;
+             /* background-color: magenta; */
+         }
+         .maskImg{
+             padding-top: 22px;
+             padding-left: 17px;
+         }
+         .maskImg img{
+             border-radius: 50%;
+         }
+
+         .maskWeb{
+             float: right;
+             margin-right: 60px;
+             margin-top: -63px;
+         }
+         .maskWeb h3{
+             font-size: 1.1rem;
+             color: #8a8d93;
+         }
+         .maskWeb p{
+             font-size: 0.9rem;
+             color: #6A6C70;
+         }
+         .main{
+            font-weight: 700;
+            margin-left: 20px;
+            color: #494d53;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+         }
+         /* 左边列表项 */
+         .leftList{
+            width:100%;
+            height:384px ;
+            padding-left: 0;
+            list-style: none;
+            /* background-color:#2d3035; */
+         }
+         .leftList li{
+             height:64px ;
+         }
+         .leftList .active{
+            border-left: 2px solid #bf5d6b ;
+            background-color: #34373d;
+           
+         }
+         .active .icon-home{
+            color: #bf5d6b;
+            font-size: 24px;
+            border-right: 1px solid #4a4a4c;
+         }
+          .active .home{
+            color: #d6d8da;
+         } 
+         a .icon-table{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-chart{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-form{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-example{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-logout{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo1{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo2{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo3{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .iconfont{
+             color: #64666a;
+            margin-left: 16px;
+            display: inline-block;
+            margin-top: 18px;
+            width: 40px;
+            height: 32px;
+            
+         }
+         li a strong{
+            margin-left: 15px;
+            color: #64666a;
+            font-weight: normal;
+         }
+        a .icon-example2{
+             margin-right: -57px;
+         }
+
+         /* 右边中间部分 */
+         .m-right{
+             height:3022px ;
+             /* background-color: lightgreen; */
+         }
+         /* 右边中间部分头部 */
+         .rightDash{
+             padding: 20px 15px;
+             background-color: #2d3035;
+             color: #8a8d93;
+             margin-bottom: 30px;
+         }
+         .dashBoard{
+            padding-right: 40px;
+            padding-left: 295px;
+         }
+         .dashSize{
+             font-size: 1.1rem;
+         }
+
+         /* 中间new */
+         .rightNew{
+             height: 156px;
+            padding-right: 15px;
+            padding-left: 280px;
+            margin-right: 15px;
+            margin-left: 295px;
+            /* background-color: brown; */
+            position: relative;
+         }
+         /* 第一个 */
+         .newClients{
+            float: left;
+            width:22%;
+            height:104px ;
+            background-color: #2d3035;
+            position: absolute; 
+            left: 1%;
+         }
+        .icon-user{
+            font-size:  1.5rem;
+            margin-top: 20px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+        .clients{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .numbers1{
+            position: relative;
+        }
+        .twentySeven{
+            position: absolute;
+           left: 132px;
+           top: -50px;
+           font-size:  2.2rem;
+           color: #864DD9;
+        }
+        .line1{
+            position: relative;
+        }
+        .newLine1{
+            width: 80%;
+            height: 4px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: #393c43;
+            margin-top: 5px;
+            margin-left: 20px;
+
+        }
+        .newLines1{
+            position: absolute;
+            width: 25%;
+            height: 4px;
+            left: 20px;
+            top: 0px;
+            background-color: #864DD9;
+            border-radius: 30px;
+        }
+
+
+        /* 第二个 */
+         .newProjects{
+            float: left;
+            width:22%;
+            height:135px ;
+            background-color: #2d3035;
+            position: absolute;
+            left: 26%;
+         }
+         .icon-project{
+            font-size:  1.5rem;
+            margin-top: 20px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+        .clients{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .numbers2{
+            position: relative;
+        }
+        .seventyFive{
+            position: absolute;
+           left: 132px;
+           top: -50px;
+           font-size:  2.2rem;
+           color: #CF53F9
+        }
+        .line2{
+            position: relative;
+        }
+        .newLine2{
+            width: 80%;
+            height: 4px;
+            border-radius: 30px;
+            /* overflow: hidden; */
+            background: #393c43;
+            margin-top: 10px;
+            margin-left: 20px;
+
+        }
+        .newLines2{
+            position: absolute;
+            width: 55%;
+            height: 4px;
+            left: 20px;
+            top: 0px;
+            background-color: #CF53F9;
+            border-radius: 30px;
+        }
+
+
+        /* 第三个 */
+         .newInvoices{
+            float: left;
+            width:22% ;
+            height:135px ;
+            background-color: #2d3035;
+            position: absolute;
+            right:27%;
+         }
+         .icon-invoices{
+            font-size:  1.5rem;
+            margin-top: 20px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+        .clients{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .numbers3{
+            position: relative;
+        }
+        .forty{
+            position: absolute;
+           left: 132px;
+           top: -50px;
+           font-size:  2.2rem;
+           color: #e95f71;
+        }
+        .line3{
+            position: relative;
+        }
+        .newLine3{
+            width: 80%;
+            height: 4px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: #393c43;
+            margin-top: 10px;
+            margin-left: 20px;
+
+        }
+        .newLines3{
+            position: absolute;
+            width: 40%;
+            height: 4px;
+            left: 20px;
+            top: 0px;
+            background-color: #e95f71;
+            border-radius: 30px;
+        }
+        /* 第四个 */
+         .allProjects{
+            float: left;
+            width:22% ;
+            height:104px ;
+            background-color: #2d3035;
+            position: absolute;
+            right:2%;
+         }
+         .icon-all{
+            font-size:  1.5rem;
+            margin-top: 20px;
+            margin-left: 20px;
+            display: inline-block;
+        }
+        .clients{
+            font-size: 15px;
+            margin-left: 20px;
+        }
+        .numbers4{
+            position: relative;
+        }
+        .fortyOne{
+            position: absolute;
+           left: 132px;
+           top: -50px;
+           font-size:  2.2rem;
+           color: #7127AC;
+        }
+        .line4{
+            position: relative;
+        }
+        .newLine4{
+            width: 80%;
+            height: 4px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: #393c43;
+            margin-top: 10px;
+            margin-left: 20px;
+
+        }
+        .newLines4{
+            position: absolute;
+            width: 25%;
+            height: 4px;
+            left: 20px;
+            top: 0px;
+            background-color: #7127AC;
+            border-radius: 30px;
+        }
+
+        /* ----------------------------------------------------------------------------------------------- */
+        /* 折线图与树状图1 */
+        .rightPage{
+             width:75% ; 
+            height:356px ;
+            /* background-color: burlywood; */
+            margin-left: 296px;
+        }
+        .dataSet1{
+            width:33% ;
+            height:46% ;
+            background-color: #2d3035;
+        }
+        .dataSet2{
+            width:33% ;
+            height:46% ;
+            background-color: #2d3035;
+        }
+        .pageViews{
+            width:61%;
+            height:91% ;
+            background-color: #2d3035;
+            margin-top: -326px;
+            margin-left: 36%;
+            margin-right: -1%;
+        }
+
+          /* 折线图2与数据 */
+          .rightTeam{
+              width:75%;
+              /* height:341px ; */
+              /* background-color: aquamarine; */
+              margin-left: 296px;
+          }
+          .scansTotal{
+            width: 48%;
+            height: 341px;
+            position: relative;
+            /* background-color: brown; */
+          }
+          /* 数据图1 */
+          .scansTotal .scans{
+              width: 103%;
+              height: 143px;
+              background-color: #2d3035;
+              position: relative;
+          }
+          .scans .scans1{
+              width:39%;
+              height:83px;
+              /* background-color: blue; */
+              position: absolute;
+              left: 20px;
+              top: 20px;
+              border-right: 1px solid #40444b;
+          }
+          .scans1 .icon-down{
+              color:#dc3545;
+          }
+          .value1{
+              font-size: 2rem;
+              position: absolute;
+              top: -12px;
+          }
+          .standard{
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            font-weight: 300;
+            text-transform: uppercase;
+            position: absolute;
+            top: 35px;
+          }
+          
+        .scans1Line{
+            position: relative;
+        }
+        .scans1Line1{
+            width: 72%;
+            height: 2px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: #393c43;
+            margin-top: 64px;
+            margin-left: 16px;
+        }
+        .scans1Line2{
+            position: absolute;
+            width: 35%;
+            height: 2px;
+            left: 15px;
+            top: 0px;
+            background-color: #cf53f9;
+            border-radius: 30px;
+        }
+
+
+          .scans .scans2{
+            width:43%;
+            height: 103px;
+            /* background-color: purple; */
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+        .scans2 .icon-up{
+            color:#28a745;
+        }
+        
+        .scans1Line{
+            position: relative;
+        }
+        .scans1Line3{
+            width: 45%;
+            height: 2px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: #393c43;
+            margin-top: 45px;
+            margin-left: 16px;
+        }
+        .scans1Line4{
+            position: absolute;
+            width: 18%;
+            height: 2px;
+            left: 15px;
+            top: 0px;
+            background-color: #e95f71;
+            border-radius: 30px;
+        }
+
+
+
+
+          /* 数据图2 */
+          .scansTotal .requests{
+            height: 139px;
+            /* background-color: yellow; */
+            margin-top: 30px;
+          }
+          .scans1Line{
+            position: relative;
+        }
+        .scans1Line5{
+            width: 60%;
+            height: 2px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: #393c43;
+            margin-top: 70px;
+           
+        }
+        .scans1Line6{
+            position: absolute;
+            width: 25%;
+            height: 2px;
+            left: 0;
+            top: 0px;
+            background-color: #864dd9;
+            border-radius: 30px;
+        }
+        .scans2 .value1-sm{
+            font-size: 1.4rem;
+        }
+        .scans2 .standard-sm{
+            font-size: 0.85rem;
+            margin-top: -12px;
+            margin-left: -5px;
+        }
+        .scans1Line7{
+            width: 17%;
+            height: 1px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: #393c43;
+            margin-top: 55px;
+            margin-left: 12px; 
+        }
+        .small1{
+            position: relative;
+        }
+        small{
+            font-weight: 600;
+            font-size: 80%;
+            position: absolute;
+            left: 12px;
+            top: 15px;
+           
+        }
+        .neutral{
+            width:102px ;
+            height:99px ;
+            position: relative;
+            left: 105px;
+            top: -63px;
+        }
+        .value1-sm1{
+            font-size: 1.4rem;
+            margin-left: 5px;
+        }
+        .standard-sm1{
+            font-size: 0.85rem;
+            margin-top: -12px;
+        }
+        .scans1Line8{
+            width: 30%;
+            height: 1px;
+            border-radius: 30px;
+            overflow: hidden;
+            background: #393c43;
+            position: absolute;
+            top: 54px;
+            left: 20px; 
+        }
+        .small2{
+            font-weight: 600;
+            position: absolute;
+            left: 6px;
+            top: 63px;
+        }
+
+        /* 折线图2 */
+          /* .Team{
+            width:50% ;
+            height:341px ;
+            background-color: rgb(42, 165, 97);
+            float: right;
+            margin-top: -341px;
+          }  */
+         .teamDrills{
+             width:93% ;
+             height: 74% ;
+            background-color: #2d3035;
+            margin-left: 10px;
+            left: 107%;
+            top: -312px;
+            margin-right: -1%;
+         } 
+
+         /* 个人信息 */
+         .information{
+             width:77%;
+             height: 690px;
+             /* background-color: pink; */
+             margin-left: 279px;
+             position: relative;
+         }
+         /* 个人信息1 */
+         .information .name{
+             width:31%;
+             height:332px ;
+             background-color:#2d3035 ;
+             margin-left: 17px;  
+             float: left; 
+             position: relative;
+         }
+         .name .photo{
+             width:23%;
+             border-radius: 50%;
+             display: block;
+             margin-top: 35px;
+             margin-left: 110px;
+         }
+
+        .name .order{
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 0.7rem;
+         }
+         
+         .oneSt{
+            background: #CF53F9;
+            position: absolute;
+            top: 82px;
+            left: 156px;
+            text-align: center;
+         }
+         .twoNd{
+            background: #864DD9;
+            position: absolute;
+            top: 82px;
+            left: 156px;
+            text-align: center;
+         }
+         .threeRd{
+            background: #7127AC;
+            position: absolute;
+            top: 82px;
+            left: 156px;
+            text-align: center;
+         }
+        .nameEail .richard{
+            text-align: center;
+            margin-top: 20px;
+        }
+        .nameEail .mailbox{
+            display: block;
+            text-align: center;
+            color:#757871;
+            font-weight: 100;
+        }
+        .name .contributions{
+            margin-top: 20px;
+            border-radius: 50px;
+            padding: 6px 30px;
+            background: #26292d;
+            display: inline-block;
+            font-size: 0.9rem;
+            margin-left: 60px;
+        }
+        .item{
+            width: 60px;
+            height: 30px;
+        }
+        .item .number{
+            position: absolute;
+            left: 30px;
+            top: 6px;
+        }
+
+        .item1{
+            position: relative;
+            top: 50px;
+            left: 35px;
+        }
+        .item1 .icon-tanh{
+            font-size: 24px;
+        }
+    
+        .item2{
+            position: relative;
+            top: 20px;
+            left: 121px;
+        }
+        .item2 .icon-link{
+            font-size: 24px;
+        }
+      
+
+        .item3{
+            position: relative;
+            top: -10px;
+            left: 205px;
+        }
+        .item3 .icon-branch{
+            position: absolute;
+            left: 3px;
+            top: 6px;
+            font-size: 16px;
+        }
+        
+
+         /* 个人信息2 */
+         .information .names{
+             width:96% ;
+             height:90px ;
+             background-color:#2d3035 ;  
+         }
+         .names1{
+            position: absolute;
+            left: 17px;
+            top: 360px;
+         }
+         .names2{
+            position: absolute;
+            left: 17px;
+            top: 480px;
+         }
+         .names3{
+            position: absolute;
+            left: 17px;
+            top: 600px;
+         }
+        
+        .namesImg{
+            width: 304px;
+            height: 50px;
+            margin:20px 20px;
+            position: relative;
+        }
+        .fourTh{
+            line-height: 3.2rem;
+        }
+        .photo{
+            position: relative;
+        }
+        .photo img{
+            width: 16%;
+            border-radius: 50%;
+            position: absolute;
+            left:35px ;
+            top: -50px;
+        }
+        .richard2{
+            font-size: 1.2rem;
+            margin-top: -45px;
+            margin-left: 100px;
+        }
+        .mailbox2{
+            font-size: 0.9rem;
+            display: block;
+            color:#757871;
+            font-weight: 100;
+            margin-top: -10px;
+            margin-left: 100px;
+        }
+        .contributions2{
+            width:179px ;
+            height: 34px;
+            text-align: center;
+            line-height: 1.9rem;
+            border-radius: 50px;
+            background: #26292d;
+            font-size: 0.9rem;
+            position: absolute;
+            top: 8px;
+            left: 355px;
+        }
+        .items{
+            width:60px ;
+            height:30px ;
+        }
+        .item4{
+            position: relative;
+            top: -40px;
+            left: 625px;
+        }
+        .numbers{
+            position: absolute;
+            left: 36%;
+            top: 3px;
+        }
+        .item5{
+            position: relative;
+            top: -70px;
+            left: 715px;
+        }
+        .item6{
+            position: relative;
+            top: -100px;
+            left: 805px;
+        }
+        .item6 .icon-branch{
+            font-size: 16px;
+            position: absolute;
+            left: 3px;
+            top: 4px;
+        }
+
+
+        /* 树状图和饼图 */
+        .sales{
+            width:77%;
+            height:262px ;
+            /* background-color: blue; */
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 279px;
+        }
+
+        .salesBox1{
+            width:26.5% ;
+            height:222px ;
+            background-color: #2d3035;
+            margin-left: 17px;
+            padding: 20px;
+            position: relative;
+            float: left;
+        }
+        .title{
+            width: 86%;
+            height: 53px;
+            /* background-color: chartreuse;   */
+        }
+        .salesTitle{
+            font-size: 1.25rem;
+            color: #a5a7ab;
+        }
+        .loremTitle{
+            font-weight: 300;
+            font-size: 0.95rem;
+        }
+        .text{
+            width:35%;
+            height:86px ;
+            /* background-color: chocolate; */
+            margin-top: 30px;
+        }
+        .money{
+            font-size: 1.8rem !important;
+            font-weight: 300;
+            
+        }
+        .money1{
+            color: #e95f71 ;
+        }
+        .money2{
+            color: #864DD9;
+        }
+        .money3{
+            color: #CF53F9;
+        }
+        .textM{
+            color: #8a8d93; 
+        }
+        .textS{
+            color: #8a8d93;
+            font-size: 0.8rem;
+        }
+        .chartsT{
+            width: 50%;
+            height: 90%;
+            /* background-color: cyan; */
+            left: 122px;
+            top: -133px;
+        }
+      
+        .chartsTs{
+            width: 35%;
+            margin-left: 9px;
+            margin-top: 17px;
+        }
+
+
+        /* 待办事项列表和新闻 */
+        .listNew{
+            width:73.5% ;
+            height:736px ;
+            margin-left:297px ;
+            /* background-color: pink; */
+        }
+
+        /* 待办事项列表 */
+        .list{
+            width: 44%;
+            height: 696px;
+            background-color: #2d3035;
+            /* float: left; */
+            padding: 20px;
+        }
+        .listDo{
+            font-size: 1.25rem;
+            color: #a5a7ab;
+            font-weight: 600;
+        }
+        .checkList{
+            width: 406px;
+            height: 616px;
+            /* background-color: aquamarine; */
+            margin-top: 20px;
+        }
+        .lorem{
+            padding: 26px;
+            width: 348px;
+            height: 51px;
+            background-color: #2d3035;
+           
+        }
+
+        .lorem .icon-square{
+            font-size: 2rem;
+            color: #8a8d93;
+            cursor: pointer;
+        }
+        .loremBox{
+            position: relative;
+        }
+        .loremI{
+            font-size: 0.9rem;
+            color: #8a8d93;
+            line-height: 1.7rem;
+            position: absolute;
+            left: 35px;
+            top: -52px;
+        }
+        .lorem2{
+            margin-top: -513px;
+           
+        }
+        .loremS{
+            background-color: #282b2f;
+        }
+        .lorem .icon-square2{
+            font-size: 1.9rem;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .loremThr{
+            text-decoration: line-through;
+        }
+
+
+            /* 新闻 */
+        .new{
+            height: 507px;
+            background-color: #2d3035;
+            margin-left: 52%;
+            margin-top: -736px;
+            padding: 20px;
+        }
+        .checkNew{
+            width: 395px;
+            height: 427px;
+            margin-top: 20px;
+        }
+        .loremNew{
+            padding: 10px;
+            width: 375px;
+            height: 69px;
+            background-color: #2d3035;
+           border-bottom: 1px solid #282b2f;
+           position: relative;
+          
+        }
+        .checkImg{
+            position: relative;
+        }
+        .nadia{
+            width: 13%;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        .checkImg .icon-new5{
+            font-size: 3.5rem;
+            position: absolute;
+            left: 0px;
+            top: -42px;
+        }
+        .checkImg1 .icon-new5{
+            color: #28a745; 
+        }
+        .checkImg2 .icon-new5{
+            color: #ffc107;
+        }
+        .checkImg3 .icon-new5{
+            color: #dc3545;
+        }
+        .checkImg4 .icon-new5{
+            color: #999;
+        }
+        .checkImg5 .icon-new5{
+            color: #28a745;
+        }       
+
+       
+        .content{
+            width:210px ;
+            height:75px ;
+            /* background-color: red; */
+            position: absolute;
+            left: 75px;
+            top: 15px;
+        }
+        .halsey{
+            font-size: 1.1rem;
+            color: #8a8d93;
+        }
+        .amit{
+            color: #8a8d93;
+            font-weight: 300;
+        }
+        .times{
+            font-size: 80%;
+            font-weight: 400;
+            color: #70737a;
+        }
+        /* a:hover .loremNew{
+            background: #282b2f;
+        } */
+
+
+
+
+        /* 饼图 */
+        .chartsB{
+            width:80% ;
+            height: 60%;
+            margin: 30px auto;
+            position: relative;
+        }
+        .textCs{
+            position: absolute;
+            right: 36%;
+            top: 136px;
+        }
+        .credit{
+            font-size: 1.5rem;
+        }
+        .textCs .textSales{
+           text-transform: uppercase;
+           letter-spacing: 0.1em;
+           margin-left: 16px;
+        }
+
+
+          /* footer */
+         .foot{
+            height: 70px;
+            background: #2d3035;
+            line-height: 70px;
+            text-align: center;
+         }
+    }
+
+
+
+
+
+    @media screen and (min-width: 990px) and (max-width: 1200px){
+
+         /* header */
+
+         .header{
+            width: 100%;
+            height: 83px;
+            background-color: #2d3035;
+            position: relative;
+            border-bottom: 1px solid #34373d;
+    }
+    .h-top{
+        width: 97%;
+        height: 42px;
+        position: absolute;
+        left: 1.5%;
+        top: 25%;
+    }
+
+    /* 头部左边 */
+    .topLeft{
+        width:200px ;
+        height:40px ;
+    }
+    .DarkAdmin{
+        font-size: 1.25rem;
+        /* display: block; */
+        padding: 5px;
+        display: none;
+    }
+    .leftDark{
+       color: #db6574;
+      
+    }
+    .leftAdmin{
+        font-weight: bold;
+        color: #8a8d93;
+
+    }
+    .leftImg{
+        float: right;
+        margin-top: -38px;
+        display: none;
+
+    }
+    .DA{
+        font-size: 1.25rem;
+        display: block;
+        padding: 5px;
+        position: relative;
+    }
+    .leftD{
+        color: #db6574;
+    }
+    .leftA{
+        font-weight: bold;
+        color: #8a8d93;
+    }
+    .DA img{
+        position: absolute;
+        top: 5px;
+        left: 52px;
+    }
+
+    .topRight{
+        width: 354px;
+        height:42px ;
+        float: right;
+        margin-top: -44px;
+        line-height: 3rem;
+        /* background-color: turquoise; */
+       
+    }
+    .topRight a .icon-shousuo{
+        font-size: 1.3rem;
+       color:#8a8d93 ; 
+       margin-left: -2px;
+    }
+    .topRight a .icon-youjian{
+        color:#8a8d93 ; 
+        margin-left: -7px;
+        font-size: 1.3rem;
+     }
+    .topRight a .icon-jishiben{
+        color:#8a8d93 ; 
+        margin-left: -6px;
+        font-size: 1.3rem;
+     }
+     .topRight a{
+        color:#888b91;
+        display: inline-block;
+        margin: 4px;
+     }
+     .topRight a .icon-Mega{
+        color:#8a8d93 ; 
+        margin-left: -6px;
+     }
+     .topRight a .icon-english{
+        color:#8a8d93 ; 
+        margin-left: -4px;
+     }
+     .topRight .logRight{
+         position: relative;
+     }
+     .topRight .logImg{
+       position: absolute;
+       top: 12px;
+       right:-27px;
+     }
+
+
+     .m-left{
+        width:22% ; 
+        display: none;
+    }
+    
+    .dashBoard {
+        padding-right: 40px;
+        padding-left: 6px;
+    }
+    
+    .rightNew {
+        margin-left: 15px;
+        /* background-color: brown; */
+    }
+    .rightPage {
+        width: 96.5%;
+        /* background-color: burlywood; */
+        margin-left: 28px;
+    }
+    
+    
+    .information {
+        width: 99%;
+        margin-left: 9px;
+      
+    }
+    .name .photo {
+        width: 23%;
+        margin-left: 37%;
+    }
+
+    .oneSt {
+        position: absolute;
+        top: 82px;
+        left: 53%;
+    
+    }
+
+    .twoNd {
+        position: absolute;
+        top: 82px;
+        left: 53%;
+      
+    }
+    .threeRd {
+        position: absolute;
+        top: 82px;
+        left: 53%;
+    }
+
+    .name .contributions {
+        margin-left: 26%;
+    }
+    .item1 {
+        position: relative;
+        top: 50px;
+        left: 15%;
+    }
+    .item2 {
+        position: relative;
+        top: 20px;
+        left: 38%;
+    }
+    .item3 {
+        position: relative;
+        top: -10px;
+        left: 60%;
+
+    }
+    .sales {
+        width: 99%;
+        /* background-color: red; */
+        margin-left: 10px;
+    }
+    .salesBox1 {
+        width: 27%;
+    }
+    .listNew {
+        width: 95%;
+        margin-left: 26px;
+    }
+    .lorem {
+        width: 85%;
+    }
+    .textCs {
+        position: absolute;
+        right: 38%;
+        top: 136px;
+    }
+    .DarkAdmin{
+        font-size: 1.25rem;
+        /* display: block; */
+        padding: 5px;
+        display: none;
+    }
+    .scansTotal {
+        width: 50%;
+        height: 341px;
+        margin-top: 0%;
+    }
+
+     /* 右边中间部分 */
+     .m-right{
+        height:3022px ;
+        /* background-color: lightgreen; */
+    }
+    /* 右边中间部分头部 */
+    .rightDash{
+        padding: 20px 15px;
+        background-color: #2d3035;
+        color: #8a8d93;
+        margin-bottom: 30px;
+    }
+    .dashSize{
+        font-size: 1.1rem;
+    }
+
+    /* 中间new */
+    .rightNew{
+        height: 156px;
+       padding-right: 15px;
+       padding-left: 280px;
+       margin-right: 15px;
+       margin-left: 295px;
+       /* background-color: brown; */
+       position: relative;
+    }
+    /* 第一个 */
+    .newClients{
+        width: 30%;
+        height: 104px;
+        background-color: #2d3035;
+        position: absolute;
+        left: -33%;
+    }
+   .icon-user{
+       font-size:  1.5rem;
+       margin-top: 20px;
+       margin-left: 20px;
+       display: inline-block;
+   }
+   .clients{
+       font-size: 15px;
+       margin-left: 20px;
+   }
+   .numbers1{
+       position: relative;
+   }
+   .twentySeven{
+       position: absolute;
+      left: 132px;
+      top: -50px;
+      font-size:  2.2rem;
+      color: #864DD9;
+   }
+   .line1{
+       position: relative;
+   }
+   .newLine1{
+       width: 80%;
+       height: 4px;
+       border-radius: 30px;
+       overflow: hidden;
+       background: #393c43;
+       margin-top: 5px;
+       margin-left: 20px;
+
+   }
+   .newLines1{
+       position: absolute;
+       width: 25%;
+       height: 4px;
+       left: 20px;
+       top: 0px;
+       background-color: #864DD9;
+       border-radius: 30px;
+   }
+
+
+   /* 第二个 */
+    .newProjects{
+        width: 30%;
+        height: 135px;
+        background-color: #2d3035;
+        position: absolute;
+        left: 1%;
+    }
+    .icon-project{
+       font-size:  1.5rem;
+       margin-top: 20px;
+       margin-left: 20px;
+       display: inline-block;
+   }
+   .clients{
+       font-size: 15px;
+       margin-left: 20px;
+   }
+   .numbers2{
+       position: relative;
+   }
+   .seventyFive{
+       position: absolute;
+      left: 132px;
+      top: -50px;
+      font-size:  2.2rem;
+      color: #CF53F9
+   }
+   .line2{
+       position: relative;
+   }
+   .newLine2{
+       width: 80%;
+       height: 4px;
+       border-radius: 30px;
+       /* overflow: hidden; */
+       background: #393c43;
+       margin-top: 10px;
+       margin-left: 20px;
+
+   }
+   .newLines2{
+       position: absolute;
+       width: 55%;
+       height: 4px;
+       left: 20px;
+       top: 0px;
+       background-color: #CF53F9;
+       border-radius: 30px;
+   }
+
+
+   /* 第三个 */
+    .newInvoices{
+        width: 30%;
+        height: 135px;
+        background-color: #2d3035;
+        position: absolute;
+        left: 35%;
+    }
+    .icon-invoices{
+       font-size:  1.5rem;
+       margin-top: 20px;
+       margin-left: 20px;
+       display: inline-block;
+   }
+   .clients{
+       font-size: 15px;
+       margin-left: 20px;
+   }
+   .numbers3{
+       position: relative;
+   }
+   .forty{
+       position: absolute;
+      left: 132px;
+      top: -50px;
+      font-size:  2.2rem;
+      color: #e95f71;
+   }
+   .line3{
+       position: relative;
+   }
+   .newLine3{
+       width: 80%;
+       height: 4px;
+       border-radius: 30px;
+       overflow: hidden;
+       background: #393c43;
+       margin-top: 10px;
+       margin-left: 20px;
+
+   }
+   .newLines3{
+       position: absolute;
+       width: 40%;
+       height: 4px;
+       left: 20px;
+       top: 0px;
+       background-color: #e95f71;
+       border-radius: 30px;
+   }
+   /* 第四个 */
+    .allProjects{
+        width: 30%;
+        height: 104px;
+        background-color: #2d3035;
+        position: absolute;
+        left: 69%;
+    }
+    .icon-all{
+       font-size:  1.5rem;
+       margin-top: 20px;
+       margin-left: 20px;
+       display: inline-block;
+   }
+   .clients{
+       font-size: 15px;
+       margin-left: 20px;
+   }
+   .numbers4{
+       position: relative;
+   }
+   .fortyOne{
+       position: absolute;
+      left: 132px;
+      top: -50px;
+      font-size:  2.2rem;
+      color: #7127AC;
+   }
+   .line4{
+       position: relative;
+   }
+   .newLine4{
+       width: 80%;
+       height: 4px;
+       border-radius: 30px;
+       overflow: hidden;
+       background: #393c43;
+       margin-top: 10px;
+       margin-left: 20px;
+
+   }
+   .newLines4{
+       position: absolute;
+       width: 25%;
+       height: 4px;
+       left: 20px;
+       top: 0px;
+       background-color: #7127AC;
+       border-radius: 30px;
+   }
+
+   /* ----------------------------------------------------------------------------------------------- */
+   /* 折线图与树状图1 */
+   .rightPage{
+    height: 356px;
+    /* background-color: burlywood; */
+   }
+   .dataSet1{
+    width: 39%;
+    height: 46%;
+    background-color: #2d3035;
+    margin-left: 0%;
+}
+.dataSet2{
+    width: 39%;
+    height: 46%;
+    background-color: #2d3035;
+    margin-left: 0%;
+}
+.pageViews{
+    width: 57%;
+    height: 91%;
+    background-color: #2d3035;
+    margin-top: -326px;
+    margin-left: 42%;
+}
+
+     /* 折线图2与数据 */
+     .rightTeam{
+        width: 69%;
+         /* height:341px ; */
+         /* background-color: aquamarine; */
+         margin-left: 296px;
+     }
+     .scansTotal{
+       width: 48%;
+       height: 341px;
+       position: relative;
+       /* background-color: brown; */
+     }
+     /* 数据图1 */
+     .scansTotal .scans{
+        width: 134%;
+        height: 143px;
+        background-color: #2d3035;
+        position: relative;
+        margin-left: -77%;
+     }
+     .scans .scans1{
+         width:39%;
+         height:83px;
+         /* background-color: blue; */
+         position: absolute;
+         left: 20px;
+         top: 20px;
+         border-right: 1px solid #40444b;
+     }
+     .scans1 .icon-down{
+         color:#dc3545;
+     }
+     .value1{
+         font-size: 2rem;
+         position: absolute;
+         top: -12px;
+     }
+     .standard{
+       font-size: 0.9rem;
+       letter-spacing: 0.1em;
+       font-weight: 300;
+       text-transform: uppercase;
+       position: absolute;
+       top: 35px;
+     }
+     
+   .scans1Line{
+       position: relative;
+   }
+   .scans1Line1{
+       width: 72%;
+       height: 2px;
+       border-radius: 30px;
+       overflow: hidden;
+       background: #393c43;
+       margin-top: 64px;
+       margin-left: 16px;
+   }
+   .scans1Line2{
+       position: absolute;
+       width: 35%;
+       height: 2px;
+       left: 15px;
+       top: 0px;
+       background-color: #cf53f9;
+       border-radius: 30px;
+   }
+
+
+     .scans .scans2{
+       width:43%;
+       height: 103px;
+       /* background-color: purple; */
+       position: absolute;
+       right: 20px;
+       top: 20px;
+   }
+   .scans2 .icon-up{
+       color:#28a745;
+   }
+   
+   .scans1Line{
+       position: relative;
+   }
+   .scans1Line3{
+       width: 45%;
+       height: 2px;
+       border-radius: 30px;
+       overflow: hidden;
+       background: #393c43;
+       margin-top: 45px;
+       margin-left: 16px;
+   }
+   .scans1Line4{
+       position: absolute;
+       width: 18%;
+       height: 2px;
+       left: 15px;
+       top: 0px;
+       background-color: #e95f71;
+       border-radius: 30px;
+   }
+
+
+
+
+     /* 数据图2 */
+     .scansTotal .requests{
+       height: 139px;
+       /* background-color: yellow; */
+       margin-top: 30px;
+     }
+     .scans1Line{
+       position: relative;
+   }
+   .scans1Line5{
+       width: 60%;
+       height: 2px;
+       border-radius: 30px;
+       overflow: hidden;
+       background: #393c43;
+       margin-top: 70px;
+      
+   }
+   .scans1Line6{
+       position: absolute;
+       width: 25%;
+       height: 2px;
+       left: 0;
+       top: 0px;
+       background-color: #864dd9;
+       border-radius: 30px;
+   }
+   .scans2 .value1-sm{
+       font-size: 1.4rem;
+   }
+   .scans2 .standard-sm{
+       font-size: 0.85rem;
+       margin-top: -12px;
+       margin-left: -5px;
+   }
+   .scans1Line7{
+       width: 17%;
+       height: 1px;
+       border-radius: 30px;
+       overflow: hidden;
+       background: #393c43;
+       margin-top: 55px;
+       margin-left: 12px; 
+   }
+   .small1{
+       position: relative;
+   }
+   small{
+       font-weight: 600;
+       font-size: 80%;
+       position: absolute;
+       left: 12px;
+       top: 15px;
+      
+   }
+   .neutral{
+       width:102px ;
+       height:99px ;
+       position: relative;
+       left: 105px;
+       top: -63px;
+   }
+   .value1-sm1{
+       font-size: 1.4rem;
+       margin-left: 5px;
+   }
+   .standard-sm1{
+       font-size: 0.85rem;
+       margin-top: -12px;
+   }
+   .scans1Line8{
+       width: 30%;
+       height: 1px;
+       border-radius: 30px;
+       overflow: hidden;
+       background: #393c43;
+       position: absolute;
+       top: 54px;
+       left: 20px; 
+   }
+   .small2{
+       font-weight: 600;
+       position: absolute;
+       left: 6px;
+       top: 63px;
+   }
+
+   /* 折线图2 */
+     /* .Team{
+       width:50% ;
+       height:341px ;
+       background-color: rgb(42, 165, 97);
+       float: right;
+       margin-top: -341px;
+     }  */
+    .teamDrills{
+    width: 141%;
+    height: 74%;
+    background-color: #2d3035;
+    margin-left: 10px;
+    left: 65%;
+    top: -312px;
+    } 
+
+    /* 个人信息 */
+    .information{
+        height: 690px;
+        /* background-color: pink; */
+        position: relative;
+    }
+    /* 个人信息1 */
+    .information .name{
+        width: 30%;
+        height: 332px;
+        background-color: #2d3035;
+        margin-left: 2%;
+        float: left;
+        position: relative;
+    }
+    .name .photo{
+        width:23%;
+        border-radius: 50%;
+        display: block;
+        margin-top: 35px;
+        margin-left: 110px;
+    }
+
+   .name .order{
+       width: 30px;
+       height: 30px;
+       line-height: 30px;
+       border-radius: 50%;
+       color: #fff;
+       font-size: 0.7rem;
+    }
+    
+    .oneSt{
+       background: #CF53F9;
+       position: absolute;
+       top: 82px;
+       left: 156px;
+       text-align: center;
+    }
+    .twoNd{
+       background: #864DD9;
+       position: absolute;
+       top: 82px;
+       left: 156px;
+       text-align: center;
+    }
+    .threeRd{
+       background: #7127AC;
+       position: absolute;
+       top: 82px;
+       left: 156px;
+       text-align: center;
+    }
+   .nameEail .richard{
+       text-align: center;
+       margin-top: 20px;
+   }
+   .nameEail .mailbox{
+       display: block;
+       text-align: center;
+       color:#757871;
+       font-weight: 100;
+   }
+   .name .contributions{
+       margin-top: 20px;
+       border-radius: 50px;
+       padding: 6px 30px;
+       background: #26292d;
+       display: inline-block;
+       font-size: 0.9rem;
+       margin-left: 60px;
+   }
+   .item{
+       width: 60px;
+       height: 30px;
+   }
+   .item .number{
+       position: absolute;
+       left: 30px;
+       top: 6px;
+   }
+
+   .item1{
+       position: relative;
+       top: 50px;
+       left: 35px;
+   }
+   .item1 .icon-tanh{
+       font-size: 24px;
+   }
+
+   .item2{
+       position: relative;
+       top: 20px;
+       left: 121px;
+   }
+   .item2 .icon-link{
+       font-size: 24px;
+   }
+ 
+
+   .item3{
+       position: relative;
+       top: -10px;
+       left: 205px;
+   }
+   .item3 .icon-branch{
+       position: absolute;
+       left: 3px;
+       top: 6px;
+       font-size: 16px;
+   }
+   
+
+    /* 个人信息2 */
+    .information .names{
+        width:96% ;
+        height:90px ;
+        background-color:#2d3035 ;  
+    }
+    .names1{
+       position: absolute;
+       left: 17px;
+       top: 360px;
+    }
+    .names2{
+       position: absolute;
+       left: 17px;
+       top: 480px;
+    }
+    .names3{
+       position: absolute;
+       left: 17px;
+       top: 600px;
+    }
+   
+   .namesImg{
+       width: 304px;
+       height: 50px;
+       margin:20px 20px;
+       position: relative;
+   }
+   .fourTh{
+       line-height: 3.2rem;
+   }
+   .photo{
+       position: relative;
+   }
+   .photo img{
+       width: 16%;
+       border-radius: 50%;
+       position: absolute;
+       left:35px ;
+       top: -50px;
+   }
+   .richard2{
+       font-size: 1.2rem;
+       margin-top: -45px;
+       margin-left: 100px;
+   }
+   .mailbox2{
+       font-size: 0.9rem;
+       display: block;
+       color:#757871;
+       font-weight: 100;
+       margin-top: -10px;
+       margin-left: 100px;
+   }
+   .contributions2{
+       width:179px ;
+       height: 34px;
+       text-align: center;
+       line-height: 1.9rem;
+       border-radius: 50px;
+       background: #26292d;
+       font-size: 0.9rem;
+       position: absolute;
+       top: 8px;
+       left: 355px;
+   }
+   .items{
+       width:60px ;
+       height:30px ;
+   }
+   .item4{
+       position: relative;
+       top: -40px;
+       left: 625px;
+   }
+   .numbers{
+       position: absolute;
+       left: 36%;
+       top: 3px;
+   }
+   .item5{
+       position: relative;
+       top: -70px;
+       left: 715px;
+   }
+   .item6{
+       position: relative;
+       top: -100px;
+       left: 805px;
+   }
+   .item6 .icon-branch{
+       font-size: 16px;
+       position: absolute;
+       left: 3px;
+       top: 4px;
+   }
+
+
+   /* 树状图和饼图 */
+   .sales{
+    height: 262px;
+    /* background-color: blue; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+
+   .salesBox1{
+        width: 27%;
+       height:222px ;
+       background-color: #2d3035;
+       margin-left: 17px;
+       padding: 20px;
+       position: relative;
+       float: left;
+   }
+   .title{
+       width: 86%;
+       height: 53px;
+       /* background-color: chartreuse;   */
+   }
+   .salesTitle{
+       font-size: 1.25rem;
+       color: #a5a7ab;
+   }
+   .loremTitle{
+       font-weight: 300;
+       font-size: 0.95rem;
+   }
+   .text{
+       width:35%;
+       height:86px ;
+       /* background-color: chocolate; */
+       margin-top: 30px;
+   }
+   .money{
+       font-size: 1.8rem !important;
+       font-weight: 300;
+       
+   }
+   .money1{
+       color: #e95f71 ;
+   }
+   .money2{
+       color: #864DD9;
+   }
+   .money3{
+       color: #CF53F9;
+   }
+   .textM{
+       color: #8a8d93; 
+   }
+   .textS{
+       color: #8a8d93;
+       font-size: 0.8rem;
+   }
+   .chartsT{
+    width: 50%;
+    height: 90%;
+    /* background-color: cyan; */
+    margin-left: 126px;
+    margin-top: -130px;
+}
+
+.chartsTs{
+    width: 35%;
+    margin-left: 140px;
+    margin-top: -125px;
+}
+
+
+   /* 待办事项列表和新闻 */
+   .listNew{
+    height: 736px;
+    /* background-color: pink; */
+   }
+
+   /* 待办事项列表 */
+   .list{
+       width: 44%;
+       height: 696px;
+       background-color: #2d3035;
+       float: left;
+       padding: 20px;
+   }
+   .listDo{
+       font-size: 1.25rem;
+       color: #a5a7ab;
+       font-weight: 600;
+   }
+   .checkList{
+       width: 406px;
+       height: 616px;
+       /* background-color: aquamarine; */
+       margin-top: 20px;
+   }
+   .lorem{
+       padding: 26px;
+       width: 348px;
+       height: 51px;
+       background-color: #2d3035;
+      
+   }
+
+   .lorem .icon-square{
+       font-size: 2rem;
+       color: #8a8d93;
+       cursor: pointer;
+   }
+   .loremBox{
+       position: relative;
+   }
+   .loremI{
+       font-size: 0.9rem;
+       color: #8a8d93;
+       line-height: 1.7rem;
+       position: absolute;
+       left: 35px;
+       top: -52px;
+   }
+   .lorem2{
+       margin-top: -513px;
+      
+   }
+   .loremS{
+       background-color: #282b2f;
+   }
+   .lorem .icon-square2{
+       font-size: 1.9rem;
+       color: #db6574;
+       cursor: pointer;
+   }
+   .loremThr{
+       text-decoration: line-through;
+   }
+
+
+       /* 新闻 */
+   .new{
+    height: 507px;
+    background-color: #2d3035;
+    margin-left: 52%;
+    margin-top: -736px;
+    padding: 20px;
+   }
+   .checkNew{
+       width: 395px;
+       height: 427px;
+       margin-top: 20px;
+   }
+   .loremNew{
+       padding: 10px;
+       width: 375px;
+       height: 69px;
+       background-color: #2d3035;
+      border-bottom: 1px solid #282b2f;
+      position: relative;
+     
+   }
+   .checkImg{
+       position: relative;
+   }
+   .nadia{
+       width: 13%;
+       border-radius: 50%;
+       margin-top: 10px;
+   }
+   .checkImg .icon-new5{
+       font-size: 3.5rem;
+       position: absolute;
+       left: 4%;
+       top: -39%;
+   }
+   .checkImg1 .icon-new5{
+       color: #28a745; 
+   }
+   .checkImg2 .icon-new5{
+       color: #ffc107;
+   }
+   .checkImg3 .icon-new5{
+       color: #dc3545;
+   }
+   .checkImg4 .icon-new5{
+       color: #999;
+   }
+   .checkImg5 .icon-new5{
+       color: #28a745;
+   }       
+
+  
+   .content{
+       width:210px ;
+       height:75px ;
+       /* background-color: red; */
+       position: absolute;
+       left: 75px;
+       top: 15px;
+   }
+   .halsey{
+       font-size: 1.1rem;
+       color: #8a8d93;
+   }
+   .amit{
+       color: #8a8d93;
+       font-weight: 300;
+   }
+   .times{
+       font-size: 80%;
+       font-weight: 400;
+       color: #70737a;
+   }
+   /* a:hover .loremNew{
+       background: #282b2f;
+   } */
+
+
+
+
+   /* 饼图 */
+   .chartsB{
+    width:80% ;
+    height: 60%;
+    margin: 30px auto;
+    position: relative;
+}
+.textCs{
+    position: absolute;
+    right: 38%;
+    top: 136px;
+}
+   .credit{
+       font-size: 1.5rem;
+   }
+   .textCs .textSales{
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-left: 16px;
+   }
+
+
+     /* footer */
+    .foot{
+       height: 70px;
+       background: #2d3035;
+       line-height: 70px;
+       text-align: center;
+    }
+
+
+
+
+
+
+
+    }
+        
+
+
+
+        @media screen and (min-width: 767px) and (max-width: 990px){
+        
+             /* header */
+
+             .header{
+                width: 100%;
+                height: 83px;
+                background-color: #2d3035;
+                position: relative;
+                border-bottom: 1px solid #34373d;
+        }
+        .h-top{
+            width: 97%;
+            height: 42px;
+            position: absolute;
+            left: 1.5%;
+            top: 25%;
+        }
+    
+        /* 头部左边 */
+        .topLeft{
+            width:200px ;
+            height:40px ;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            /* display: block; */
+            padding: 5px;
+            display: none;
+        }
+        .leftDark{
+           color: #db6574;
+          
+        }
+        .leftAdmin{
+            font-weight: bold;
+            color: #8a8d93;
+    
+        }
+        .leftImg{
+            float: right;
+            margin-top: -38px;
+            display: none;
+    
+        }
+        .DA{
+            font-size: 1.25rem;
+            display: block;
+            padding: 5px;
+            position: relative;
+        }
+        .leftD{
+            color: #db6574;
+        }
+        .leftA{
+            font-weight: bold;
+            color: #8a8d93;
+        }
+        .DA img{
+            position: absolute;
+            top: 5px;
+            left: 52px;
+        }
+    
+        .topRight{
+            width: 354px;
+            height:42px ;
+            float: right;
+            margin-top: -44px;
+            line-height: 3rem;
+            /* background-color: turquoise; */
+           
+        }
+        .topRight a .icon-shousuo{
+            font-size: 1.3rem;
+           color:#8a8d93 ; 
+           margin-left: -2px;
+        }
+        .topRight a .icon-youjian{
+            color:#8a8d93 ; 
+            margin-left: -7px;
+            font-size: 1.3rem;
+         }
+        .topRight a .icon-jishiben{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+            font-size: 1.3rem;
+         }
+         .topRight a{
+            color:#888b91;
+            display: inline-block;
+            margin: 4px;
+         }
+         .topRight a .icon-Mega{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+         }
+         .topRight a .icon-english{
+            color:#8a8d93 ; 
+            margin-left: -4px;
+         }
+         .topRight .logRight{
+             position: relative;
+         }
+         .topRight .logImg{
+           position: absolute;
+           top: 12px;
+           right:-27px;
+         }
+    
+    
+         .m-left{
+            width:22% ; 
+            display: none;
+        }
+        
+        .dashBoard {
+            padding-right: 40px;
+            padding-left: 6px;
+        }
+        
+        .rightNew {
+            margin-left: 15px;
+            /* background-color: brown; */
+        }
+        .rightPage {
+            height: 356px;
+            margin-left: 28px;
+        }
+        
+        .rightTeam {
+            width: 112.5%;
+            /* background-color: aquamarine; */
+            margin-left: 27px;
+        }
+        
+        /* .information {
+            width: 99%;
+            margin-left: 9px;
+          
+        } */
+        /* .name .photo {
+            width: 23%;
+            margin-left: 37%;
+        } */
+    
+        .oneSt {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+        
+        }
+    
+        /* .twoNd {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+          
+        }
+        .threeRd {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+        } */
+    
+        .name .contributions {
+            margin-left: 26%;
+        }
+        /* .item1 {
+            position: relative;
+            top: 50px;
+            left: 15%;
+        } */
+        .item2 {
+            position: relative;
+            top: 20px;
+            left: 38%;
+        }
+        .item3 {
+            position: relative;
+            top: -10px;
+            left: 60%;
+    
+        }
+        /* .sales {
+            width: 99%;
+            background-color: red;
+            margin-left: 10px;
+        } */
+        /* .salesBox1 {
+            width: 27%;
+        } */
+        .listNew {
+            width: 95%;
+            margin-left: 26px;
+        }
+        .lorem {
+            width: 85%;
+        }
+        .textCs {
+            position: absolute;
+            right: 38%;
+            top: 136px;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            /* display: block; */
+            padding: 5px;
+            display: none;
+        }
+        .scansTotal {
+            width: 50%;
+            height: 341px;
+            margin-top: 0%;
+        }
+    
+         /* 右边中间部分 */
+         .m-right{
+            height:3022px ;
+            /* background-color: lightgreen; */
+        }
+        /* 右边中间部分头部 */
+        .rightDash{
+            padding: 20px 15px;
+            background-color: #2d3035;
+            color: #8a8d93;
+            margin-bottom: 30px;
+        }
+        .dashSize{
+            font-size: 1.1rem;
+        }
+    
+        /* 中间new */
+        .rightNew{
+            height: 156px;
+            margin-right: 15px;
+            /* background-color: brown; */
+            position: relative;
+        }
+        /* 第一个 */
+        .newClients{
+            width: 22%;
+            height: 104px;
+            background-color: #2d3035;
+            position: absolute;
+            left: 0%;
+        }
+       .icon-user{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers1{
+           position: relative;
+       }
+       .twentySeven{
+           position: absolute;
+          left: 132px;
+          top: -50px;
+          font-size:  2.2rem;
+          color: #864DD9;
+       }
+       .line1{
+           position: relative;
+       }
+       .newLine1{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 5px;
+           margin-left: 20px;
+    
+       }
+       .newLines1{
+           position: absolute;
+           width: 25%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #864DD9;
+           border-radius: 30px;
+       }
+    
+    
+       /* 第二个 */
+        .newProjects{
+            width: 23%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            left: 25%;
+        }
+        .icon-project{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers2{
+           position: relative;
+       }
+       .seventyFive{
+           position: absolute;
+          left: 132px;
+          top: -50px;
+          font-size:  2.2rem;
+          color: #CF53F9
+       }
+       .line2{
+           position: relative;
+       }
+       .newLine2{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           /* overflow: hidden; */
+           background: #393c43;
+           margin-top: 10px;
+           margin-left: 20px;
+    
+       }
+       .newLines2{
+           position: absolute;
+           width: 55%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #CF53F9;
+           border-radius: 30px;
+       }
+    
+    
+       /* 第三个 */
+        .newInvoices{
+            width: 23%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            left: 51%;
+        }
+        .icon-invoices{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers3{
+           position: relative;
+       }
+       .forty{
+           position: absolute;
+          left: 132px;
+          top: -50px;
+          font-size:  2.2rem;
+          color: #e95f71;
+       }
+       .line3{
+           position: relative;
+       }
+       .newLine3{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 10px;
+           margin-left: 20px;
+    
+       }
+       .newLines3{
+           position: absolute;
+           width: 40%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #e95f71;
+           border-radius: 30px;
+       }
+       /* 第四个 */
+        .allProjects{
+            width: 23%;
+            height: 104px;
+            background-color: #2d3035;
+            position: absolute;
+            left: 77%;
+        }
+        .icon-all{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers4{
+           position: relative;
+       }
+       .fortyOne{
+           position: absolute;
+          left: 132px;
+          top: -50px;
+          font-size:  2.2rem;
+          color: #7127AC;
+       }
+       .line4{
+           position: relative;
+       }
+       .newLine4{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 10px;
+           margin-left: 20px;
+    
+       }
+       .newLines4{
+           position: absolute;
+           width: 25%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #7127AC;
+           border-radius: 30px;
+       }
+    
+       /* ----------------------------------------------------------------------------------------------- */
+       /* 折线图与树状图1 */
+        /* .rightPage{
+        height: 356px;
+         background-color: burlywood; 
+       }  */
+       .dataSet1{
+        width: 99%;
+        height: 133%;
+        background-color: #2d3035;
+        /* margin-left: 0%;*/
+    }
+    /* #main1{
+        width: 99%;
+        height: 133%;
+    } */
+    .dataSet2{
+        width: 99%;
+        height: 133%;
+        background-color: #2d3035;
+        /* margin-top: 0px; */
+        /* margin-left: 0%;*/
+    }
+    .pageViews{
+        width: 99%;
+        height: 133%;
+        background-color: #2d3035;
+        margin-top: 30px;
+        /* margin-left: 42%;*/
+    }
+    
+         /* 折线图2与数据 */
+         .rightTeam{
+             width:75%;
+             /* height:341px ; */
+             /* background-color: aquamarine; */
+         }
+         .scansTotal{
+            position: relative;
+            /* background-color: brown; */
+            margin-left: 0%;
+            margin-top: 1132px;
+         }
+         /* 数据图1 */
+         .scansTotal .scans{
+            width: 255%;
+            height: 143px;
+            background-color: #2d3035;
+            position: relative;
+         }
+         .scans .scans1{
+             width:39%;
+             height:83px;
+             /* background-color: blue; */
+             position: absolute;
+             left: 20px;
+             top: 20px;
+             border-right: 1px solid #40444b;
+         }
+         .scans1 .icon-down{
+             color:#dc3545;
+         }
+         .value1{
+             font-size: 2rem;
+             position: absolute;
+             top: -12px;
+         }
+         .standard{
+           font-size: 0.9rem;
+           letter-spacing: 0.1em;
+           font-weight: 300;
+           text-transform: uppercase;
+           position: absolute;
+           top: 35px;
+         }
+         
+       .scans1Line{
+           position: relative;
+       }
+       .scans1Line1{
+           width: 72%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 64px;
+           margin-left: 16px;
+       }
+       .scans1Line2{
+           position: absolute;
+           width: 35%;
+           height: 2px;
+           left: 15px;
+           top: 0px;
+           background-color: #cf53f9;
+           border-radius: 30px;
+       }
+    
+    
+         .scans .scans2{
+           width:43%;
+           height: 103px;
+           /* background-color: purple; */
+           position: absolute;
+           right: 20px;
+           top: 20px;
+       }
+       .scans2 .icon-up{
+           color:#28a745;
+       }
+       
+       .scans1Line{
+           position: relative;
+       }
+       .scans1Line3{
+           width: 45%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 45px;
+           margin-left: 16px;
+       }
+       .scans1Line4{
+           position: absolute;
+           width: 18%;
+           height: 2px;
+           left: 15px;
+           top: 0px;
+           background-color: #e95f71;
+           border-radius: 30px;
+       }
+    
+    
+    
+    
+         /* 数据图2 */
+         .scansTotal .requests{
+           height: 139px;
+           /* background-color: yellow; */
+           margin-top: 30px;
+         }
+         .scans1Line{
+           position: relative;
+       }
+       .scans1Line5{
+           width: 60%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 70px;
+          
+       }
+       .scans1Line6{
+           position: absolute;
+           width: 25%;
+           height: 2px;
+           left: 0;
+           top: 0px;
+           background-color: #864dd9;
+           border-radius: 30px;
+       }
+       .scans2 .value1-sm{
+           font-size: 1.4rem;
+       }
+       .scans2 .standard-sm{
+           font-size: 0.85rem;
+           margin-top: -12px;
+           margin-left: -5px;
+       }
+       .scans1Line7{
+           width: 17%;
+           height: 1px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 55px;
+           margin-left: 12px; 
+       }
+       .small1{
+           position: relative;
+       }
+       small{
+           font-weight: 600;
+           font-size: 80%;
+           position: absolute;
+           left: 12px;
+           top: 15px;
+          
+       }
+       .neutral{
+           width:102px ;
+           height:99px ;
+           position: relative;
+           left: 105px;
+           top: -63px;
+       }
+       .value1-sm1{
+           font-size: 1.4rem;
+           margin-left: 5px;
+       }
+       .standard-sm1{
+           font-size: 0.85rem;
+           margin-top: -12px;
+       }
+       .scans1Line8{
+           width: 30%;
+           height: 1px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           position: absolute;
+           top: 54px;
+           left: 20px; 
+       }
+       .small2{
+           font-weight: 600;
+           position: absolute;
+           left: 6px;
+           top: 63px;
+       }
+    
+       /* 折线图2 */
+         /* .Team{
+           width:50% ;
+           height:341px ;
+           background-color: rgb(42, 165, 97);
+           float: right;
+           margin-top: -341px;
+         }  */
+        .teamDrills{
+            width: 241%;
+            height: 104%;
+            background-color: #2d3035;
+            padding: 20px;
+            margin-top: 30px;
+        } 
+    
+        /* 个人信息 */
+        .information{
+            width: 95%;
+            margin-left: 28px;
+            /* background-color: pink; */
+            position: relative;
+        }
+        /* 个人信息1 */
+        .information .name{
+            width: 95%;
+            height: 302px;
+            padding: 20px;
+            background-color: #2d3035;
+            margin-top: 418px;
+            position: relative;
+        }
+        .information .nameTwo{
+            position: absolute;
+            top: -38px;
+        }
+        .name .photo{
+            width: 10%;
+            border-radius: 50%;
+            display: block;
+            margin-top: 35px;
+            margin-left: 45%;
+        }
+    
+       .name .order{
+           width: 30px;
+           height: 30px;
+           line-height: 30px;
+           border-radius: 50%;
+           color: #fff;
+           font-size: 0.7rem;
+        }
+        
+        .oneSt{
+           background: #CF53F9;
+           position: absolute;
+           top: 29%;
+           left: 52%;
+           text-align: center;
+        }
+        .twoNd{
+            background: #864DD9;
+            position: absolute;
+            top: 30%;
+            left: 52%;
+            text-align: center;
+        }
+        .threeRd{
+           background: #7127AC;
+           position: absolute;
+           top: 30%;
+           left: 52%;
+           text-align: center;
+        }
+       .nameEail .richard{
+           text-align: center;
+           margin-top: 20px;
+       }
+       .nameEail .mailbox{
+           display: block;
+           text-align: center;
+           color:#757871;
+           font-weight: 100;
+       }
+       .name .contributions{
+           margin-top: 20px;
+           border-radius: 50px;
+           padding: 6px 30px;
+           background: #26292d;
+           display: inline-block;
+           font-size: 0.9rem;
+           margin-left: 38%;
+       }
+       .item{
+        width: 9%;
+        height: 30px;
+       }
+       .item .number{
+           position: absolute;
+           left: 30px;
+           top: 6px;
+       }
+    
+       .item1{
+        position: relative;
+        top: 8%;
+        left: 10%;
+       }
+       .item1 .icon-tanh{
+           font-size: 24px;
+       }
+    
+       .item2{
+        position: relative;
+        top: -2%;
+        left: 43%;
+       }
+       .item2 .icon-link{
+           font-size: 24px;
+       }
+     
+    
+       .item3{
+        position: relative;
+        top: -12%;
+        left: 79%;
+       }
+       .item3 .icon-branch{
+           position: absolute;
+           left: 3px;
+           top: 6px;
+           font-size: 16px;
+       }
+       
+    
+        /* 个人信息2 */
+        .information .names{
+            padding: 20px;
+            width: 95%;
+            height: 147px;
+            margin-top: 771px;
+            margin-bottom: 30px;
+            margin-left: -16px;
+            background-color: #2d3035;
+        }
+        .names1{
+           position: absolute;
+           left: 17px;
+           top: 360px;
+        }
+        .names2{
+            position: absolute;
+            left: 17px;
+            top: 582px;
+        }
+        .names3{
+            position: absolute;
+            left: 17px;
+            top: 806px;
+        }
+       
+       .namesImg{
+           width: 304px;
+           height: 50px;
+           margin:20px 20px;
+           position: relative;
+       }
+       .fourTh{
+           line-height: 3.2rem;
+           display: none;
+       }
+       .photo{
+           position: relative;
+       }
+       .photo img{
+        width: 17%;
+        border-radius: 50%;
+        position: absolute;
+        left: 0px;
+        top: -7px;
+       }
+       .richard2{
+        font-size: 1.2rem;
+        margin-top: 18px;
+        margin-left: 70px;
+       }
+       .mailbox2{
+        font-size: 0.9rem;
+        display: block;
+        color: #757871;
+        font-weight: 100;
+        margin-top: -5px;
+        margin-left: 72px;
+       }
+       .contributions2{
+        width: 179px;
+        height: 34px;
+        text-align: center;
+        line-height: 1.9rem;
+        border-radius: 50px;
+        background: #26292d;
+        font-size: 0.9rem;
+        position: absolute;
+        top: 116%;
+        left: 70%;
+       }
+       .items{
+           width:60px ;
+           height:30px ;
+       }
+       .item4{
+        position: relative;
+        top: 121%;
+        left: 20%;
+       }
+       .numbers{
+           position: absolute;
+           left: 36%;
+           top: 3px;
+       }
+       .item5{
+        position: relative;
+        top: 64%;
+        left: 89%;
+       }
+       .item6{
+        position: relative;
+        top: 0%;
+        left: 168%;
+       }
+       .item6 .icon-branch{
+           font-size: 16px;
+           position: absolute;
+           left: 3px;
+           top: 4px;
+       }
+    
+    
+       /* 树状图和饼图 */
+       .sales{
+        height: 262px;
+        /* background-color: blue; */
+        margin-left: 30px;
+        margin-top: 700px;
+        /* margin-bottom: -23px; */
+        width: 94%;
+       }
+    
+       .salesBox1{
+        width: 96%;
+        height: 108%;
+        background-color: #2d3035;
+        /* margin-left: 17px; */
+        padding: 20px;
+        position: relative;
+        margin-bottom: 30px;
+       }
+       .salesBox{
+        height: 184%;
+        background-color: #2d3035;
+        margin-top: -88px;
+        padding: 20px;
+        position: relative;
+        margin-bottom: 30px;
+       }
+       .salesBox2{
+        margin-top: 38px;
+        margin-bottom: 118px;
+       }
+
+       .title{
+           width: 86%;
+           height: 53px;
+           /* background-color: chartreuse;   */
+       }
+       .salesTitle{
+           font-size: 1.25rem;
+           color: #a5a7ab;
+       }
+       .loremTitle{
+           font-weight: 300;
+           font-size: 0.95rem;
+       }
+       .text{
+           width:35%;
+           height:86px ;
+           /* background-color: chocolate; */
+           margin-top: 30px;
+       }
+       .money{
+           font-size: 1.8rem !important;
+           font-weight: 300;
+           
+       }
+       .money1{
+           color: #e95f71 ;
+       }
+       .money2{
+           color: #864DD9;
+       }
+       .money3{
+           color: #CF53F9;
+       }
+       .textM{
+           color: #8a8d93; 
+       }
+       .textS{
+           color: #8a8d93;
+           font-size: 0.8rem;
+       }
+       .chartsT{
+        width: 50%;
+        height: 90%;
+        /* background-color: cyan; */
+        margin-left: 126px;
+        margin-top: -130px;
+    }
+    
+    .chartsTs{
+        width: 35%;
+        margin-left: 140px;
+        margin-top: -125px;
+    }
+    
+    
+       /* 待办事项列表和新闻 */
+       .listNew{
+       width: 95%;
+       height: 736px;
+       /* background-color: pink; */
+       }
+    
+       /* 待办事项列表 */
+       .list{
+        height: 696px;
+        margin-top: 800px;
+        background-color: #2d3035;
+        padding: 20px;
+       }
+       .listDo{
+           font-size: 1.25rem;
+           color: #a5a7ab;
+           font-weight: 600;
+       }
+       .checkList{
+        height: 616px;
+        /* background-color: aquamarine; */
+        margin-top: 30px;
+       }
+       .lorem{
+        padding: 26px;
+        width: 94%;
+        height: 51px;
+          
+       }
+    
+       .lorem .icon-square{
+           font-size: 2rem;
+           color: #8a8d93;
+           cursor: pointer;
+       }
+       .loremBox{
+           position: relative;
+       }
+       .loremI{
+           font-size: 0.9rem;
+           color: #8a8d93;
+           line-height: 1.7rem;
+           position: absolute;
+           left: 35px;
+           top: -52px;
+       }
+       .lorem2{
+        width: 93%;
+        margin-top: -513px;
+          
+       }
+       .loremS{
+           background-color: #282b2f;
+       }
+       .lorem .icon-square2{
+           font-size: 1.9rem;
+           color: #db6574;
+           cursor: pointer;
+       }
+       .loremThr{
+           text-decoration: line-through;
+       }
+    
+    
+           /* 新闻 */
+       .new{
+        height: 507px;
+        background-color: #2d3035;
+        margin-top: 30px;
+        padding: 20px;
+       }
+       .checkNew{
+           width: 395px;
+           height: 427px;
+           margin-top: 20px;
+       }
+       .loremNew{
+           padding: 10px;
+           width: 375px;
+           height: 69px;
+           background-color: #2d3035;
+          border-bottom: 1px solid #282b2f;
+          position: relative;
+         
+       }
+       .checkImg{
+           position: relative;
+       }
+       .nadia{
+           width: 13%;
+           border-radius: 50%;
+           margin-top: 10px;
+       }
+       .checkImg .icon-new5{
+           font-size: 3.5rem;
+           position: absolute;
+           left: 4%;
+            top: -35%;
+       }
+       .checkImg1 .icon-new5{
+           color: #28a745; 
+       }
+       .checkImg2 .icon-new5{
+           color: #ffc107;
+       }
+       .checkImg3 .icon-new5{
+           color: #dc3545;
+       }
+       .checkImg4 .icon-new5{
+           color: #999;
+       }
+       .checkImg5 .icon-new5{
+           color: #28a745;
+       }       
+    
+      
+       .content{
+           width:210px ;
+           height:75px ;
+           /* background-color: red; */
+           position: absolute;
+           left: 75px;
+           top: 15px;
+       }
+       .halsey{
+           font-size: 1.1rem;
+           color: #8a8d93;
+       }
+       .amit{
+           color: #8a8d93;
+           font-weight: 300;
+       }
+       .times{
+           font-size: 80%;
+           font-weight: 400;
+           color: #70737a;
+       }
+       /* a:hover .loremNew{
+           background: #282b2f;
+       } */
+    
+    
+    
+    
+       /* 饼图 */
+       .chartsB{
+        width: 100%;
+        height: 80%;
+        margin: 30px auto;
+        position: relative;
+    }
+    .textCs{
+        position: absolute;
+        right: 46%;
+        top: 50%;
+    }
+       .credit{
+           font-size: 1.5rem;
+       }
+       .textCs .textSales{
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          margin-left: 16px;
+       }
+    
+    
+         /* footer */
+        .foot{
+           height: 70px;
+           background: #2d3035;
+           line-height: 70px;
+           text-align: center;
+           margin-top: 1402px;
+        }
+    
+
+
+
+
+    }
+
+
+
+
+        
+        @media screen and (min-width: 575px) and (max-width: 767px){
+        
+
+             /* header */
+
+             .header{
+                width: 100%;
+                height: 83px;
+                background-color: #2d3035;
+                position: relative;
+                border-bottom: 1px solid #34373d;
+        }
+        .h-top{
+            width: 97%;
+            height: 42px;
+            position: absolute;
+            left: 1.5%;
+            top: 25%;
+        }
+    
+        /* 头部左边 */
+        .topLeft{
+            width:200px ;
+            height:40px ;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            /* display: block; */
+            padding: 5px;
+            display: none;
+        }
+        .leftDark{
+           color: #db6574;
+          
+        }
+        .leftAdmin{
+            font-weight: bold;
+            color: #8a8d93;
+    
+        }
+        .leftImg{
+            float: right;
+            margin-top: -38px;
+            display: none;
+    
+        }
+        .DA{
+            font-size: 1.25rem;
+            display: block;
+            padding: 5px;
+            position: relative;
+        }
+        .leftD{
+            color: #db6574;
+        }
+        .leftA{
+            font-weight: bold;
+            color: #8a8d93;
+        }
+        .DA img{
+            position: absolute;
+            top: 5px;
+            left: 52px;
+        }
+    
+        .topRight{
+            width: 354px;
+            height:42px ;
+            float: right;
+            margin-top: -44px;
+            line-height: 3rem;
+            /* background-color: turquoise; */
+           
+        }
+        .topRight a .icon-shousuo{
+            font-size: 1.3rem;
+           color:#8a8d93 ; 
+           margin-left: -2px;
+        }
+        .topRight a .icon-youjian{
+            color:#8a8d93 ; 
+            margin-left: -7px;
+            font-size: 1.3rem;
+         }
+        .topRight a .icon-jishiben{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+            font-size: 1.3rem;
+         }
+         .topRight a{
+            color:#888b91;
+            display: inline-block;
+            margin: 4px;
+         }
+         .topRight a .icon-Mega{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+         }
+         .topRight a .icon-english{
+            color:#8a8d93 ; 
+            margin-left: -4px;
+         }
+         .topRight .logRight{
+             position: relative;
+         }
+         .topRight .logImg{
+           position: absolute;
+           top: 12px;
+           right:-27px;
+         }
+    
+    
+         .m-left{
+            width:22% ; 
+            display: none;
+        }
+        
+        .dashBoard {
+            padding-right: 40px;
+            padding-left: 6px;
+        }
+        
+        .rightNew {
+            margin-left: 15px;
+            /* background-color: brown; */
+        }
+        .rightPage {
+            height: 356px;
+            margin-top: 168px;
+            margin-left: 2px;
+        }
+        
+        /* .rightTeam {
+            width: 112.5%;
+            background-color: aquamarine;
+            margin-left: 27px;
+        } */
+        
+        /* .information {
+            width: 99%;
+            margin-left: 9px;
+          
+        } */
+        /* .name .photo {
+            width: 23%;
+            margin-left: 37%;
+        } */
+    
+        .oneSt {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+        
+        }
+    
+        /* .twoNd {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+          
+        }
+        .threeRd {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+        } */
+    
+        .name .contributions {
+            margin-left: 26%;
+        }
+        /* .item1 {
+            position: relative;
+            top: 50px;
+            left: 15%;
+        } */
+        .item2 {
+            position: relative;
+            top: 20px;
+            left: 38%;
+        }
+        .item3 {
+            position: relative;
+            top: -10px;
+            left: 60%;
+    
+        }
+        /* .sales {
+            width: 99%;
+            background-color: red;
+            margin-left: 10px;
+        } */
+        /* .salesBox1 {
+            width: 27%;
+        } */
+        .listNew {
+            width: 95%;
+            margin-left: 26px;
+        }
+        .lorem {
+            width: 85%;
+        }
+        .textCs {
+            position: absolute;
+            right: 38%;
+            top: 136px;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            /* display: block; */
+            padding: 5px;
+            display: none;
+        }
+        .scansTotal {
+            width: 50%;
+            height: 341px;
+            margin-top: 0%;
+        }
+    
+         /* 右边中间部分 */
+         .m-right{
+            height:3022px ;
+            /* background-color: lightgreen; */
+        }
+        /* 右边中间部分头部 */
+        .rightDash{
+            padding: 20px 15px;
+            background-color: #2d3035;
+            color: #8a8d93;
+            margin-bottom: 30px;
+        }
+        .dashSize{
+            font-size: 1.1rem;
+        }
+    
+        /* 中间new */
+        .rightNew{
+            height: 156px;
+            margin-right: 15px;
+            /* background-color: brown; */
+            position: relative;
+        }
+        /* 第一个 */
+        .newClients{
+            width: 47%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            left: 0%;
+        }
+       .icon-user{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers1{
+           position: relative;
+       }
+       .twentySeven{
+        position: absolute;
+        left: 75%;
+        top: -50px;
+        font-size: 2.2rem;
+        color: #864DD9;
+       }
+       .line1{
+           position: relative;
+       }
+       .newLine1{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 32px;
+           margin-left: 20px;
+    
+       }
+       .newLines1{
+           position: absolute;
+           width: 25%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #864DD9;
+           border-radius: 30px;
+       }
+    
+    
+       /* 第二个 */
+        .newProjects{
+            width: 47%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            left: 53%;
+        }
+        .icon-project{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers2{
+           position: relative;
+       }
+       .seventyFive{
+           position: absolute;
+           left: 67%;
+           top: -70px;
+          font-size:  2.2rem;
+          color: #CF53F9
+       }
+       .line2{
+           position: relative;
+       }
+       .newLine2{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           /* overflow: hidden; */
+           background: #393c43;
+           margin-top: 10px;
+           margin-left: 20px;
+    
+       }
+       .newLines2{
+           position: absolute;
+           width: 55%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #CF53F9;
+           border-radius: 30px;
+       }
+    
+    
+       /* 第三个 */
+        .newInvoices{
+            width: 47%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            top: 155px;
+            left: 0%;
+        }
+        .icon-invoices{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers3{
+           position: relative;
+       }
+       .forty{
+           position: absolute;
+           left: 70%;
+           top: -65px;
+          font-size:  2.2rem;
+          color: #e95f71;
+       }
+       .line3{
+           position: relative;
+       }
+       .newLine3{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 10px;
+           margin-left: 20px;
+    
+       }
+       .newLines3{
+           position: absolute;
+           width: 40%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #e95f71;
+           border-radius: 30px;
+       }
+       /* 第四个 */
+        .allProjects{
+            width: 47%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            top: 155px;
+            left: 53%;
+        }
+        .icon-all{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers4{
+           position: relative;
+       }
+       .fortyOne{
+           position: absolute;
+           left: 72%;
+          top: -50px;
+          font-size:  2.2rem;
+          color: #7127AC;
+       }
+       .line4{
+           position: relative;
+       }
+       .newLine4{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 22px;
+           margin-left: 20px;
+    
+       }
+       .newLines4{
+           position: absolute;
+           width: 25%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #7127AC;
+           border-radius: 30px;
+       }
+    
+       /* ----------------------------------------------------------------------------------------------- */
+       /* 折线图与树状图1 */
+        /* .rightPage{
+        height: 356px;
+         background-color: burlywood; 
+       }  */
+       .dataSet1{
+        width: 89%;
+        height: 78%;
+        padding: 20px;
+        background-color: #2d3035;
+        margin-left: 16px;
+    }
+    /* #main1{
+        width: 99%;
+        height: 133%;
+    } */
+    .dataSet2{
+        width: 89%;
+        height: 78%;
+        padding: 20px;
+        background-color: #2d3035;
+        margin-left: 16px;
+    }
+    .pageViews{
+        width: 89%;
+        height: 78%;
+        padding: 20px;
+        background-color: #2d3035;
+        margin-left: 16px;
+        margin-top: 30px;
+    }
+    
+         /* 折线图2与数据 */
+         .rightTeam{
+            width: 74%;
+            margin-top: -478px;
+            margin-left: 18px;
+            /* background-color: aquamarine; */
+         }
+         .scansTotal{
+            position: relative;
+            /* background-color: brown; */
+            margin-left: 0%;
+            margin-top: 1132px;
+         }
+         /* 数据图1 */
+         .scansTotal .scans{
+            width: 255%;
+            height: 143px;
+            background-color: #2d3035;
+            position: relative;
+         }
+         .scans .scans1{
+             width:39%;
+             height:83px;
+             /* background-color: blue; */
+             position: absolute;
+             left: 20px;
+             top: 20px;
+             border-right: 1px solid #40444b;
+         }
+         .scans1 .icon-down{
+             color:#dc3545;
+         }
+         .value1{
+             font-size: 2rem;
+             position: absolute;
+             top: -12px;
+         }
+         .standard{
+           font-size: 0.9rem;
+           letter-spacing: 0.1em;
+           font-weight: 300;
+           text-transform: uppercase;
+           position: absolute;
+           top: 35px;
+         }
+         
+       .scans1Line{
+           position: relative;
+       }
+       .scans1Line1{
+           width: 72%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 64px;
+           margin-left: 16px;
+       }
+       .scans1Line2{
+           position: absolute;
+           width: 35%;
+           height: 2px;
+           left: 15px;
+           top: 0px;
+           background-color: #cf53f9;
+           border-radius: 30px;
+       }
+    
+    
+         .scans .scans2{
+           width:43%;
+           height: 103px;
+           /* background-color: purple; */
+           position: absolute;
+           right: 20px;
+           top: 20px;
+       }
+       .scans2 .icon-up{
+           color:#28a745;
+       }
+       
+       .scans1Line{
+           position: relative;
+       }
+       .scans1Line3{
+           width: 45%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 45px;
+           margin-left: 16px;
+       }
+       .scans1Line4{
+           position: absolute;
+           width: 18%;
+           height: 2px;
+           left: 15px;
+           top: 0px;
+           background-color: #e95f71;
+           border-radius: 30px;
+       }
+    
+    
+    
+    
+         /* 数据图2 */
+         .scansTotal .requests{
+           height: 139px;
+           /* background-color: yellow; */
+           margin-top: 30px;
+         }
+         .scans1Line{
+           position: relative;
+       }
+       .scans1Line5{
+           width: 60%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 70px;
+          
+       }
+       .scans1Line6{
+           position: absolute;
+           width: 25%;
+           height: 2px;
+           left: 0;
+           top: 0px;
+           background-color: #864dd9;
+           border-radius: 30px;
+       }
+       .scans2 .value1-sm{
+           font-size: 1.4rem;
+       }
+       .scans2 .standard-sm{
+           font-size: 0.85rem;
+           margin-top: -12px;
+           margin-left: -5px;
+       }
+       .scans1Line7{
+           width: 17%;
+           height: 1px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 55px;
+           margin-left: 12px; 
+       }
+       .small1{
+           position: relative;
+       }
+       small{
+           font-weight: 600;
+           font-size: 80%;
+           position: absolute;
+           left: 12px;
+           top: 15px;
+          
+       }
+       .neutral{
+           width:102px ;
+           height:99px ;
+           position: relative;
+           left: 105px;
+           top: -63px;
+       }
+       .value1-sm1{
+           font-size: 1.4rem;
+           margin-left: 5px;
+       }
+       .standard-sm1{
+           font-size: 0.85rem;
+           margin-top: -12px;
+       }
+       .scans1Line8{
+           width: 30%;
+           height: 1px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           position: absolute;
+           top: 54px;
+           left: 20px; 
+       }
+       .small2{
+           font-weight: 600;
+           position: absolute;
+           left: 6px;
+           top: 63px;
+       }
+    
+       /* 折线图2 */
+         /* .Team{
+           width:50% ;
+           height:341px ;
+           background-color: rgb(42, 165, 97);
+           float: right;
+           margin-top: -341px;
+         }  */
+        .teamDrills{
+            width: 241%;
+            height: 88%;
+            background-color: #2d3035;
+            padding: 20px;
+            margin-top: 30px;
+        } 
+    
+        /* 个人信息 */
+        .information{
+            width: 94%;
+            margin-left: 18px;
+            /* background-color: pink; */
+            position: relative;
+        }
+        /* 个人信息1 */
+        .information .name{
+            width: 95%;
+            height: 262px;
+            padding: 20px;
+            background-color: #2d3035;
+            margin-top: 378px;
+            position: relative;
+        }
+        .information .nameTwo{
+            position: absolute;
+            top: -38px;
+        }
+        .name .photo{
+            width: 10%;
+            border-radius: 50%;
+            display: block;
+            margin-top: 35px;
+            margin-left: 45%;
+        }
+    
+       .name .order{
+           width: 30px;
+           height: 30px;
+           line-height: 30px;
+           border-radius: 50%;
+           color: #fff;
+           font-size: 0.7rem;
+        }
+        
+        .oneSt{
+           background: #CF53F9;
+           position: absolute;
+           top: 29%;
+           left: 52%;
+           text-align: center;
+        }
+        .twoNd{
+            background: #864DD9;
+            position: absolute;
+            top: 30%;
+            left: 52%;
+            text-align: center;
+        }
+        .threeRd{
+           background: #7127AC;
+           position: absolute;
+           top: 30%;
+           left: 52%;
+           text-align: center;
+        }
+       .nameEail .richard{
+           text-align: center;
+           margin-top: 20px;
+       }
+       .nameEail .mailbox{
+           display: block;
+           text-align: center;
+           color:#757871;
+           font-weight: 100;
+       }
+       .name .contributions{
+        margin-top: 14px;
+        border-radius: 50px;
+        padding: 6px 30px;
+        background: #26292d;
+        display: inline-block;
+        font-size: 0.9rem;
+        margin-left: 36%;
+       }
+       .item{
+        width: 9%;
+        height: 30px;
+       }
+       .item .number{
+           position: absolute;
+           left: 30px;
+           top: 6px;
+       }
+    
+       .item1{
+        position: relative;
+        top: 12px;
+        left: 10%;
+       }
+       .item1 .icon-tanh{
+           font-size: 24px;
+       }
+    
+       .item2{
+        position: relative;
+        top: -19px;
+        left: 43%;
+       }
+       .item2 .icon-link{
+           font-size: 24px;
+       }
+     
+    
+       .item3{
+        position: relative;
+        top: -47px;
+        left: 79%;
+       }
+       .item3 .icon-branch{
+           position: absolute;
+           left: 3px;
+           top: 6px;
+           font-size: 16px;
+       }
+       
+    
+        /* 个人信息2 */
+        .information .names{
+            padding: 20px;
+            width: 95%;
+            height: 147px;
+            margin-top: 654px;
+            margin-bottom: 30px;
+            margin-left: -16px;
+            background-color: #2d3035;
+        }
+        .names1{
+           position: absolute;
+           left: 17px;
+           top: 360px;
+        }
+        .names2{
+            position: absolute;
+            left: 17px;
+            top: 582px;
+        }
+        .names3{
+            position: absolute;
+            left: 17px;
+            top: 806px;
+        }
+       
+       .namesImg{
+           width: 304px;
+           height: 50px;
+           margin:20px 20px;
+           position: relative;
+       }
+       .fourTh{
+           line-height: 3.2rem;
+           display: none;
+       }
+       .photo{
+           position: relative;
+       }
+       .photo img{
+        width: 17%;
+        border-radius: 50%;
+        position: absolute;
+        left: 0px;
+        top: -7px;
+       }
+       .richard2{
+        font-size: 1.2rem;
+        margin-top: 18px;
+        margin-left: 70px;
+       }
+       .mailbox2{
+        font-size: 0.9rem;
+        display: block;
+        color: #757871;
+        font-weight: 100;
+        margin-top: -5px;
+        margin-left: 72px;
+       }
+       .contributions2{
+        width: 179px;
+        height: 34px;
+        text-align: center;
+        line-height: 1.9rem;
+        border-radius: 50px;
+        background: #26292d;
+        font-size: 0.9rem;
+        position: absolute;
+        top: 116%;
+        left: 70%;
+       }
+       .items{
+           width:60px ;
+           height:30px ;
+       }
+       .item4{
+        position: relative;
+        top: 121%;
+        left: 20%;
+       }
+       .numbers{
+           position: absolute;
+           left: 36%;
+           top: 3px;
+       }
+       .item5{
+        position: relative;
+        top: 64%;
+        left: 89%;
+       }
+       .item6{
+        position: relative;
+        top: 0%;
+        left: 436px;
+       }
+       .item6 .icon-branch{
+           font-size: 16px;
+           position: absolute;
+           left: 3px;
+           top: 4px;
+       }
+    
+    
+       /* 树状图和饼图 */
+       .sales{
+        height: 262px;
+        /* background-color: blue; */
+        margin-left: 30px;
+        margin-top: 780px;
+        /* margin-bottom: -23px; */
+        width: 94%;
+       }
+       .salesBoxS{
+        margin-top: 30px;
+        margin-bottom: 30px;
+       }
+       .salesBox1{
+        width: 94%;
+        height: 99%;
+        background-color: #2d3035;
+        margin-left: -8px;
+        padding: 20px;
+        position: relative;
+        top: -81px;
+       }
+       .salesBox{
+        height: 154%;
+        background-color: #2d3035;
+        margin-top: -50px;
+        padding: 20px;
+        position: relative;
+        top: 52px;
+       }
+       .salesBox2{
+        margin-top: 30px;
+        margin-bottom: 82px;
+       }
+
+       .title{
+           width: 86%;
+           height: 53px;
+           /* background-color: chartreuse;   */
+       }
+       .salesTitle{
+           font-size: 1.25rem;
+           color: #a5a7ab;
+       }
+       .loremTitle{
+           font-weight: 300;
+           font-size: 0.95rem;
+       }
+       .text{
+           width:35%;
+           height:86px ;
+           /* background-color: chocolate; */
+           margin-top: 30px;
+       }
+       .money{
+           font-size: 1.8rem !important;
+           font-weight: 300;
+           
+       }
+       .money1{
+           color: #e95f71 ;
+       }
+       .money2{
+           color: #864DD9;
+       }
+       .money3{
+           color: #CF53F9;
+       }
+       .textM{
+           color: #8a8d93; 
+       }
+       .textS{
+           color: #8a8d93;
+           font-size: 0.8rem;
+       }
+       .chartsT{
+        width: 50%;
+        height: 90%;
+        /* background-color: cyan; */
+        margin-left: 126px;
+        margin-top: -130px;
+    }
+    
+    .chartsTs{
+        width: 35%;
+        margin-left: 140px;
+        margin-top: -125px;
+    }
+    
+    
+       /* 待办事项列表和新闻 */
+       .listNew{
+        width: 88%;
+        height: 554px;
+        margin-left: 40px;
+        /* background-color: pink; */
+        margin-top: -150px;
+       }
+    
+       /* 待办事项列表 */
+       .list{
+        width: 100%;
+        height: 682px;
+        margin-top: 800px;
+        background-color: #2d3035;
+        padding: 20px;
+        margin-left: -18px;
+       }
+       .listDo{
+           font-size: 1.25rem;
+           color: #a5a7ab;
+           font-weight: 600;
+       }
+       .checkList{
+        height: 616px;
+        /* background-color: aquamarine; */
+        margin-top: 30px;
+       }
+       .lorem{
+        padding: 26px;
+        width: 94%;
+        height: 51px;
+          
+       }
+    
+       .lorem .icon-square{
+           font-size: 2rem;
+           color: #8a8d93;
+           cursor: pointer;
+       }
+       .loremBox{
+           position: relative;
+       }
+       .loremI{
+           font-size: 0.9rem;
+           color: #8a8d93;
+           line-height: 1.7rem;
+           position: absolute;
+           left: 35px;
+           top: -52px;
+       }
+       .lorem2{
+        width: 91%;
+        margin-top: -513px;
+          
+       }
+       .loremS{
+           background-color: #282b2f;
+       }
+       .lorem .icon-square2{
+           font-size: 1.9rem;
+           color: #db6574;
+           cursor: pointer;
+       }
+       .loremThr{
+           text-decoration: line-through;
+       }
+    
+    
+           /* 新闻 */
+       .new{
+        height: 506px;
+        background-color: #2d3035;
+        margin-top: 36px;
+       }
+       .checkNew{
+           width: 395px;
+           height: 427px;
+           margin-top: 20px;
+       }
+       .loremNew{
+           padding: 10px;
+           width: 375px;
+           height: 69px;
+           background-color: #2d3035;
+          border-bottom: 1px solid #282b2f;
+          position: relative;
+         
+       }
+       .checkImg{
+           position: relative;
+       }
+       .nadia{
+           width: 13%;
+           border-radius: 50%;
+           margin-top: 10px;
+       }
+       .checkImg .icon-new5{
+           font-size: 3.5rem;
+           position: absolute;
+           left: 4%;
+            top: -35%;
+       }
+       .checkImg1 .icon-new5{
+           color: #28a745; 
+       }
+       .checkImg2 .icon-new5{
+           color: #ffc107;
+       }
+       .checkImg3 .icon-new5{
+           color: #dc3545;
+       }
+       .checkImg4 .icon-new5{
+           color: #999;
+       }
+       .checkImg5 .icon-new5{
+           color: #28a745;
+       }       
+    
+      
+       .content{
+           width:210px ;
+           height:75px ;
+           /* background-color: red; */
+           position: absolute;
+           left: 75px;
+           top: 15px;
+       }
+       .halsey{
+           font-size: 1.1rem;
+           color: #8a8d93;
+       }
+       .amit{
+           color: #8a8d93;
+           font-weight: 300;
+       }
+       .times{
+           font-size: 80%;
+           font-weight: 400;
+           color: #70737a;
+       }
+       /* a:hover .loremNew{
+           background: #282b2f;
+       } */
+    
+    
+    
+    
+       /* 饼图 */
+       .chartsB{
+        width: 100%;
+        height: 80%;
+        margin: 30px auto;
+        position: relative;
+    }
+    .textCs{
+        position: absolute;
+        right: 44%;
+        top: 52%;
+    }
+       .credit{
+           font-size: 1.5rem;
+       }
+       .textCs .textSales{
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          margin-left: 16px;
+       }
+    
+    
+         /* footer */
+        .foot{
+           height: 70px;
+           background: #2d3035;
+           line-height: 70px;
+           text-align: center;
+           margin-top: 1214px;
+        }
+  
+
+
+
+
+
+ }
+
+
+
+ @media screen and (min-width: 259px) and (max-width: 575px){
+
+
+   
+             /* header */
+
+             .header{
+                width: 100%;
+                height: 83px;
+                background-color: #2d3035;
+                position: relative;
+                border-bottom: 1px solid #34373d;
+        }
+        .h-top{
+            width: 97%;
+            height: 42px;
+            position: absolute;
+            left: 1.5%;
+            top: 25%;
+        }
+    
+        /* 头部左边 */
+        .topLeft{
+            width:200px ;
+            height:40px ;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            /* display: block; */
+            padding: 5px;
+            display: none;
+        }
+        .leftDark{
+           color: #db6574;
+          
+        }
+        .leftAdmin{
+            font-weight: bold;
+            color: #8a8d93;
+    
+        }
+        .leftImg{
+            float: right;
+            margin-top: -38px;
+            display: none;
+    
+        }
+        .DA{
+            font-size: 1.25rem;
+            display: block;
+            padding: 5px;
+            position: relative;
+        }
+        .leftD{
+            color: #db6574;
+        }
+        .leftA{
+            font-weight: bold;
+            color: #8a8d93;
+        }
+        .DA img{
+            position: absolute;
+            top: 5px;
+            left: 52px;
+        }
+    
+        .topRight{
+            width: 354px;
+            height:42px ;
+            float: right;
+            margin-top: -44px;
+            line-height: 3rem;
+            /* background-color: turquoise; */
+           
+        }
+        .topRight a .icon-shousuo{
+            font-size: 1.3rem;
+           color:#8a8d93 ; 
+           margin-left: -2px;
+        }
+        .topRight a .icon-youjian{
+            color:#8a8d93 ; 
+            margin-left: -7px;
+            font-size: 1.3rem;
+         }
+        .topRight a .icon-jishiben{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+            font-size: 1.3rem;
+         }
+         .topRight a{
+            color:#888b91;
+            display: inline-block;
+            margin: 4px;
+         }
+         .topRight a .icon-Mega{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+         }
+         .topRight a .icon-english{
+            color:#8a8d93 ; 
+            margin-left: -4px;
+         }
+         .topRight .logRight{
+             position: relative;
+         }
+         .topRight .logImg{
+           position: absolute;
+           top: 12px;
+           right:-27px;
+         }
+    
+    
+         .m-left{
+            width:22% ; 
+            display: none;
+        }
+        
+        .dashBoard {
+            padding-right: 40px;
+            padding-left: 6px;
+        }
+        
+        .rightNew {
+            margin-left: 15px;
+            /* background-color: brown; */
+        }
+        .rightPage {
+            height: 356px;
+            margin-top: 482px;
+            margin-left: 2px;
+        }
+        
+        /* .rightTeam {
+            width: 112.5%;
+            background-color: aquamarine;
+            margin-left: 27px;
+        } */
+        
+        /* .information {
+            width: 99%;
+            margin-left: 9px;
+          
+        } */
+        /* .name .photo {
+            width: 23%;
+            margin-left: 37%;
+        } */
+    
+        .oneSt {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+        
+        }
+    
+        /* .twoNd {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+          
+        }
+        .threeRd {
+            position: absolute;
+            top: 82px;
+            left: 53%;
+        } */
+    
+        .name .contributions {
+            margin-left: 26%;
+        }
+        /* .item1 {
+            position: relative;
+            top: 50px;
+            left: 15%;
+        } */
+        .item2 {
+            position: relative;
+            top: 20px;
+            left: 38%;
+        }
+        .item3 {
+            position: relative;
+            top: -10px;
+            left: 60%;
+    
+        }
+        /* .sales {
+            width: 99%;
+            background-color: red;
+            margin-left: 10px;
+        } */
+        /* .salesBox1 {
+            width: 27%;
+        } */
+        .listNew {
+            width: 95%;
+            margin-left: 26px;
+        }
+        /* .lorem {
+            width: 85%;
+        } */
+        .textCs {
+            position: absolute;
+            right: 38%;
+            top: 136px;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            /* display: block; */
+            padding: 5px;
+            display: none;
+        }
+        .scansTotal {
+            width: 50%;
+            height: 341px;
+            margin-top: 0%;
+        }
+    
+         /* 右边中间部分 */
+         .m-right{
+            height:3022px ;
+            /* background-color: lightgreen; */
+        }
+        /* 右边中间部分头部 */
+        .rightDash{
+            padding: 20px 15px;
+            background-color: #2d3035;
+            color: #8a8d93;
+            margin-bottom: 30px;
+        }
+        .dashSize{
+            font-size: 1.1rem;
+        }
+    
+        /* 中间new */
+        .rightNew{
+            height: 156px;
+            margin-right: 15px;
+            /* background-color: brown; */
+            position: relative;
+        }
+        /* 第一个 */
+        .newClients{
+            width: 100%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            left: 0%;
+        }
+       .icon-user{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers1{
+           position: relative;
+       }
+       .twentySeven{
+        position: absolute;
+        left: 75%;
+        top: -50px;
+        font-size: 2.2rem;
+        color: #864DD9;
+       }
+       .line1{
+           position: relative;
+       }
+       .newLine1{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 32px;
+           margin-left: 20px;
+    
+       }
+       .newLines1{
+           position: absolute;
+           width: 25%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #864DD9;
+           border-radius: 30px;
+       }
+    
+    
+       /* 第二个 */
+        .newProjects{
+            width: 100%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            left: 0%;
+            top: 155px;
+        }
+        .icon-project{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers2{
+           position: relative;
+       }
+       .seventyFive{
+           position: absolute;
+           left: 67%;
+           top: -70px;
+          font-size:  2.2rem;
+          color: #CF53F9
+       }
+       .line2{
+           position: relative;
+       }
+       .newLine2{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           /* overflow: hidden; */
+           background: #393c43;
+           margin-top: 10px;
+           margin-left: 20px;
+    
+       }
+       .newLines2{
+           position: absolute;
+           width: 55%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #CF53F9;
+           border-radius: 30px;
+       }
+    
+    
+       /* 第三个 */
+        .newInvoices{
+            width: 100%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            top: 314px;
+            left: 0%;
+        }
+        .icon-invoices{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers3{
+           position: relative;
+       }
+       .forty{
+           position: absolute;
+           left: 70%;
+           top: -65px;
+          font-size:  2.2rem;
+          color: #e95f71;
+       }
+       .line3{
+           position: relative;
+       }
+       .newLine3{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 10px;
+           margin-left: 20px;
+    
+       }
+       .newLines3{
+           position: absolute;
+           width: 40%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #e95f71;
+           border-radius: 30px;
+       }
+       /* 第四个 */
+        .allProjects{
+            width: 100%;
+            height: 135px;
+            background-color: #2d3035;
+            position: absolute;
+            top: 474px;
+            left: 0%;
+        }
+        .icon-all{
+           font-size:  1.5rem;
+           margin-top: 20px;
+           margin-left: 20px;
+           display: inline-block;
+       }
+       .clients{
+           font-size: 15px;
+           margin-left: 20px;
+       }
+       .numbers4{
+           position: relative;
+       }
+       .fortyOne{
+           position: absolute;
+           left: 72%;
+          top: -50px;
+          font-size:  2.2rem;
+          color: #7127AC;
+       }
+       .line4{
+           position: relative;
+       }
+       .newLine4{
+           width: 80%;
+           height: 4px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 22px;
+           margin-left: 20px;
+    
+       }
+       .newLines4{
+           position: absolute;
+           width: 25%;
+           height: 4px;
+           left: 20px;
+           top: 0px;
+           background-color: #7127AC;
+           border-radius: 30px;
+       }
+    
+       /* ----------------------------------------------------------------------------------------------- */
+       /* 折线图与树状图1 */
+        /* .rightPage{
+        height: 356px;
+         background-color: burlywood; 
+       }  */
+       .dataSet1{
+        width: 85%;
+        height: 61%;
+        padding: 20px;
+        background-color: #2d3035;
+        margin-left: 16px;
+    }
+    /* #main1{
+        width: 99%;
+        height: 133%;
+    } */
+    .dataSet2{
+        width: 85%;
+        height: 61%;
+        padding: 20px;
+        background-color: #2d3035;
+        margin-left: 16px;
+    }
+    .pageViews{
+        width: 85%;
+        height: 85%;
+        padding: 20px;
+        background-color: #2d3035;
+        margin-left: 16px;
+        margin-top: 30px;
+    }
+    
+         /* 折线图2与数据 */
+         .rightTeam{
+            width: 74%;
+            margin-top: -478px;
+            margin-left: 18px;
+            /* background-color: aquamarine; */
+         }
+         .scansTotal{
+            position: relative;
+            /* background-color: brown; */
+            margin-left: 0%;
+            margin-top: 1034px;
+         }
+         /* 数据图1 */
+         .scansTotal .scans{
+            width: 255%;
+            height: 143px;
+            background-color: #2d3035;
+            position: relative;
+         }
+         .scans .scans1{
+             width:39%;
+             height:83px;
+             /* background-color: blue; */
+             position: absolute;
+             left: 20px;
+             top: 20px;
+             border-right: 1px solid #40444b;
+         }
+         .scans1 .icon-down{
+             color:#dc3545;
+         }
+         .value1{
+             font-size: 2rem;
+             position: absolute;
+             top: -12px;
+         }
+         .standard{
+           font-size: 0.9rem;
+           letter-spacing: 0.1em;
+           font-weight: 300;
+           text-transform: uppercase;
+           position: absolute;
+           top: 35px;
+         }
+         
+       .scans1Line{
+           position: relative;
+       }
+       .scans1Line1{
+           width: 72%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 64px;
+           margin-left: 16px;
+       }
+       .scans1Line2{
+           position: absolute;
+           width: 35%;
+           height: 2px;
+           left: 15px;
+           top: 0px;
+           background-color: #cf53f9;
+           border-radius: 30px;
+       }
+    
+    
+         .scans .scans2{
+           width:43%;
+           height: 103px;
+           /* background-color: purple; */
+           position: absolute;
+           right: 20px;
+           top: 20px;
+       }
+       .scans2 .icon-up{
+           color:#28a745;
+       }
+       
+       .scans1Line{
+           position: relative;
+       }
+       .scans1Line3{
+           width: 45%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 45px;
+           margin-left: 16px;
+       }
+       .scans1Line4{
+           position: absolute;
+           width: 18%;
+           height: 2px;
+           left: 15px;
+           top: 0px;
+           background-color: #e95f71;
+           border-radius: 30px;
+       }
+    
+    
+    
+    
+         /* 数据图2 */
+         .scansTotal .requests{
+           height: 139px;
+           /* background-color: yellow; */
+           margin-top: 30px;
+         }
+         .scans1Line{
+           position: relative;
+       }
+       .scans1Line5{
+           width: 60%;
+           height: 2px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 70px;
+          
+       }
+       .scans1Line6{
+           position: absolute;
+           width: 25%;
+           height: 2px;
+           left: 0;
+           top: 0px;
+           background-color: #864dd9;
+           border-radius: 30px;
+       }
+       .scans2 .value1-sm{
+           font-size: 1.4rem;
+       }
+       .scans2 .standard-sm{
+           font-size: 0.85rem;
+           margin-top: -12px;
+           margin-left: -5px;
+       }
+       .scans1Line7{
+           width: 17%;
+           height: 1px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           margin-top: 55px;
+           margin-left: 12px; 
+       }
+       .small1{
+           position: relative;
+       }
+       small{
+           font-weight: 600;
+           font-size: 80%;
+           position: absolute;
+           left: 12px;
+           top: 15px;
+          
+       }
+       .neutral{
+           width:102px ;
+           height:99px ;
+           position: relative;
+           left: 105px;
+           top: -63px;
+       }
+       .value1-sm1{
+           font-size: 1.4rem;
+           margin-left: 5px;
+       }
+       .standard-sm1{
+           font-size: 0.85rem;
+           margin-top: -12px;
+       }
+       .scans1Line8{
+           width: 30%;
+           height: 1px;
+           border-radius: 30px;
+           overflow: hidden;
+           background: #393c43;
+           position: absolute;
+           top: 54px;
+           left: 20px; 
+       }
+       .small2{
+           font-weight: 600;
+           position: absolute;
+           left: 6px;
+           top: 63px;
+       }
+    
+       /* 折线图2 */
+         /* .Team{
+           width:50% ;
+           height:341px ;
+           background-color: rgb(42, 165, 97);
+           float: right;
+           margin-top: -341px;
+         }  */
+        .teamDrills{
+            width: 233%;
+            height: 88%;
+            background-color: #2d3035;
+            padding: 20px;
+            margin-top: 30px;
+        } 
+    
+        /* 个人信息 */
+        .information{
+            width: 91%;
+            margin-left: 18px;
+            /* background-color: pink; */
+            position: relative;
+        }
+        /* 个人信息1 */
+        .information .name{
+            width: 95%;
+            height: 262px;
+            padding: 20px;
+            background-color: #2d3035;
+            margin-top: 378px;
+            position: relative;
+        }
+        .information .nameTwo{
+            position: absolute;
+            top: -38px;
+        }
+        .name .photo{
+            width: 14%;
+            border-radius: 50%;
+            display: block;
+            margin-top: 35px;
+            margin-left: 45%;
+        }
+    
+       .name .order{
+           width: 30px;
+           height: 30px;
+           line-height: 30px;
+           border-radius: 50%;
+           color: #fff;
+           font-size: 0.7rem;
+        }
+        
+        .oneSt{
+           background: #CF53F9;
+           position: absolute;
+           top: 28%;
+           left: 54%;
+           text-align: center;
+        }
+        .twoNd{
+            background: #864DD9;
+            position: absolute;
+            top: 28%;
+            left: 54%;
+            text-align: center;
+        }
+        .threeRd{
+           background: #7127AC;
+           position: absolute;
+           top: 28%;
+           left: 54%;
+           text-align: center;
+        }
+       .nameEail .richard{
+           text-align: center;
+           margin-top: 20px;
+       }
+       .nameEail .mailbox{
+           display: block;
+           text-align: center;
+           color:#757871;
+           font-weight: 100;
+       }
+       .name .contributions{
+        margin-top: 14px;
+        border-radius: 50px;
+        padding: 6px 30px;
+        background: #26292d;
+        display: inline-block;
+        font-size: 0.9rem;
+        margin-left: 29%;
+       }
+       .item{
+        width: 9%;
+        height: 30px;
+       }
+       .item .number{
+           position: absolute;
+           left: 30px;
+           top: 6px;
+       }
+    
+       .item1{
+        position: relative;
+        top: 12px;
+        left: 10%;
+       }
+       .item1 .icon-tanh{
+           font-size: 24px;
+       }
+    
+       .item2{
+        position: relative;
+        top: -19px;
+        left: 43%;
+       }
+       .item2 .icon-link{
+           font-size: 24px;
+       }
+     
+    
+       .item3{
+        position: relative;
+        top: -47px;
+        left: 79%;
+       }
+       .item3 .icon-branch{
+           position: absolute;
+           left: 3px;
+           top: 6px;
+           font-size: 16px;
+       }
+       
+    
+        /* 个人信息2 */
+        .information .names{
+            padding: 20px;
+            width: 95%;
+            height: 147px;
+            margin-top: 654px;
+            margin-bottom: 30px;
+            margin-left: -16px;
+            background-color: #2d3035;
+        }
+        .names1{
+           position: absolute;
+           left: 17px;
+           top: 360px;
+        }
+        .names2{
+            position: absolute;
+            left: 17px;
+            top: 582px;
+        }
+        .names3{
+            position: absolute;
+            left: 17px;
+            top: 806px;
+        }
+       
+       .namesImg{
+           width: 304px;
+           height: 50px;
+           margin:20px 20px;
+           position: relative;
+       }
+       .fourTh{
+           line-height: 3.2rem;
+           display: none;
+       }
+       .photo{
+           position: relative;
+       }
+       .photo img{
+        width: 17%;
+        border-radius: 50%;
+        position: absolute;
+        left: 0px;
+        top: -7px;
+       }
+       .richard2{
+        font-size: 1.2rem;
+        margin-top: 18px;
+        margin-left: 70px;
+       }
+       .mailbox2{
+        font-size: 0.9rem;
+        display: block;
+        color: #757871;
+        font-weight: 100;
+        margin-top: -5px;
+        margin-left: 72px;
+       }
+       .contributions2{
+        width: 179px;
+        height: 34px;
+        text-align: center;
+        line-height: 1.9rem;
+        border-radius: 50px;
+        background: #26292d;
+        font-size: 0.9rem;
+        position: absolute;
+        top: 116%;
+        left: 42%;
+       }
+       .items{
+           width:60px ;
+           height:30px ;
+       }
+       .item4{
+        position: relative;
+        top: 121%;
+        left: 20%;
+       }
+       .numbers{
+           position: absolute;
+           left: 36%;
+           top: 3px;
+       }
+       .item5{
+        position: relative;
+        top: 64%;
+        left: 68%;
+       }
+       .item6{
+        position: relative;
+        top: 0%;
+        left: 332px;
+       }
+       .item6 .icon-branch{
+           font-size: 16px;
+           position: absolute;
+           left: 3px;
+           top: 4px;
+       }
+    
+    
+       /* 树状图和饼图 */
+       .sales{
+        height: 262px;
+        /* background-color: blue; */
+        margin-left: 30px;
+        margin-top: 780px;
+        /* margin-bottom: -23px; */
+        width: 94%;
+       }
+       .salesBoxS{
+        margin-top: 30px;
+        margin-bottom: 30px;
+       }
+       .salesBox1{
+        width: 94%;
+        height: 99%;
+        background-color: #2d3035;
+        margin-left: -8px;
+        padding: 20px;
+        position: relative;
+        top: -81px;
+       }
+       .salesBox{
+        height: 154%;
+        background-color: #2d3035;
+        margin-top: -50px;
+        padding: 20px;
+        position: relative;
+        top: 52px;
+       }
+       .salesBox2{
+        margin-top: 30px;
+        margin-bottom: 82px;
+       }
+
+       .title{
+           width: 86%;
+           height: 53px;
+           /* background-color: chartreuse;   */
+       }
+       .salesTitle{
+           font-size: 1.25rem;
+           color: #a5a7ab;
+       }
+       .loremTitle{
+           font-weight: 300;
+           font-size: 0.95rem;
+       }
+       .text{
+           width:35%;
+           height:86px ;
+           /* background-color: chocolate; */
+           margin-top: 30px;
+       }
+       .money{
+           font-size: 1.8rem !important;
+           font-weight: 300;
+           
+       }
+       .money1{
+           color: #e95f71 ;
+       }
+       .money2{
+           color: #864DD9;
+       }
+       .money3{
+           color: #CF53F9;
+       }
+       .textM{
+           color: #8a8d93; 
+       }
+       .textS{
+           color: #8a8d93;
+           font-size: 0.8rem;
+       }
+       .chartsT{
+        width: 50%;
+        height: 90%;
+        /* background-color: cyan; */
+        margin-left: 126px;
+        margin-top: -130px;
+    }
+    
+    .chartsTs{
+        width: 35%;
+        margin-left: 140px;
+        margin-top: -125px;
+    }
+    
+    
+       /* 待办事项列表和新闻 */
+       .listNew{
+        width: 88%;
+        height: 554px;
+        margin-left: 40px;
+        /* background-color: pink; */
+        margin-top: -150px;
+       }
+    
+       /* 待办事项列表 */
+       .list{
+        width: 100%;
+        height: 682px;
+        margin-top: 800px;
+        background-color: #2d3035;
+        padding: 20px;
+        margin-left: -18px;
+       }
+       .listDo{
+           font-size: 1.25rem;
+           color: #a5a7ab;
+           font-weight: 600;
+       }
+       .checkList{
+        height: 616px;
+        /* background-color: aquamarine; */
+        margin-top: 30px;
+       }
+       .lorem{
+        padding: 26px;
+        width: 88%;
+        height: 51px;
+          
+       }
+    
+       .lorem .icon-square{
+           font-size: 2rem;
+           color: #8a8d93;
+           cursor: pointer;
+       }
+       .loremBox{
+           position: relative;
+       }
+       .loremI{
+           font-size: 0.9rem;
+           color: #8a8d93;
+           line-height: 1.7rem;
+           position: absolute;
+           left: 35px;
+           top: -52px;
+       }
+       .lorem2{
+        width: 88%;
+        margin-top: -513px;
+          
+       }
+       .loremS{
+           background-color: #282b2f;
+       }
+       .lorem .icon-square2{
+           font-size: 1.9rem;
+           color: #db6574;
+           cursor: pointer;
+       }
+       .loremThr{
+           text-decoration: line-through;
+       }
+    
+    
+           /* 新闻 */
+       .new{
+        height: 506px;
+        background-color: #2d3035;
+        margin-top: 36px;
+       }
+       .checkNew{
+           width: 395px;
+           height: 427px;
+           margin-top: 20px;
+       }
+       .loremNew{
+           padding: 10px;
+           width: 375px;
+           height: 69px;
+           background-color: #2d3035;
+          border-bottom: 1px solid #282b2f;
+          position: relative;
+         
+       }
+       .checkImg{
+           position: relative;
+       }
+       .nadia{
+           width: 13%;
+           border-radius: 50%;
+           margin-top: 10px;
+       }
+       .checkImg .icon-new5{
+           font-size: 3.5rem;
+           position: absolute;
+           left: 4%;
+            top: -35%;
+       }
+       .checkImg1 .icon-new5{
+           color: #28a745; 
+       }
+       .checkImg2 .icon-new5{
+           color: #ffc107;
+       }
+       .checkImg3 .icon-new5{
+           color: #dc3545;
+       }
+       .checkImg4 .icon-new5{
+           color: #999;
+       }
+       .checkImg5 .icon-new5{
+           color: #28a745;
+       }       
+    
+      
+       .content{
+           width:210px ;
+           height:75px ;
+           /* background-color: red; */
+           position: absolute;
+           left: 75px;
+           top: 15px;
+       }
+       .halsey{
+           font-size: 1.1rem;
+           color: #8a8d93;
+       }
+       .amit{
+           color: #8a8d93;
+           font-weight: 300;
+       }
+       .times{
+           font-size: 80%;
+           font-weight: 400;
+           color: #70737a;
+       }
+       /* a:hover .loremNew{
+           background: #282b2f;
+       } */
+    
+    
+    
+    
+       /* 饼图 */
+       .chartsB{
+        width: 100%;
+        height: 80%;
+        margin: 30px auto;
+        position: relative;
+    }
+    .textCs{
+        position: absolute;
+        right: 44%;
+        top: 52%;
+    }
+       .credit{
+           font-size: 1.5rem;
+       }
+       .textCs .textSales{
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+          margin-left: 16px;
+       }
+    
+    
+         /* footer */
+        .foot{
+           height: 70px;
+           background: #2d3035;
+           line-height: 70px;
+           text-align: center;
+           margin-top: 1214px;
+           font-size: 0.8rem;
+        }
+  
+
+
+
+
+
+   }

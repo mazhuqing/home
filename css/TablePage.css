@@ -1,0 +1,1002 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+    padding:0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #8a8d93;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+}
+body{
+    font-family: "Muli", sans-serif;
+     font-size: 1rem;
+     font-weight: 400; 
+     line-height: 1.5; 
+     color: #8a8d93; 
+     /* overflow:-Scroll;
+     overflow-x:hidden; */
+     background-color:#22252a;
+     
+}
+ @media screen and (min-width: 1200px){ 
+
+        /* header */
+
+     .header{
+                width: 100%;
+                height: 83px;
+                background-color: #2d3035;
+                position: relative;
+                border-bottom: 1px solid #34373d;
+        }
+        .h-top{
+            width: 97%;
+            height: 42px;
+            position: absolute;
+            left: 1.5%;
+            top: 25%;
+        }
+
+        /* 头部左边 */
+        .topLeft{
+            width:200px ;
+            height:40px ;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            display: block;
+            padding: 5px;
+            /* display: none; */
+        }
+        .leftDark{
+           color: #db6574;
+          
+        }
+        .leftAdmin{
+            font-weight: bold;
+            color: #8a8d93;
+
+        }
+        .leftImg{
+            float: right;
+            margin-top: -38px;
+
+        }
+        .DA{
+            font-size: 1.25rem;
+            display: none;
+            padding: 5px;
+        }
+        .leftD{
+            color: #db6574;
+        }
+        .leftA{
+            font-weight: bold;
+            color: #8a8d93;
+        }
+        .leftImg1{
+            float: right;
+            position: relative;
+            left: -115px;
+            top:-36px ;
+            display: none;
+        }
+
+        .topRight{
+            width:412px ;
+            height:42px ;
+            float: right;
+            margin-top: -44px;
+            /* background-color: turquoise; */
+           
+        }
+        .topRight a .icon-shousuo{
+            font-size: 1.3rem;
+           color:#8a8d93 ; 
+           margin-left: -2px;
+        }
+        .topRight a .icon-youjian{
+            color:#8a8d93 ; 
+            margin-left: -7px;
+            font-size: 1.3rem;
+         }
+        .topRight a .icon-jishiben{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+            font-size: 1.3rem;
+         }
+         .topRight a{
+            color:#888b91;
+            display: inline-block;
+            margin-top: -12px;
+         }
+         .topRight a .icon-Mega{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+         }
+         .topRight a .icon-english{
+            color:#8a8d93 ; 
+            margin-left: -4px;
+         }
+         .topRight .logRight{
+             position: relative;
+         }
+         .topRight .logImg{
+           position: absolute;
+           top: 0px;
+           right:-27px;
+         }
+
+
+
+         /* middle content */
+         .middle{
+             width:100% ;
+             height:890px ;
+             /* background-color: cornflowerblue; */
+         }
+         /* 左边 */
+         .m-left{
+             float: left;
+             width:278px ;
+             height: 946px;
+             background-color: #2d3035;
+             border-right: 1px solid #3d3934;
+         }
+         /* 左边顶部 */
+         .leftMask{
+             width:100%;
+             height:120px ;
+             /* background-color: magenta; */
+         }
+         .maskImg{
+             padding-top: 22px;
+             padding-left: 17px;
+         }
+         .maskImg img{
+             border-radius: 50%;
+         }
+
+         .maskWeb{
+             float: right;
+             margin-right: 60px;
+             margin-top: -63px;
+         }
+         .maskWeb h3{
+             font-size: 1.1rem;
+             color: #8a8d93;
+         }
+         .maskWeb p{
+             font-size: 0.9rem;
+             color: #6A6C70;
+         }
+         .main{
+            font-weight: 700;
+            margin-left: 20px;
+            color: #494d53;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+         }
+         /* 左边列表项 */
+         .leftList{
+            width:100%;
+            height:385px ;
+            padding-left: 0;
+            list-style: none;
+            background-color: #2d3035;
+            margin-bottom: 0px;
+         }
+         .leftList li{
+             height:64px ;
+         }
+         /* .leftList .active{
+            border-left: 2px solid #bf5d6b ; 
+             background-color: #34373d; 
+           
+         } */
+         .active .icon-home{
+            font-size: 24px;
+            border-right: 1px solid #4a4a4c;
+         }
+          .active1 .tables{
+            color: #d6d8da;
+         } 
+
+         .leftList .active1{
+            border-left: 2px solid #bf5d6b ;
+            background-color: #34373d;
+           
+         }
+         .active1 .icon-table{
+            color: #bf5d6b;
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         
+         a .icon-chart{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-form{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-example{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-logout{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo1{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo2{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo3{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .iconfont{
+             color: #64666a;
+            margin-left: 16px;
+            display: inline-block;
+            margin-top: 18px;
+            width: 40px;
+            height: 32px;
+            
+         }
+         li a strong{
+            margin-left: 15px;
+            color: #64666a;
+            font-weight: normal;
+         }
+        a .icon-example2{
+             margin-right: -57px;
+         }
+
+         /* 右边中间部分 */
+         .m-right{
+            height: 857px;
+             /* background-color: lightgreen; */
+         }
+         /* 右边中间部分头部 */
+         .rightDash{
+             padding: 20px 15px;
+             background-color: #2d3035;
+             color: #8a8d93;
+             margin-bottom: 30px;
+         }
+         .dashBoard{
+            padding-right: 40px;
+            padding-left: 295px;
+         }
+         .dashSize{
+             font-size: 1.1rem;
+         }
+
+         
+         /* ---------------------------------- Home/Tables-------------------------------------------------- */
+         .homeTab{
+            width: 73%;
+            height: 64px;
+            margin-top: -30px;
+            margin-left: 25%;
+         }
+         .homeTab ul li{
+             display: inline;
+             line-height: 4rem;
+             font-size: 0.9rem;
+             font-weight: 500;
+         }
+         .homeTab .homeT{
+            color: #DB6574;
+           
+        }
+        .homeTab .tableH{
+            color: #585a5f;
+        }
+        .homeT:hover{
+            color:#c52e41 ;
+        }
+        /* --------------------------------------表格--------------------------------------------------------------- */
+
+        .tableBox{
+            width: 73%;
+            min-width:868px ;
+            height: 693px;
+            /* background-color: purple; */
+            margin-left: 25%;
+            position: relative;
+        }
+    
+        .table{
+            /* width: 44%; */
+            min-width: 43%;
+            height: 291px;
+            padding: 20px;
+            background: #2d3035;
+            margin-right: 30px;
+            float: left;
+            margin-bottom: 30px;
+        }
+        .table:nth-child(even){
+            margin-right: -15px;
+        }
+
+
+
+        .table .tableTit{
+            margin-bottom: 20px;
+        }
+        .table .tableTit strong:first-child{
+            font-size: 1.25rem;
+            color: #a5a7ab;
+        }
+      
+
+        .table .tableName{
+            width: 385px;
+            height: 240px;
+            /* background-color: pink; */
+        }
+        .table .tableN2{
+            width: 385px;
+            height: 240px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .tableN thead th {
+            border-top: none;
+        }
+        .tableN td , .tableN th{
+            border-color: #343a40;
+            font-size: 0.9rem;   
+        }
+        .tableN td{
+            font-weight: 500;
+        }
+        .tableN td, .tableN th {
+            padding: 1rem;
+            line-height: 1.8rem;
+            vertical-align: top;
+            border-top: 1px solid #343a40;
+        }
+
+        .tableN1 tr:nth-child(3){
+            background-color: #282b2f;
+        }
+        .tableN1 tr:nth-last-child(3){
+            background-color: #282b2f;
+        }
+
+
+        .tableN2 td, .tableN2 th {
+            padding: 0.5rem;
+            vertical-align: top;
+            border-top: 1px solid #343a40;
+        }
+        .tableN2 thead th {
+            border-top: none;
+        }
+        .tableN2 td , .tableN2 th{
+            border-color: #343a40;
+            font-size: 0.9rem;
+            text-align: center;
+            line-height: 1.5rem;
+        }
+        .tableN2 td{
+            font-weight: 500;
+        }
+        .tableN2 .fifthTr{
+            background-color: #282b2f;
+        }
+        .tableN2 tr:nth-child(3){
+            background-color: #282b2f;
+        }
+        .tableN2 tr:nth-last-child(5){
+            background-color: #282b2f;
+        }
+
+
+
+        /* ------------------------------------------------底部------------------------------------------------- */
+
+        .foot{
+            /* width:73% ; */
+            height:50px ;
+            text-align: center;
+            line-height: 50px;
+            padding: 20px;
+            background: #2d3035;
+            margin-top: 31px;
+            margin-left: 280px;
+        }
+
+
+
+
+    }
+
+
+
+
+    @media screen and (min-width: 990px) and (max-width: 1200px){
+          /* header */
+
+          .header{
+            width: 100%;
+            height: 83px;
+            background-color: #2d3035;
+            position: relative;
+            border-bottom: 1px solid #34373d;
+    }
+    .h-top{
+        width: 97%;
+        height: 42px;
+        position: absolute;
+        left: 1.5%;
+        top: 25%;
+    }
+
+    /* 头部左边 */
+    .topLeft{
+        width:200px ;
+        height:40px ;
+    }
+    .DarkAdmin{
+        font-size: 1.25rem;
+        /* display: block; */
+        padding: 5px;
+        display: none;
+    }
+    .leftDark{
+       color: #db6574;
+      
+    }
+    .leftAdmin{
+        font-weight: bold;
+        color: #8a8d93;
+
+    }
+    .leftImg{
+        float: right;
+        margin-top: -38px;
+        display: none;
+
+    }
+    .DA{
+        font-size: 1.25rem;
+        display: block;
+        padding: 5px;
+        position: relative;
+    }
+    .leftD{
+        color: #db6574;
+    }
+    .leftA{
+        font-weight: bold;
+        color: #8a8d93;
+    }
+    .DA img{
+        position: absolute;
+        top: 5px;
+        left: 52px;
+    }
+
+    .topRight{
+        width:412px ;
+        height:42px ;
+        float: right;
+        margin-top: -44px;
+        /* background-color: turquoise; */
+       
+    }
+    .topRight a .icon-shousuo{
+        font-size: 1.3rem;
+       color:#8a8d93 ; 
+       line-height: 5rem;
+    }
+    .topRight a .icon-youjian{
+        color:#8a8d93 ; 
+        font-size: 1.3rem;
+     }
+    .topRight a .icon-jishiben{
+        color:#8a8d93 ; 
+        font-size: 1.3rem;
+     }
+     .topRight a{
+        color:#888b91;
+        display: inline-block;
+        margin-top: -12px;
+     }
+     .topRight a .icon-Mega{
+        color:#8a8d93 ; 
+     }
+     .topRight a .icon-english{
+        color:#8a8d93 ; 
+     }
+     .topRight .logRight{
+         position: relative;
+     }
+     .topRight .logImg{
+       position: absolute;
+       top: 0px;
+       right:-27px;
+     }
+
+
+     .m-left{
+        width:22% ; 
+        display: none;
+    }
+    
+    .dashBoard {
+        padding-right: 40px;
+        padding-left: 8px;
+    }
+    
+      /* 右边中间部分 */
+      .m-right{
+        height: 857px;
+         /* background-color: lightgreen; */
+     }
+     /* 右边中间部分头部 */
+     .rightDash{
+         padding: 20px 15px;
+         background-color: #2d3035;
+         color: #8a8d93;
+         margin-bottom: 30px;
+     }
+     .dashBoard{
+        padding-right: 40px;
+        padding-left: 295px;
+     }
+     .dashBoard {
+        padding-right: 40px; 
+        padding-left: 8px;
+    }
+     .dashSize{
+         font-size: 1.1rem;
+     }
+       
+         /* ---------------------------------- Home/Tables-------------------------------------------------- */
+         .homeTab{
+            width: 96%;
+            height: 64px;
+            margin-top: -30px;
+            margin-left: 2%;
+         }
+         .homeTab ul li{
+            display: inline;
+            line-height: 4rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .homeTab .homeT{
+           color: #DB6574;
+          
+       }
+       .homeTab .tableH{
+           color: #585a5f;
+       }
+
+       .homeT:hover{
+        color:#c52e41 ;
+    }
+
+        /* --------------------------------------表格--------------------------------------------------------------- */
+
+        .tableBox{
+            width: 96%;
+            min-width: 868px;
+            height: 693px;
+            /* background-color: purple; */
+            margin-left: 2%;
+            position: relative;
+        }
+    
+        .table{
+            width: 44%;
+            height: 291px;
+            padding: 20px;
+            background-color: #2d3035;
+            margin-right: 30px;
+            margin-left: 0px;
+            float: left;
+            margin-bottom: 30px;
+
+        }
+        .table:nth-child(even){
+            margin-right: -100px;
+        }
+
+        .table .tableTit{
+            margin-bottom: 20px;
+        }
+        .table .tableTit strong:first-child{
+            font-size: 1.25rem;
+            color: #a5a7ab;
+        }
+      
+
+
+        .table .tableName{
+            width: 110%;
+            height: 240px;
+            /* background-color: pink; */
+        }
+        table {
+            border-collapse: collapse;
+            width: 85%;
+            height: 240px;
+        }
+        .tableN thead th {
+            border-top: none;
+        }
+        .tableN td , .tableN th{
+            border-color: #343a40;
+            font-size: 0.9rem;   
+        }
+        .tableN td{
+            font-weight: 500;
+        }
+        .tableN td, .tableN th {
+            padding: 1rem;
+            text-align: center;
+            line-height: 1.8rem;
+            vertical-align: top;
+            border-top: 1px solid #343a40;
+        }
+
+        .tableN1 tr:nth-child(3){
+            background-color: #282b2f;
+        }
+        .tableN1 tr:nth-last-child(3){
+            background-color: #282b2f;
+        }
+
+
+        .tableN2 td, .tableN2 th {
+            padding: 0.6rem;
+            vertical-align: top;
+            border-top: 1px solid #343a40;
+        }
+        .tableN2 thead th {
+            border-top: none;
+        }
+        .tableN2 td , .tableN2 th{
+            border-color: #343a40;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        .tableN2 td{
+            font-weight: 500;
+        }
+        .tableN2 .fifthTr{
+            background-color: #282b2f;
+        }
+        .tableN2 tr:nth-child(3){
+            background-color: #282b2f;
+        }
+        .tableN2 tr:nth-last-child(5){
+            background-color: #282b2f;
+        }
+
+     
+
+        /* ------------------------------------------------底部------------------------------------------------- */
+
+        .foot{
+            /* width: 96.5%;  */
+            min-width: 95%;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            padding: 20px;
+            background: #2d3035;
+            margin-top: 31px;
+            margin-left: 0px;
+        }
+    
+        
+    }
+
+
+        @media screen and (min-width: 500px) and (max-width: 990px){
+        
+           /* header */
+
+           .header{
+            width: 100%;
+            height: 83px;
+            background-color: #2d3035;
+            position: relative;
+            border-bottom: 1px solid #34373d;
+    }
+    .h-top{
+        width: 97%;
+        height: 42px;
+        position: absolute;
+        left: 1.5%;
+        top: 25%;
+    }
+
+    /* 头部左边 */
+    .topLeft{
+        width:200px ;
+        height:40px ;
+    }
+    .DarkAdmin{
+        font-size: 1.25rem;
+        /* display: block; */
+        padding: 5px;
+        display: none;
+    }
+    .leftDark{
+       color: #db6574;
+      
+    }
+    .leftAdmin{
+        font-weight: bold;
+        color: #8a8d93;
+
+    }
+    .leftImg{
+        float: right;
+        margin-top: -38px;
+        display: none;
+
+    }
+    .DA{
+        font-size: 1.25rem;
+        display: block;
+        padding: 5px;
+        position: relative;
+    }
+    .leftD{
+        color: #db6574;
+    }
+    .leftA{
+        font-weight: bold;
+        color: #8a8d93;
+    }
+    .DA img{
+        position: absolute;
+        top: 5px;
+        left: 52px;
+    }
+
+    .topRight{
+        width:412px ;
+        height:42px ;
+        float: right;
+        margin-top: -44px;
+        /* background-color: turquoise; */
+       
+    }
+    .topRight a .icon-shousuo{
+        font-size: 1.3rem;
+       color:#8a8d93 ; 
+       line-height: 5rem;
+    }
+    .topRight a .icon-youjian{
+        color:#8a8d93 ; 
+        font-size: 1.3rem;
+     }
+    .topRight a .icon-jishiben{
+        color:#8a8d93 ; 
+        font-size: 1.3rem;
+     }
+     .topRight a{
+        color:#888b91;
+        display: inline-block;
+        margin-top: -12px;
+     }
+     .topRight a .icon-Mega{
+        color:#8a8d93 ; 
+     }
+     .topRight a .icon-english{
+        color:#8a8d93 ; 
+     }
+     .topRight .logRight{
+         position: relative;
+     }
+     .topRight .logImg{
+       position: absolute;
+       top: 0px;
+       right:-27px;
+     }
+
+
+     .m-left{
+        width:22% ; 
+        display: none;
+    }
+    
+    .dashBoard {
+        padding-right: 40px;
+        padding-left: 8px;
+    }
+    
+      /* 右边中间部分 */
+      .m-right{
+        height: 857px;
+         /* background-color: lightgreen; */
+     }
+     /* 右边中间部分头部 */
+     .rightDash{
+         padding: 20px 15px;
+         background-color: #2d3035;
+         color: #8a8d93;
+         margin-bottom: 30px;
+     }
+     .dashBoard{
+        padding-right: 40px;
+        padding-left: 295px;
+     }
+     .dashBoard {
+        padding-right: 40px; 
+        padding-left: 8px;
+    }
+     .dashSize{
+         font-size: 1.1rem;
+     }
+       
+         /* ---------------------------------- Home/Tables-------------------------------------------------- */
+         .homeTab{
+            width: 94%;
+            height: 64px;
+            margin-top: -30px;
+            margin-left: 3%;
+         }
+         .homeTab ul li{
+            display: inline;
+            line-height: 4rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .homeTab .homeT{
+           color: #DB6574;
+          
+       }
+       .homeTab .tableH{
+           color: #585a5f;
+       }
+
+       .homeT:hover{
+        color:#c52e41 ;
+    }
+
+        /* --------------------------------------表格--------------------------------------------------------------- */
+
+        .tableBox{
+            width: 94%;
+            height: 693px;
+            /* background-color: purple; */
+            margin-left: 3%;
+        }
+    
+        .table{
+            width: 91%;
+            height: 291px;
+            padding: 20px;
+            background-color: #2d3035;
+            margin-bottom: 30px;
+        }
+
+
+        .table:nth-child(even){
+            margin-right: -100px;
+        }
+
+        .table .tableTit{
+            margin-bottom: 20px;
+        }
+        .table .tableTit strong:first-child{
+            font-size: 1.25rem;
+            color: #a5a7ab;
+        }
+      
+
+
+        .table .tableName{
+            width: 110%;
+            height: 240px;
+            /* background-color: pink; */
+        }
+        table {
+            border-collapse: collapse;
+            width: 85%;
+            height: 240px;
+        }
+        .tableN thead th {
+            border-top: none;
+        }
+        .tableN td , .tableN th{
+            border-color: #343a40;
+            font-size: 0.9rem;   
+        }
+        .tableN td{
+            font-weight: 500;
+        }
+        .tableN td, .tableN th {
+            padding: 1rem;
+            text-align: center;
+            line-height: 1.8rem;
+            vertical-align: top;
+            border-top: 1px solid #343a40;
+        }
+
+        .tableN1 tr:nth-child(3){
+            background-color: #282b2f;
+        }
+        .tableN1 tr:nth-last-child(3){
+            background-color: #282b2f;
+        }
+
+
+        .tableN2 td, .tableN2 th {
+            padding: 0.6rem;
+            vertical-align: top;
+            border-top: 1px solid #343a40;
+        }
+        .tableN2 thead th {
+            border-top: none;
+        }
+        .tableN2 td , .tableN2 th{
+            border-color: #343a40;
+            font-size: 0.9rem;
+            text-align: center;
+        }
+        .tableN2 td{
+            font-weight: 500;
+        }
+        .tableN2 .fifthTr{
+            background-color: #282b2f;
+        }
+        .tableN2 tr:nth-child(3){
+            background-color: #282b2f;
+        }
+        .tableN2 tr:nth-last-child(5){
+            background-color: #282b2f;
+        }
+     
+
+        /* ------------------------------------------------底部------------------------------------------------- */
+
+        .foot{
+            /* width: 95.5%; */
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            padding: 20px;
+            background: #2d3035;
+            margin-top: 750px;
+            font-size: 0.8rem;
+        }
+    
+
+    }
+
+
+
+
+        
+      
+
+ 

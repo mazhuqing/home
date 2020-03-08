@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="css/TablePage.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/HomgPage.js"></script>
+    <script src="node_modules/echarts/dist/echarts.js"></script>
+    <title>表格</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="h-top">
+            <div class="topLeft">
+                <a href="#" class="DarkAdmin">
+                    <strong class="leftDark">DARK</strong>
+                    <span class="leftAdmin">ADMIN</span>
+                </a>
+                <a href="#" class="leftImg"><img src="image/top1.png" width="36px"></a>
+                <a href="#" class="DA">
+                    <strong class="leftD">D</strong>
+                    <span class="leftA">A</span>
+                    <img src="image/top2.png" width="30px">
+                </a>
+            </div>
+            <div class="topRight">
+                <a href="#"><span class="iconfont icon-shousuo"></span></a>
+                <a href="#"><span class="iconfont icon-youjian"></span></a>
+                <a href="#"><span class="iconfont icon-jishiben"></span></a>
+                <a href="#">Mega<span class="iconfont icon-Mega"></span></a>
+                <a href="#"><img src="image/GB.png">English<span class="iconfont icon-english"></span></a>
+                <a href="#" class="logRight">Logout<img src="image/logout.png" width="24px" class="logImg"></span></a>
+            </div>
+        </div>
+    </header>
+  
+    <!-- middle content -->
+    <div class="middle">
+        <div class="m-left">
+            <div class="leftMask">
+                <div class="maskImg"><img src="image/avatar-6.jpg" width="60px" height="60"></div>
+                <div class="maskWeb">
+                    <h3>Mark Stephen</h3>
+                    <p>Web Designer</p>
+                </div>
+            </div>
+
+            <!-- Main -->
+            <span class="main">Main</span>
+            <ul class="leftList">
+                <li class="active">
+                    <a href="HomePage.html">
+                        <span class="iconfont icon-home"></span>
+                        <strong class="home">Home</strong>
+                    </a>
+                </li>
+                <li class="active1">
+                    <a href="#">
+                        <span class="iconfont icon-table"></span>
+                        <strong class="tables">Tables</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-chart"></span>
+                        <strong class="charts">Charts</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="FormsPage.html">
+                        <span class="iconfont icon-form"></span>
+                        <strong class="forms">Forms</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-example"></span>
+                        <strong class="example">Example dropdown </strong>
+                        <span class="iconfont icon-example2"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-logout"></span>
+                        <strong class="example">Login page </strong>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Extras -->
+            <span class="main">Extras</span>
+            <ul class="leftList">
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-demo1"></span>
+                        <strong class="Demo1">Demo</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-demo2"></span>
+                        <strong class="Demo2">Demo</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-demo3"></span>
+                        <strong class="Demo3">Demo</strong>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="m-right">
+            <!-- 右边中间部分头部 -->
+            <div class="rightDash">
+                <div class="dashBoard">
+                    <h2 class="dashSize">Tables</h2>
+                </div>
+            </div>
+
+<!-- -------------------------------------------------------------------------------------------------------- -->
+               <!-- Home/Tables -->
+
+            <div class="homeTab">
+                <ul>
+                    <li><a href="HomePage.html" class="homeT">Home&nbsp;</a></li>
+                    <li  class="tableH">/&nbsp;Tables</li>
+                </ul>
+            </div>
+<!-- ---------------------------------------------------------------------------------------------------------------- -->
+            <!-- 表格 -->
+
+            <div class="tableBox">
+                <div class="table">
+                    <div class="tableTit">
+                        <strong>Basic Table</strong>
+                    </div>
+                    <div class="tableName">
+                        <table class="tableN" >
+                            <thead>
+                                <tr class="firstTh">
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                </tr>
+                            </thead>
+                
+                            <tr>
+                                <th>1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="table table2">
+
+                    <div class="tableTit">
+                        <strong>Striped Table</strong>
+                    </div>
+                    <div class="tableName">
+                        <table class="tableN tableN1" >
+                            <thead>
+                                <tr class="firstTh">
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                </tr>
+                            </thead>
+                
+                            <tr>
+                                <th>1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+
+                <div class="table">
+
+                    <div class="tableTit">
+                        <strong>Striped table with hover effect</strong>
+                    </div>
+                    <div class="tableName">
+                        <table class="tableN tableN1" >
+                            <thead>
+                                <tr class="firstTh">
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                </tr>
+                            </thead>
+                
+                            <tr>
+                                <th>1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+
+                <div class="table">
+
+                    <div class="tableTit">
+                        <strong>Compact Table</strong>
+                    </div>
+                    <div class="tableName">
+                        <table class="tableN2" >
+                            <thead>
+                                <tr class="firstTh">
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                </tr>
+                            </thead>
+                
+                            <tr class="secondTr">
+                                <th>1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th>2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th>3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                            <tr>
+                                <th>4</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr class="fifthTr">
+                                <th>5</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                        </table>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- ------------------------------------------底部-------------------------------------------------- -->
+          
+            <!-- footer -->
+            <footer class="foot">
+                Copyright © 2019.Company name All rights reserved.More Templates
+            </footer>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

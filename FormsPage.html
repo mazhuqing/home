@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="css/FormsPage.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/HomgPage.js"></script>
+    <script src="node_modules/echarts/dist/echarts.js"></script>
+    <title>表单</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="h-top">
+            <div class="topLeft">
+                <a href="#" class="DarkAdmin">
+                    <strong class="leftDark">DARK</strong>
+                    <span class="leftAdmin">ADMIN</span>
+                </a>
+                <a href="#" class="leftImg"><img src="image/top1.png" width="36px"></a>
+                <a href="#" class="DA">
+                    <strong class="leftD">D</strong>
+                    <span class="leftA">A</span>
+                    <img src="image/top2.png" width="30px">
+                </a>
+            </div>
+            <div class="topRight">
+                <a href="#"><span class="iconfont icon-shousuo"></span></a>
+                <a href="#"><span class="iconfont icon-youjian"></span></a>
+                <a href="#"><span class="iconfont icon-jishiben"></span></a>
+                <a href="#">Mega<span class="iconfont icon-Mega"></span></a>
+                <a href="#"><img src="image/GB.png">English<span class="iconfont icon-english"></span></a>
+                <a href="#" class="logRight">Logout<img src="image/logout.png" width="24px" class="logImg"></span></a>
+            </div>
+        </div>
+    </header>
+  
+    <!-- middle content -->
+    <div class="middle">
+        <div class="m-left">
+            <div class="leftMask">
+                <div class="maskImg"><img src="image/avatar-6.jpg" width="60px" height="60"></div>
+                <div class="maskWeb">
+                    <h3>Mark Stephen</h3>
+                    <p>Web Designer</p>
+                </div>
+            </div>
+
+            <!-- Main -->
+            <span class="main">Main</span>
+            <ul class="leftList">
+                <li class="active">
+                    <a href="HomePage.html">
+                        <span class="iconfont icon-home"></span>
+                        <strong class="home">Home</strong>
+                    </a>
+                </li>
+                <li class="active1">
+                    <a href="TablePage.html">
+                        <span class="iconfont icon-table"></span>
+                        <strong class="tables">Tables</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-chart"></span>
+                        <strong class="charts">Charts</strong>
+                    </a>
+                </li>
+                <li class="active3">
+                    <a href="#">
+                        <span class="iconfont icon-form"></span>
+                        <strong class="forms">Forms</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-example"></span>
+                        <strong class="example">Example dropdown </strong>
+                        <span class="iconfont icon-example2"></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-logout"></span>
+                        <strong class="example">Login page </strong>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Extras -->
+            <span class="main">Extras</span>
+            <ul class="leftList">
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-demo1"></span>
+                        <strong class="Demo1">Demo</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-demo2"></span>
+                        <strong class="Demo2">Demo</strong>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="iconfont icon-demo3"></span>
+                        <strong class="Demo3">Demo</strong>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="m-right">
+            <!-- 右边中间部分头部 -->
+            <div class="rightDash">
+                <div class="dashBoard">
+                    <h2 class="dashSize">Basic forms</h2>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------------------------------------- -->
+                <!-- Home/Tables -->
+
+                <div class="homeTab">
+                    <ul>
+                        <li><a href="HomePage.html" class="homeT">Home&nbsp;</a></li>
+                        <li class="tableH">/&nbsp;Basic forms</li>
+                    </ul>
+                </div>
+    <!-- -----------------------------------------表单----------------------------------------------------------- -->
+                <div class="formS">
+                    <div class="formBox formBox1">
+                        <div class="formTit">
+                            <strong class="titleOne">Basic Form</strong>
+                            <span class="titleTwo">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="" class="formLab">Email</label>
+                                    <input type="email" placeholder="Email Address" class="formEma">
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="" class="formLab">Password</label>
+                                    <input type="password" placeholder="Password" class="formEma">
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="submit" value="Signin" class="formSub">
+                                 </div>
+                            </form>
+                      
+                    </div>
+
+
+
+
+
+
+                    <div class="formBox formBox2">
+                        <div class="formTit">
+                            <strong class="titleOne">Horizontal Form</strong>
+                            <span class="titleTwo">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                            <form action="">
+                                <div class="form-group">
+                                    <label for="" class="formLab formLab1">Email</label>
+                                <div class="form-email">
+                                    <input type="email" placeholder="Email Address" class="formEma formEma1">
+                                    <small class="formSma">Example help text that remains unchanged.</small>
+                                </div>
+                                   
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="" class="formLab formLab2">Password</label>
+                                <div class="form-email form-pwd">
+                                    <input type="password" placeholder="Password" class="formEma">
+                                    <small class="formSma">Example help text that remains unchanged.</small>
+                                </div> 
+                                 </div>
+                                 <div class="form-group">
+                                    <input type="submit" value="Signin" class="formSub formSub1">
+                                 </div>
+                            </form>
+                    </div>
+                    <div class="formBox formBox3">
+                        <div class="formTit">
+                            <strong class="titleOne">Inline Form</strong>
+                        </div>
+                        <form action="">
+                            <div class="form-group">
+                                <input type="text" placeholder="Jane Doe" class="formEma formEma2">
+                             </div>
+                             <div class="form-group">
+                                <input type="text" placeholder="Username" class="formEma formEma3">
+                             </div>
+                             <div class="form-group">
+                                <input type="submit" value="Submit" class="formSub formSub3">
+                             </div>
+                        </form>
+                    </div>
+                    <div class="formBox formBox4">
+                        <div class="formTit">
+                            <strong class="titleOne">Modal Form</strong>
+                        </div>
+                        <div class="form-group">
+                            <button class="formSub formSub4">Form in simple modal</button>
+                         </div>
+                    </div>
+
+                    <div class="formBox formBox5">
+                        <div class="formTit">
+                            <strong class="titleOne"> All form elements</strong>
+                        </div>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="" class="formLab">Normal</label>
+                                <div class="form-email">
+                                    <input type="text"  class="formEma formEmaNor">
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formHelp formHelp1">Help text</label>
+                                <div class="form-email form-help">
+                                    <input type="text" class="formEma " id="formHe">
+                                    <br>
+                                    <small class="formSma">A block of help text that breaks onto a new line and may extend beyond one line.</small>
+                                </div>
+                             </div>
+                             <div class="form-group">
+                                <label for="" class="formLab formPwd">Password</label>
+                            <div class="form-email">
+                                <input type="password"  class="formEma form-pwd">
+                            </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formPwd">Placeholder</label>
+                                <div class="form-email">
+                                    <input type="text" placeholder="placeholder" class="formEma form-pwd">
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formPwd">Disabled</label>
+                                <div class="form-email">
+                                    <input type="text" placeholder="Disabled input here..." class="formEma form-pwd formDis">
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formChe">Checkboxes and radios
+                                    <br>
+                                    <small class="text-primary">Normal Bootstrap elements</small>
+                                </label>
+
+                               <div class="checkLab">
+                                <div class="boxSm1">
+                                    <input type="checkbox" id="option">
+                                    <label for="option">Option one is this and that—be sure to include why it's great</label> 
+                                </div>
+                                <div class="boxSm2">
+                                    <input type="radio" checked value="option1" id="optionsRadios1" name="optionsRadios">
+                                    <label for="optionsRadios1">Option one is this and that be sure to include why it's great</label>
+                                </div>
+                                <div class="boxSm3">
+                                    <input type="radio" value="option2" id="optionsRadios2" name="optionsRadios">
+                                    <label for="optionsRadios2">Option two can be something else and selecting it will deselect option one</label>
+                                </div>
+                               </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formHelp">Inline checkboxes</label>
+                                <div class="checkLab checkA">
+                                    <label for=""><input type="checkbox" value="option1" id="inlineCheckbox1">&nbsp;a</label>
+                                    <label for=""><input type="checkbox" value="option2" id="inlineCheckbox2">&nbsp;b</label>
+                                    <label for=""><input type="checkbox" value="option3" id="inlineCheckbox3">&nbsp;c</label>
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formChe formChe1">Checkboxes & radios
+                                    <br>
+                                    <small class="text-primary">Custom elements</small>
+                                </label>
+                                <div class="checkLab">
+                                    <div class="i-checks1 i-checks">
+                                        <span class="iconfont icon-square"></span>
+                                        <label class="iconTxt"> Option one</label>
+                                    </div>
+                                    <div class="i-checks2 i-checks">
+                                        <span class="iconfont icon-square2"></span>
+                                        <label class="iconTxt"> Option two checked</label>
+                                    </div>
+                                    <div class="i-checks3 i-checks">
+                                        <span class="iconfont icon-square2"></span>
+                                        <label class="iconTxt">Option three checked and disabled</label>
+                                    </div>
+                                    <div class="i-checks4 i-checks">
+                                        <span class="iconfont icon-square"></span>
+                                        <label class="iconTxt">Option four disabled</label>
+                                    </div>
+                                    <div class="i-checks5 i-checks">
+                                        <span class="iconfont icon-yuandian1"></span>
+                                        <label class="iconTxt">Option one</label>
+                                    </div>
+                                    <div class="i-checks6 i-checks">
+                                        <span class="iconfont icon-choiceO"></span>
+                                        <label class="iconTxt">Option two checked</label>
+                                    </div>
+                                    <div class="i-checks7 i-checks">
+                                        <span class="iconfont icon-choiceO"></span>
+                                        <label class="iconTxt">Option three checked and disabled</label>
+                                    </div>
+                                    <div class="i-checks8 i-checks">
+                                        <span class="iconfont icon-yuandian1"></span>
+                                        <label class="iconTxt">Option four disabled</label>
+                                    </div>
+                                </div>
+                               
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formSel">Select</label>
+                                <div class="form-email">
+                                   <select name="account" class="form-control formControls">
+                                       <option value="">option 1</option>
+                                       <option value="">option 2</option>
+                                       <option value="">option 3</option>
+                                       <option value="">option 4</option>
+                                   </select>
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <div class="form-email">
+                                   <select multiple class="form-control formControl">
+                                       <option value="">option 1</option>
+                                       <option value="">option 2</option>
+                                       <option value="">option 3</option>
+                                       <option value="">option 4</option>
+                                   </select>
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formInp">Input with success</label>
+                                <div class="form-email">
+                                  <input type="text" class="form-control is-valid">
+                                  <span class="iconfont icon-duihao1"></span>
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formErr">Input with error</label>
+                                <div class="form-email">
+                                  <input type="text" class="form-control is-invalid">
+                                  <span class="iconfont icon-cuohao"></span>
+                                  <div class="invalid-feedback">Please provide your name.</div>
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formCon">Control sizing</label>
+                                <div class="form-email">
+                                  <input type="text" class="form-control form-control-lg" placeholder=".input-lg">
+                                </div>
+                                <div class="form-email">
+                                    <input type="text" class="form-control form-control-De" placeholder="Default input">
+                                </div>
+                                <div class="form-email">
+                                    <input type="text" class="form-control form-control-sm" placeholder=".input-sm">
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab">Column sizing</label>
+                                <div class="form-email">
+                                    <div>
+                                        <input type="text" class="form-control form-con1" placeholder=".col-md-3">
+                                    </div>
+                                    <div class="con2">
+                                        <input type="text" class="form-control form-con2" placeholder=".col-md-4">
+                                    </div>
+                                    <div class="con2">
+                                        <input type="text" class="form-control form-con3" placeholder=".col-md-5">
+                                    </div>
+                                </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label for="" class="formLab formMat">Material Inputs</label>
+                                <div class="form-email">
+                                  <input  type="text"  name="registerUsername" required class="input-material material1">
+                                  <label class=" formTet formTet1">Username</label>
+                                </div>
+                                <div class="form-email">
+                                    <input  type="email" name="registerEmail" required class="input-material material2">
+                                    <label class="formTet formTet2">Email Address      </label>
+                                </div>
+                                <div class="form-email">
+                                    <input type="password"  name="registerPassword" required class="input-material material3">
+                                    <label class="formTet formTet3">Password        </label>
+                                </div>
+                             </div>
+
+
+                             <div class="form-group">
+                                <label for="" class="formLab formGro">Input groups</label>
+                                <div class="form-email">
+                                    <div class="texts">
+                                        <div class="input-group-prepend"><span class="input-group-text">@</span></div>
+                                        <input type="text" placeholder="Username" class="form-control formTexts">
+                                    </div>
+                                    <div>
+                                        <input type="text" class="form-control formTexts formTexts1 formTexts2">
+                                        <div class="input-group-prepend"><span class="input-group-text group-text1">.00</span></div>
+                                    </div>
+                                    <div>
+                                        <div class="input-group-prepend"><span class="input-group-text group-text2" >$</span></div>
+                                        <input type="text" class="form-control formTexts formTexts1">
+                                        <div class="input-group-prepend"><span class="input-group-text group-text3">.00</span></div>
+                                    </div>
+                                    <div class="input-groups">
+                                        <div class="input-group-prepend1"><input type="checkbox" class="input-group-text inputTxt"></div>
+                                        <input type="text" class="form-control formTexts formTexts4">
+                                    </div>
+                                    <div class="input-groups">
+                                        <div class="input-group-prepend2 input-group-prepend1">
+                                            <span class="iconfont icon-square"></span>
+                                        </div>
+                                        <input type="text" class="form-control formTexts formTexts5">
+                                    </div>
+                                    <div class="input-groups">
+                                        <div class="input-group-prepend1 input-group-prepend3">
+                                            <input type="radio" class="input-group-text inputTxt2">
+                                        </div>
+                                        <input type="text" class="form-control formTexts formTexts6">
+                                    </div>
+                                    <div class="input-groups">
+                                        <div class="input-group-prepend1 input-group-prepend4">
+                                            <span class="iconfont icon-yuandian1"></span>
+                                        </div>
+                                        <input type="text" class="form-control formTexts formTexts7">
+                                    </div>
+                                </div>
+                             </div>
+
+
+                             <div class="form-group">
+                                 <label class="formLab formAdd">Button addons</label>
+                                 <div class="form-email">
+                                     <div class="subTo">
+                                         <button type="button" class="formSub formGo1">Go!</button>
+                                    </div>
+                                    <input type="text" class="form-control controlOne">
+                                </div>
+                                <div class="form-email">
+                                    <input type="text" class="form-control controlTwo">
+                                    <div class="subTo">
+                                        <button type="button" class="formSub formGo2">Go!</button>
+                                   </div>
+                               </div>
+                             </div>
+
+                             <div class="form-group">
+                                <label class="formLab formWit">With dropdowns</label>
+                                <div class="form-email">
+                                    <div class="toggle">
+                                        <button type="button" class="dropdown-toggle">Action 
+                                            <span class="iconfont icon-english"></span>
+                                        </button>
+                                    </div>
+                                   <input type="text" class="form-control form-controlThree">
+                               </div>
+                            </div>
+
+
+                             <div class="form-group">
+                                 <button type="submit" class="formSub formCan">Cancel</button>
+                                 <button type="submit" class="formSub formSav ">Save changes</button>
+                             </div>
+                        </form>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ------------------------------------------------底部------------------------------------------------------- -->
+            <!-- footer -->
+            <footer class="foot">
+                Copyright © 2019.Company name All rights reserved.More Templates
+            </footer>
+
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

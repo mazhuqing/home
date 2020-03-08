@@ -1,0 +1,6653 @@
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,hr,td,input,textarea{
+	margin:0;
+    padding:0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #8a8d93;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+}
+body{
+    font-family: "Muli", sans-serif;
+     font-size: 1rem;
+     font-weight: 400; 
+     line-height: 1.5; 
+     color: #8a8d93; 
+     /* overflow:-Scroll;
+     overflow-x:hidden; */
+     background-color:#22252a;   
+}
+
+ @media screen and (min-width: 1200px){ 
+
+        /* header */
+
+     .header{
+                width: 100%;
+                height: 83px;
+                background-color: #2d3035;
+                position: relative;
+                border-bottom: 1px solid #34373d;
+        }
+        .h-top{
+            width: 97%;
+            height: 42px;
+            position: absolute;
+            left: 1.5%;
+            top: 25%;
+        }
+
+        /* 头部左边 */
+        .topLeft{
+            width:200px ;
+            height:40px ;
+        }
+        .DarkAdmin{
+            font-size: 1.25rem;
+            display: block;
+            padding: 5px;
+            /* display: none; */
+        }
+        .leftDark{
+           color: #db6574;
+          
+        }
+        .leftAdmin{
+            font-weight: bold;
+            color: #8a8d93;
+
+        }
+        .leftImg{
+            float: right;
+            margin-top: -38px;
+
+        }
+        .DA{
+            font-size: 1.25rem;
+            display: none;
+            padding: 5px;
+        }
+        .leftD{
+            color: #db6574;
+        }
+        .leftA{
+            font-weight: bold;
+            color: #8a8d93;
+        }
+        .leftImg1{
+            float: right;
+            position: relative;
+            left: -115px;
+            top:-36px ;
+            display: none;
+        }
+
+        .topRight{
+            width:412px ;
+            height:42px ;
+            float: right;
+            margin-top: -44px;
+            /* background-color: turquoise; */
+           
+        }
+        .topRight a .icon-shousuo{
+            font-size: 1.3rem;
+           color:#8a8d93 ; 
+           margin-left: -2px;
+        }
+        .topRight a .icon-youjian{
+            color:#8a8d93 ; 
+            margin-left: -7px;
+            font-size: 1.3rem;
+         }
+        .topRight a .icon-jishiben{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+            font-size: 1.3rem;
+         }
+         .topRight a{
+            color:#888b91;
+            display: inline-block;
+            margin-top: -12px;
+         }
+         .topRight a .icon-Mega{
+            color:#8a8d93 ; 
+            margin-left: -6px;
+         }
+         .topRight a .icon-english{
+            color:#8a8d93 ; 
+            margin-left: -4px;
+         }
+         .topRight .logRight{
+             position: relative;
+         }
+         .topRight .logImg{
+           position: absolute;
+           top: 0px;
+           right:-27px;
+         }
+
+
+
+         /* middle content */
+         .middle{
+             width:100% ;
+             height:890px ;
+             /* background-color: cornflowerblue; */
+         }
+         /* 左边 */
+         .m-left{
+             float: left;
+             width:278px ;
+             height: 3065px;
+             background-color: #2d3035;
+             border-right: 1px solid #3d3934;
+         }
+         /* 左边顶部 */
+         .leftMask{
+             width:100%;
+             height:120px ;
+             /* background-color: magenta; */
+         }
+         .maskImg{
+             padding-top: 22px;
+             padding-left: 17px;
+         }
+         .maskImg img{
+             border-radius: 50%;
+         }
+
+         .maskWeb{
+             float: right;
+             margin-right: 60px;
+             margin-top: -63px;
+         }
+         .maskWeb h3{
+             font-size: 1.1rem;
+             color: #8a8d93;
+         }
+         .maskWeb p{
+             font-size: 0.9rem;
+             color: #6A6C70;
+         }
+         .main{
+            font-weight: 700;
+            margin-left: 20px;
+            color: #494d53;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+         }
+         /* 左边列表项 */
+         .leftList{
+            width:100%;
+            height:384px ;
+            padding-left: 0;
+            list-style: none;
+            background-color: #2d3035;
+            margin-bottom: 0px;
+         }
+         .leftList li{
+             height:64px ;
+         }
+         /* .leftList .active{
+            border-left: 2px solid #bf5d6b ; 
+             background-color: #34373d; 
+           
+         } */
+         .active .icon-home{
+            font-size: 24px;
+            border-right: 1px solid #4a4a4c;
+         }
+          .active3 .forms{
+            color: #d6d8da;
+         } 
+
+         .leftList .active3{
+            border-left: 2px solid #bf5d6b ;
+            background-color: #34373d;
+           
+         }
+         .active3 .icon-form{
+            color: #bf5d6b;
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         
+         a .icon-chart{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-table{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-example{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-logout{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo1{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo2{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .icon-demo3{
+            border-right: 1px solid #4a4a4c;
+            font-size: 1.5rem; 
+         }
+         a .iconfont{
+             color: #64666a;
+            margin-left: 16px;
+            display: inline-block;
+            margin-top: 18px;
+            width: 40px;
+            height: 32px;
+            
+         }
+         li a strong{
+            margin-left: 15px;
+            color: #64666a;
+            font-weight: normal;
+         }
+        a .icon-example2{
+             margin-right: -57px;
+         }
+
+         /* 右边中间部分 */
+         .m-right{
+            height: 857px;
+             /* background-color: lightgreen; */
+         }
+         /* 右边中间部分头部 */
+         .rightDash{
+             padding: 20px 15px;
+             background-color: #2d3035;
+             color: #8a8d93;
+             margin-bottom: 30px;
+         }
+         .dashBoard{
+            padding-right: 40px;
+            padding-left: 295px;
+         }
+         .dashSize{
+             font-size: 1.1rem;
+         }
+
+         
+         /* ---------------------------------- Home/Tables-------------------------------------------------- */
+         .homeTab{
+            width: 73%;
+            height: 64px;
+            margin-top: -30px;
+            margin-left: 25%;
+         }
+         .homeTab ul li{
+             display: inline;
+             line-height: 4rem;
+             font-size: 0.9rem;
+             font-weight: 500;
+         }
+         .homeTab .homeT{
+            color: #DB6574;
+           
+        }
+        .homeTab .tableH{
+            color: #585a5f;
+        }
+
+        .homeT:hover{
+            color:#c52e41 ;
+        }
+
+        /* --------------------------------------表单--------------------------------------------------------------- */
+
+        .formS{
+            height:2812px ;
+            /* background-color: blue; */
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            position: relative;
+        }
+
+        .formBox{
+            background-color:#2d3035;
+            padding: 20px;
+            margin-left: 30px;
+            /* background: #2d3035; */
+            color: #8a8d93;
+            margin-bottom: 30px;
+        }
+        .formBox1{
+            width:41% ;
+            height:306px ;
+        }
+        .formBox2{
+            width:41% ;
+            height:288px ;
+        }
+        .formBox3{
+            width: 53%;
+            height: 130px;
+            position: absolute;
+            top: 376px;
+        }
+        .formBox4{
+            width: 29%;
+            height: 90px;
+            position: absolute;
+            top: 376px;
+            left: 60%;
+        }
+        .formBox5{
+            width: 89%;
+            height: 2205px;
+            position: absolute;
+            top: 567px;
+        }
+       
+        .formTit{
+            margin-bottom: 20px;
+        }
+        .formTit .titleOne{
+            font-size: 1.25rem;
+            color: #a5a7ab;
+        }
+        .formTit .titleTwo{
+            display: block;
+        }
+        .form-group{
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        .form-group .formLab{
+            color: #777;
+            font-size: 0.9rem;
+        }
+        label {
+            display: inline-block;
+            margin-bottom: .5rem;
+        }
+        button, input {
+            overflow: visible;
+        }
+        input {
+            outline: none;
+        }
+        #formHe{
+            width: 552px;
+        }
+        .form-group .formEma{
+            /* display: block; */
+            width: 88%;
+            font-size: 0.9rem;
+            font-weight: 400;
+            line-height: 1.5;
+            height: 24px;
+            border: 1px solid #444951;
+            background: transparent;
+            border-radius: 0;
+            color: #979a9f;
+            padding: 0.45rem 0.75rem;
+        }
+        .form-group .formSub{
+            background-color: #DB6574;
+            border-color: #DB6574;
+            border: 1px solid transparent;
+            padding: 0.45rem 0.75rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            color: #fff;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .form-group .formSub:hover{
+            background-color: #d44658;
+        }
+        .form-group .formLab1{
+            margin-bottom: 3rem;
+        }
+        .form-group .form-email{
+            position: absolute;
+            left: 100px;
+            top: 0px;
+            padding-right: 8px;
+        }
+        .form-email .formSma{
+            font-size: 0.79rem;
+        }
+        .form-group .formSub1{
+            margin-left: 102px;
+            margin-top: 36px;
+        }
+
+
+
+        .form-group .formEma2{
+            width: 36%;
+        }
+        .form-group .formEma3{
+            width: 36%;
+            position: absolute;
+            left: 226px;
+            top: -65px;
+        }
+        .form-group .formSub3{
+            margin-top: -29px;
+        }
+        .form-group .formSub4{
+            margin-left: 30px;
+            cursor: pointer;
+        }
+
+
+        .form-email .formEmaNor{
+            width: 178%;
+            margin-left: 125px;
+        }
+        .form-group .formHelp{
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        .form-group .form-help{
+            width: 69%;
+            margin-left: 125px;
+            margin-top: 10px;
+        }
+        .form-group .formPwd{
+            margin-top: 10px;
+        }
+        .form-email .form-pwd{
+            width: 178%;
+            margin-left: 125px;
+            margin-top: 10px;
+        }
+        .form-email  .formDis{
+            background: #444951;
+        }
+        .form-group .formChe{
+            margin-top: 20px;
+        }
+        .formChe .text-primary{
+            color: #DB6574;
+            font-size: 0.7rem;
+        }
+        .form-group .checkLab{
+            margin-left: 226px;
+            margin-top: -50px;
+            font-size: .85rem;
+        }
+        .form-group .formChe1 {
+            margin-top: 20px;
+            margin-bottom: 200px;
+        }
+        .checkLab{
+            position: relative;
+        }
+        .i-checks1 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -192px;
+        }
+        .i-checks1 .icon-square{
+            font-size: 2rem;
+            position: absolute;
+            left: -7px;
+            top: -205px;
+            cursor: pointer;
+        }
+       
+        .i-checks2 .icon-square2{
+            font-size: 1.8rem;
+            position: absolute;
+            left: -5px;
+            top: -170px;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .i-checks2 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -158px;
+           
+        }
+        .i-checks3 .icon-square2{
+            font-size: 1.8rem;
+            position: absolute;
+            left: -5px;
+            top: -136px;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .i-checks3 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -125px;
+           
+        }
+        .i-checks4 .icon-square{
+            font-size: 2rem;
+            position: absolute;
+            left: -7px;
+            top: -107px;
+            cursor: pointer;
+        }
+        .i-checks4 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -93px;
+           
+        }
+
+        .i-checks5 .icon-yuandian1{
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0px;
+            top: -66px;
+            cursor: pointer;
+        }
+        .i-checks5 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -61px;
+           
+        }
+        .i-checks6 .icon-choiceO{
+            font-size: 1.7rem;
+            position: absolute;
+            left: -4px;
+            top: -38px;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .i-checks6 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -28px;
+        }
+        .i-checks7 .icon-choiceO{
+            font-size: 1.7rem;
+            position: absolute;
+            left: -4px;
+            top: -7px;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .i-checks7 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: 2px;
+        }
+        .i-checks8 .icon-yuandian1{
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0px;
+            top: 28px;
+            cursor: pointer;
+        }
+        .i-checks8 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: 33px; 
+        }
+
+        .form-group .formSel{
+            margin: 82px 185px 120px 0;
+        }
+
+        .form-control{
+            width: 246%;
+            border: 1px solid #444951;
+            background: transparent;
+            border-radius: 0;
+            color: #979a9f;
+            padding: 0.75rem 0.75rem;
+            margin: 67px 0 -113px 126px;
+            font-size: 1rem;
+        }
+        .formControl{
+            margin: -107px 0 25px 126px;
+        }
+        .form-group .formInp{
+            margin: 30px 0 10px 0;
+        }
+        .form-email .is-valid{
+            border-color: #28a745;
+            width: 153%;
+            margin: 20px 0 25px 126px;
+        }
+        .form-email{
+            position: relative;
+        }
+        .form-email .icon-duihao1{
+            font-size: 1.5rem;
+            color: #28a745;
+            position: absolute;
+            left: 183%;
+            top: 25px;
+        }
+
+        .form-email .is-invalid{
+            border-color: #dc3545;
+            width: 153%;
+            margin: 4px 0 25px 126px;
+        }
+        .form-email .invalid-feedback{
+            width: 100%;
+            margin-top: .25rem;
+            font-size: 80%;
+            color: #dc3545;
+            margin: -22px 0 25px 126px;
+        }
+        .form-email .icon-cuohao{
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #dc3545;
+            position: absolute;
+            left: 183%;
+            top: 13px;
+        }
+        .form-group .formErr{
+            margin:0px 0 46px 0px;
+        }
+        .form-group .formCon{
+            margin: 0px 0 127px 0px;
+        }
+        .form-control-lg{
+            margin: 0px 0 0 128px;
+            width: 170%;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .form-control-De{
+            width: 170%;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: 55px 0 0 128px;
+        }
+        .form-control-sm{
+            margin: 111px 0 0 128px;
+            width: 170%;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .form-con1{
+            margin: 0px 0 0 128px;
+            width: 32%;
+            padding: 0.6rem 0.75rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+        }
+        .con2{
+            position: relative;
+        }
+        .form-con2{
+            margin: 0px 0 0 128px;
+            width: 44%;
+            padding: 0.6rem 0.75rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+            position: absolute;
+            left: 155px;
+            top: -38px;
+        }
+        .form-con3{
+            margin: 0px 0 0 128px;
+            width: 60%;
+            padding: 0.6rem 0.75rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+            position: absolute;
+            left: 346px;
+            top: -38px;
+        }
+        .formMat{
+            margin: 0px 100px 150px 0px;
+        }
+        .input-material{
+            border: none;
+            border-bottom: 1px solid #444951;
+            padding: 10px 0;
+            background: none;
+            color: #8a8d93;
+           
+        }
+        .material1{
+            width: 186%;
+            margin: 10px 0px 10px 130px;
+        }
+        .material2{
+            margin: 70px 0px 10px 130px;
+            width: 186%;
+        }
+        .material3{
+            margin: 130px 0px 10px 130px;
+            width: 186%;
+        }
+       .form-email .formTet{
+        color: #aaa;
+        cursor: text;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        font-weight: 300;
+        font-size: .8rem;
+        display: block;
+        margin-bottom: .5rem;
+       }
+       .form-email .formTet1{
+        margin-top: -38px;
+        margin-left: 44%;
+       }
+       .form-email .formTet2{
+        margin-top: -38px;
+        margin-left: 44%;
+       }
+       .form-email .formTet3{
+        margin-top: -34px;
+        margin-left: 44%;
+       }
+
+       .formGro{
+           margin: 0 0 100px 0;
+       }
+       .texts .formTexts{
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0px 0 0px 175px;
+        width: 136%;
+       }
+       .input-group-prepend{
+          position: relative;
+       }
+       .input-group-text{
+        padding: 0.4px 12px;
+        background: #363a40;
+        color: #8a8d93;
+        font-weight: 300;
+        border-radius: 0;
+        border: 1px solid #444951;
+        position: absolute;
+        left: 37%;
+        top: 0px;
+        text-align: center;
+        line-height: 40px;
+        z-index: 1;
+       }
+       .formTexts1{
+        width: 135%;
+        margin-top: 14px;
+        margin-left: 134px;
+        margin-bottom: 0px;
+       }
+       .group-text1{
+        position: absolute;
+        left: 179%;
+        top: -44px;
+       }
+       .group-text2{
+        position: absolute;
+        left: 37%;
+        top: -44px;
+       }
+       .group-text3{
+        position: absolute;
+        left: 179%;
+        top: -44px;
+       }
+       .formTexts2{
+        width: 126%;
+        margin-left: 46%;
+       }
+       .formTexts3{
+           width: 100%;
+           margin: 10px 0 0 10px;
+       }
+     
+       .input-group-prepend1{
+        width: 40px;
+        background: #363a40;
+        height: 42px;
+        position: absolute;
+        left: 37%;
+        top: 10px;
+        border: 1px solid #444951;
+       }
+       .input-groups{
+           position: relative;
+       }
+       .formTexts4{
+        width: 137%;
+        position: absolute;
+        left: 13%;
+        top: -57px;
+    }
+    .inputTxt{
+        margin-top: 15px;
+    }
+    .input-group-prepend2{
+        position: absolute;
+        left: 13%;
+        top: -57px;
+    }
+    .formTexts5{
+        width: 137%;
+        position: absolute;
+        left: 13%;
+        top: 0px;
+    }
+    .formTexts6{
+        width: 137%;
+        position: absolute;
+        left: 13%;
+        top: 58px;
+    }
+    .formTexts7{
+        width: 137%;
+        position: absolute;
+        left: 13%;
+        top: 116px;
+    }
+    .input-group-prepend2{
+        position: absolute;
+        left: 37%;
+        top: 67px;
+    }
+    .input-group-prepend3{
+        position: absolute;
+        left: 37%;
+        top: 125px;
+    }
+    .input-group-prepend4{
+        position: absolute;
+        left: 37%;
+        top: 183px;
+    }
+    .input-groups .icon-yuandian1{
+        font-size: 1rem;
+        margin-left: 12px;
+        line-height: 2.5rem;
+    }
+    .inputTxt2{
+        text-align: center;
+        margin-top: 16px;
+    }
+    .input-groups .icon-square{
+        margin-left: 9px;
+        line-height: 2.5rem;
+    }
+
+    .formAdd{
+        margin: 280px 0 0px 0;
+       }
+    .controlOne{
+        margin-top: 282px;
+        margin-left: 80%;
+        width: 215%;
+        height: 13px;
+    }
+    .subTo{
+        position: relative;
+    }
+    .subTo .formGo1{
+        position: absolute;
+        left: 59%;
+        top: 282px;
+    }
+    /* .subTo .formGo1:hover{
+        cursor: pointer;
+        background-color: #DB6574;
+        border-color: #DB6574;
+    } */
+    .controlTwo{
+        margin-top: 336px;
+        margin-left: 59%;
+        width: 215%;
+        height: 13px;
+    }
+    .subTo .formGo2{
+        position: absolute;
+        left: 285%;
+        top: -31px;
+    }
+    .formWit{
+        margin-top: 89px;
+    }
+    .toggle{
+        position: relative;
+    }
+    .dropdown-toggle{
+        width: 100px;
+        height: 44px;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: .25rem;
+        cursor: pointer;
+        background-color: #2d3035;
+        position: absolute;
+        left: 136px;
+        top: 84px;
+        color: #868e96;
+        border: 1px solid #868e96;
+        font-size: 1rem;
+    }
+    .toggle .dropdown-toggle:hover{
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+    .form-controlThree{
+        margin-top: 84px;
+        margin-left: 104%;
+        width: 191%;
+    }
+    .form-group .formCan{
+        margin-left: 236px;
+        background-color: #868e96;
+        border-color: #868e96;
+    }
+    .form-group .formCan:hover{
+        background-color: #6c757d;
+    }
+    .toggle .icon-english{
+        position: absolute;
+        left: 70px;
+        top: 8px;
+        color: #868e96;
+    }
+    .toggle .icon-english:hover{
+        color: #fff;
+    }
+     
+
+        /* ------------------------------------------------底部------------------------------------------------- */
+
+        .foot{
+            /* width:73% ; */
+            height:50px ;
+            text-align: center;
+            line-height: 50px;
+            padding: 20px;
+            background: #2d3035;
+            margin-top: 31px;
+            margin-left: 280px;
+        }
+ }
+
+ 
+
+    @media screen and (min-width: 992px) and (max-width: 1200px){
+          /* header */
+
+          .header{
+            width: 100%;
+            height: 83px;
+            background-color: #2d3035;
+            position: relative;
+            border-bottom: 1px solid #34373d;
+    }
+    .h-top{
+        width: 97%;
+        height: 42px;
+        position: absolute;
+        left: 1.5%;
+        top: 25%;
+    }
+
+    /* 头部左边 */
+    .topLeft{
+        width:200px ;
+        height:40px ;
+    }
+    .DarkAdmin{
+        font-size: 1.25rem;
+        /* display: block; */
+        padding: 5px;
+        display: none;
+    }
+    .leftDark{
+       color: #db6574;
+      
+    }
+    .leftAdmin{
+        font-weight: bold;
+        color: #8a8d93;
+
+    }
+    .leftImg{
+        float: right;
+        margin-top: -38px;
+        display: none;
+
+    }
+    .DA{
+        font-size: 1.25rem;
+        display: block;
+        padding: 5px;
+        position: relative;
+    }
+    .leftD{
+        color: #db6574;
+    }
+    .leftA{
+        font-weight: bold;
+        color: #8a8d93;
+    }
+    .DA img{
+        position: absolute;
+        top: 5px;
+        left: 52px;
+    }
+
+    .topRight{
+        width:412px ;
+        height:42px ;
+        float: right;
+        margin-top: -44px;
+        /* background-color: turquoise; */
+       
+    }
+    .topRight a .icon-shousuo{
+        font-size: 1.3rem;
+       color:#8a8d93 ; 
+       line-height: 5rem;
+    }
+    .topRight a .icon-youjian{
+        color:#8a8d93 ; 
+        font-size: 1.3rem;
+     }
+    .topRight a .icon-jishiben{
+        color:#8a8d93 ; 
+        font-size: 1.3rem;
+     }
+     .topRight a{
+        color:#888b91;
+        display: inline-block;
+        margin-top: -12px;
+     }
+     .topRight a .icon-Mega{
+        color:#8a8d93 ; 
+     }
+     .topRight a .icon-english{
+        color:#8a8d93 ; 
+     }
+     .topRight .logRight{
+         position: relative;
+     }
+     .topRight .logImg{
+       position: absolute;
+       top: 0px;
+       right:-27px;
+     }
+
+
+     .m-left{
+        width:22% ; 
+        display: none;
+    }
+    
+    .dashBoard {
+        padding-right: 40px;
+        padding-left: 8px;
+    }
+    
+      /* 右边中间部分 */
+      .m-right{
+        height: 857px;
+         /* background-color: lightgreen; */
+     }
+     /* 右边中间部分头部 */
+     .rightDash{
+         padding: 20px 15px;
+         background-color: #2d3035;
+         color: #8a8d93;
+         margin-bottom: 30px;
+     }
+     .dashBoard{
+        padding-right: 40px;
+        padding-left: 295px;
+     }
+     .dashBoard {
+        padding-right: 40px; 
+        padding-left: 8px;
+    }
+     .dashSize{
+         font-size: 1.1rem;
+     }
+       
+         /* ---------------------------------- Home/Tables-------------------------------------------------- */
+         .homeTab{
+            width: 96%;
+            height: 64px;
+            margin-top: -30px;
+            margin-left: 2%;
+         }
+         .homeTab ul li{
+            display: inline;
+            line-height: 4rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .homeTab .homeT{
+           color: #DB6574;
+          
+       }
+       .homeTab .tableH{
+           color: #585a5f;
+       }
+       .homeT:hover{
+        color:#c52e41 ;
+    }
+
+        /* --------------------------------------表单--------------------------------------------------------------- */
+        .formS{
+            width: 100%;
+            height:2812px ;
+            /* background-color: blue; */
+            display: flex;
+            flex-wrap: wrap;
+            margin-right: -15px;
+            margin-left: -15px;
+            position: relative;
+        }
+
+        .formBox{
+            background: #2d3035;
+            padding: 20px;
+            margin-left: 4.5%;
+            /* background: #2d3035; */
+            color: #8a8d93;
+            margin-bottom: 30px;
+        }
+        .formBox1{
+            width:41% ;
+            height:306px ;
+        }
+        .formBox2{
+            width:41% ;
+            height:288px ;
+        }
+        .formBox3{
+            width: 53%;
+            height: 90px;
+            position: absolute;
+            top: 376px;
+        }
+        .formBox4{
+            width: 29%;
+            height: 90px;
+            position: absolute;
+            top: 376px;
+            left: 60%;
+        }
+        .formBox5{
+            width: 89%;
+            height: 2205px;
+            position: absolute;
+            top: 536px;
+        }
+
+
+        .formTit{
+            margin-bottom: 20px;
+        }
+        .formTit .titleOne{
+            font-size: 1.25rem;
+            color: #a5a7ab;
+        }
+        .formTit .titleTwo{
+            display: block;
+        }
+        .form-group{
+            margin-bottom: 1rem;
+            position: relative;
+        }
+        .form-group .formLab{
+            color: #777;
+            font-size: 0.9rem;
+        }
+        label {
+            display: inline-block;
+            margin-bottom: .5rem;
+        }
+        button, input {
+            overflow: visible;
+        }
+        input {
+            outline: none;
+        }
+        .form-group .formEma{
+            width: 95%;
+            font-size: 0.9rem;
+            font-weight: 400;
+            line-height: 1.5;
+            height: 24px;
+            border: 1px solid #444951;
+            background: transparent;
+            border-radius: 0;
+            color: #979a9f;
+            padding: 0.45rem 0.75rem;
+        }
+        .form-group .formSub{
+            background-color: #DB6574;
+            border-color: #DB6574;
+            border: 1px solid transparent;
+            padding: 0.45rem 0.75rem;
+            font-size: 0.9rem;
+            line-height: 1.5;
+            border-radius: 0.25rem;
+            color: #fff;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            font-weight: 500;
+        }
+        .form-group .formSub:hover{
+            background-color: #d44658;
+        }
+        .form-group .formLab1{
+            margin-bottom: 3rem;
+        }
+        .form-group .form-email{
+            position: absolute;
+            left: 100px;
+            top: 0px;
+            padding-right: 8px;
+        }
+        .form-email .formSma{
+            font-size: 0.8rem;
+        }
+        .form-group .formSub1{
+            margin-left: 102px;
+            margin-top: 36px;
+        }
+
+
+        .form-group .formEma2{
+            width: 180px;
+        }
+        .form-group .formEma3{
+            width: 180px;
+            position: absolute;
+            left: 226px;
+            top: -65px;
+        }
+        .form-group .formSub3{
+            margin-top: -110px;
+            margin-left: 450px;
+        }
+        .form-group .formSub4{
+            margin-left: 30px;
+            cursor: pointer;
+        }
+        
+
+
+
+
+        .form-email .formEmaNor{
+           width: 200%;
+            margin-left: 125px;
+        }
+        .form-group .formHelp{
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        .form-group .form-help{
+            width: 60%;
+            margin-left: 125px;
+            margin-top: 10px;
+        }
+        .form-group .formPwd{
+            margin-top: 10px;
+        }
+        .form-email .form-pwd{
+            width: 200%;
+            margin-left: 125px;
+            margin-top: 10px;
+        }
+        .form-email  .formDis{
+            background: #444951;
+        }
+        .form-group .formChe{
+            margin-top: 20px;
+        }
+        .formChe .text-primary{
+            color: #DB6574;
+            font-size: 0.7rem;
+        }
+        .form-group .checkLab{
+            margin-left: 226px;
+            margin-top: -50px;
+            font-size: .85rem;
+        }
+        .form-group .formChe1 {
+            margin-top: 20px;
+            margin-bottom: 200px;
+        }
+        .checkLab{
+            position: relative;
+        }
+        .i-checks1 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -192px;
+        }
+        .i-checks1 .icon-square{
+            font-size: 2rem;
+            position: absolute;
+            left: -7px;
+            top: -205px;
+            cursor: pointer;
+        }
+       
+        .i-checks2 .icon-square2{
+            font-size: 1.8rem;
+            position: absolute;
+            left: -5px;
+            top: -170px;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .i-checks2 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -158px;
+           
+        }
+        .i-checks3 .icon-square2{
+            font-size: 1.8rem;
+            position: absolute;
+            left: -5px;
+            top: -136px;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .i-checks3 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -125px;
+           
+        }
+        .i-checks4 .icon-square{
+            font-size: 2rem;
+            position: absolute;
+            left: -7px;
+            top: -107px;
+            cursor: pointer;
+        }
+        .i-checks4 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -93px;
+           
+        }
+
+        .i-checks5 .icon-yuandian1{
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0px;
+            top: -66px;
+            cursor: pointer;
+        }
+        .i-checks5 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -61px;
+           
+        }
+        .i-checks6 .icon-choiceO{
+            font-size: 1.7rem;
+            position: absolute;
+            left: -4px;
+            top: -38px;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .i-checks6 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: -28px;
+        }
+        .i-checks7 .icon-choiceO{
+            font-size: 1.7rem;
+            position: absolute;
+            left: -4px;
+            top: -7px;
+            color: #db6574;
+            cursor: pointer;
+        }
+        .i-checks7 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: 2px;
+        }
+        .i-checks8 .icon-yuandian1{
+            font-size: 1.2rem;
+            position: absolute;
+            left: 0px;
+            top: 28px;
+            cursor: pointer;
+        }
+        .i-checks8 .iconTxt{
+            position: absolute;
+            left: 30px;
+            top: 33px; 
+        }
+
+        .form-group .formSel{
+            margin: 82px 185px 120px 0;
+        }
+
+        .form-control{
+            width: 277%;
+            border: 1px solid #444951;
+            background: transparent;
+            border-radius: 0;
+            color: #979a9f;
+            padding: 0.75rem 0.75rem;
+            margin: 67px 0 -113px 126px;
+            font-size: 1rem;
+        }
+        .formControl{
+            margin: -107px 0 25px 126px;
+        }
+        .form-group .formInp{
+            margin: 30px 0 10px 0;
+        }
+        .form-email .is-valid{
+            border-color: #28a745;
+            width: 174%;
+            margin: 20px 0 25px 126px;
+        }
+        .form-email{
+            position: relative;
+        }
+        .form-email .icon-duihao1{
+            font-size: 1.5rem;
+            color: #28a745;
+            position: absolute;
+            left: 203%;
+            top: 25px;
+        }
+
+        .form-email .is-invalid{
+            border-color: #dc3545;
+            width: 174%;
+            margin: 4px 0 25px 126px;
+        }
+        .form-email .invalid-feedback{
+            width: 100%;
+            margin-top: .25rem;
+            font-size: 80%;
+            color: #dc3545;
+            margin: -22px 0 25px 126px;
+        }
+        .form-email .icon-cuohao{
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #dc3545;
+            position: absolute;
+            left: 204%;
+            top: 13px;
+        }
+        .form-group .formErr{
+            margin:0px 0 46px 0px;
+        }
+        .form-group .formCon{
+            margin: 0px 0 127px 0px;
+        }
+        .form-control-lg{
+            margin: 0px 0 0 128px;
+            width: 195%;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .form-control-De{
+            width: 195%;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin: 55px 0 0 128px;
+        }
+        .form-control-sm{
+            margin: 111px 0 0 128px;
+            width: 195%;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .form-con1{
+            margin: 0px 0 0 128px;
+            width: 32%;
+            padding: 0.6rem 0.75rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+        }
+        .con2{
+            position: relative;
+        }
+        .form-con2{
+            margin: 0px 0 0 128px;
+            width: 48%;
+            padding: 0.6rem 0.75rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+            position: absolute;
+            left: 155px;
+            top: -38px;
+        }
+        .form-con3{
+            margin: 0px 0 0 128px;
+            width: 81%;
+            padding: 0.6rem 0.75rem;
+            font-size: 0.9rem;
+            font-weight: 500;
+            display: inline-block;
+            position: absolute;
+            left: 360px;
+            top: -38px;
+        }
+        .formMat{
+            margin: 0px 100px 150px 0px;
+        }
+        .input-material{
+            border: none;
+            border-bottom: 1px solid #444951;
+            padding: 10px 0;
+            background: none;
+            color: #8a8d93;
+           
+        }
+        .material1{
+            width: 212%;
+            margin: 10px 0px 10px 130px;
+        }
+        .material2{
+            margin: 70px 0px 10px 130px;
+            width: 212%;
+        }
+        .material3{
+            margin: 130px 0px 10px 130px;
+            width: 212%;
+        }
+       .form-email .formTet{
+        color: #aaa;
+        cursor: text;
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        font-weight: 300;
+        font-size: .8rem;
+        display: block;
+        margin-bottom: .5rem;
+       }
+       .form-email .formTet1{
+        margin-top: -38px;
+        margin-left: 44%;
+       }
+       .form-email .formTet2{
+        margin-top: -38px;
+        margin-left: 44%;
+       }
+       .form-email .formTet3{
+        margin-top: -34px;
+        margin-left: 44%;
+       }
+
+       .formGro{
+           margin: 0 0 100px 0;
+       }
+       .texts .formTexts{
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0px 0 0px 175px;
+        width: 158%;
+       }
+       .input-group-prepend{
+          position: relative;
+       }
+       .input-group-text{
+        padding: 0.4px 12px;
+        background: #363a40;
+        color: #8a8d93;
+        font-weight: 300;
+        border-radius: 0;
+        border: 1px solid #444951;
+        position: absolute;
+        left: 37%;
+        top: 0px;
+        text-align: center;
+        line-height: 40px;
+        z-index: 1;
+       }
+       .formTexts1{
+        width: 156%;
+        margin-top: 14px;
+        margin-left: 134px;
+        margin-bottom: 0px;
+        height: 16px;
+       }
+       .group-text1{
+        position: absolute;
+        left: 200%;
+        top: -43px;
+       }
+       .group-text2{
+        position: absolute;
+        left: 37%;
+        top: -43px;
+       }
+       .group-text3{
+        position: absolute;
+        left: 200%;
+        top: -43px;
+       }
+       .formTexts2{
+        width: 147%;
+        margin-left: 46%;
+        height: 17px;
+       }
+       .formTexts3{
+           width: 100%;
+           margin: 10px 0 0 10px;
+       }
+     
+       .input-group-prepend1{
+        width: 40px;
+        background: #363a40;
+        height: 42px;
+        position: absolute;
+        left: 37%;
+        top: 10px;
+        border: 1px solid #444951;
+       }
+       .input-groups{
+           position: relative;
+       }
+       .formTexts4{
+        width: 159%;
+        position: absolute;
+        left: 13%;
+        top: -57px;
+        height: 18px;
+    }
+    .inputTxt{
+        margin-top: 15px;
+    }
+    .input-group-prepend2{
+        position: absolute;
+        left: 13%;
+        top: -57px;
+    }
+    .formTexts5{
+        width: 159%;
+        position: absolute;
+        left: 13%;
+        top: 0px;
+        height: 18px;
+    }
+    .formTexts6{
+        width: 159%;
+        position: absolute;
+        left: 13%;
+        top: 58px;
+        height: 18px;
+    }
+    .formTexts7{
+        width: 159%;
+        position: absolute;
+        left: 13%;
+        top: 116px;
+        height: 18px;
+    }
+    .input-group-prepend2{
+        position: absolute;
+        left: 37%;
+        top: 67px;
+    }
+    .input-group-prepend3{
+        position: absolute;
+        left: 37%;
+        top: 125px;
+    }
+    .input-group-prepend4{
+        position: absolute;
+        left: 37%;
+        top: 183px;
+    }
+    .input-groups .icon-yuandian1{
+        font-size: 1rem;
+        margin-left: 12px;
+        line-height: 2.5rem;
+    }
+    .inputTxt2{
+        text-align: center;
+        margin-top: 16px;
+    }
+    .input-groups .icon-square{
+        margin-left: 9px;
+        line-height: 2.5rem;
+    }
+
+    .formAdd{
+        margin: 280px 0 0px 0;
+       }
+    .controlOne{
+        margin-top: 282px;
+        margin-left: 80%;
+        width: 249%;
+        height: 13px;
+    }
+    .subTo{
+        position: relative;
+    }
+    .subTo .formGo1{
+        position: absolute;
+        left: 59%;
+        top: 282px;
+    }
+    /* .subTo .formGo1:hover{
+        cursor: pointer;
+        background-color: #DB6574;
+        border-color: #DB6574;
+    } */
+    .controlTwo{
+        margin-top: 336px;
+        margin-left: 59%;
+        width: 249%;
+        height: 13px;
+    }
+    .subTo .formGo2{
+        position: absolute;
+        left: 319%;
+        top: -31px;
+    }
+    .formWit{
+        margin-top: 89px;
+    }
+    .toggle{
+        position: relative;
+    }
+    .dropdown-toggle{
+        width: 100px;
+        height: 44px;
+        border-top-left-radius: 0.25rem;
+        border-bottom-left-radius: .25rem;
+        cursor: pointer;
+        background-color: #2d3035;
+        position: absolute;
+        left: 136px;
+        top: 84px;
+        color: #868e96;
+        border: 1px solid #868e96;
+        font-size: 1rem;
+    }
+    .toggle .dropdown-toggle:hover{
+        color: #fff;
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+    .form-controlThree{
+        margin-top: 84px;
+        margin-left: 104%;
+        width: 225%;
+    }
+    .form-group .formCan{
+        margin-left: 236px;
+        background-color: #868e96;
+        border-color: #868e96;
+    }
+    .form-group .formCan:hover{
+        background-color: #6c757d;
+    }
+    .toggle .icon-english{
+        position: absolute;
+        left: 70px;
+        top: 8px;
+        color: #868e96;
+    }
+    .toggle .icon-english:hover{
+        color: #fff;
+    }
+    #formHe{
+        width: 622px;
+    }
+   
+        /* ------------------------------------------------底部------------------------------------------------- */
+
+        .foot{
+            /* width: 96.5%;  */
+            min-width: 95%;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            padding: 20px;
+            background: #2d3035;
+            margin-top: 31px;
+            margin-left: 0px;
+        }
+    
+        
+    }
+
+
+
+    @media screen and (min-width: 657px) and (max-width: 991px){
+
+
+    /* header */
+
+    .header{
+        width: 100%;
+        height: 83px;
+        background-color: #2d3035;
+        position: relative;
+        border-bottom: 1px solid #34373d;
+}
+.h-top{
+    width: 97%;
+    height: 42px;
+    position: absolute;
+    left: 1.5%;
+    top: 25%;
+}
+
+/* 头部左边 */
+.topLeft{
+    width:200px ;
+    height:40px ;
+}
+.DarkAdmin{
+    font-size: 1.25rem;
+    /* display: block; */
+    padding: 5px;
+    display: none;
+}
+.leftDark{
+   color: #db6574;
+  
+}
+.leftAdmin{
+    font-weight: bold;
+    color: #8a8d93;
+
+}
+.leftImg{
+    float: right;
+    margin-top: -38px;
+    display: none;
+
+}
+.DA{
+    font-size: 1.25rem;
+    display: block;
+    padding: 5px;
+    position: relative;
+}
+.leftD{
+    color: #db6574;
+}
+.leftA{
+    font-weight: bold;
+    color: #8a8d93;
+}
+.DA img{
+    position: absolute;
+    top: 5px;
+    left: 52px;
+}
+
+.topRight{
+    width:412px ;
+    height:42px ;
+    float: right;
+    margin-top: -44px;
+    /* background-color: turquoise; */
+   
+}
+.topRight a .icon-shousuo{
+    font-size: 1.3rem;
+   color:#8a8d93 ; 
+   line-height: 5rem;
+}
+.topRight a .icon-youjian{
+    color:#8a8d93 ; 
+    font-size: 1.3rem;
+ }
+.topRight a .icon-jishiben{
+    color:#8a8d93 ; 
+    font-size: 1.3rem;
+ }
+ .topRight a{
+    color:#888b91;
+    display: inline-block;
+    margin-top: -12px;
+ }
+ .topRight a .icon-Mega{
+    color:#8a8d93 ; 
+ }
+ .topRight a .icon-english{
+    color:#8a8d93 ; 
+ }
+ .topRight .logRight{
+     position: relative;
+ }
+ .topRight .logImg{
+   position: absolute;
+   top: 0px;
+   right:-27px;
+ }
+
+
+ .m-left{
+    width:22% ; 
+    display: none;
+}
+
+.dashBoard {
+    padding-right: 40px;
+    padding-left: 8px;
+}
+
+  /* 右边中间部分 */
+  .m-right{
+    height: 857px;
+     /* background-color: lightgreen; */
+ }
+ /* 右边中间部分头部 */
+ .rightDash{
+     padding: 20px 15px;
+     background-color: #2d3035;
+     color: #8a8d93;
+     margin-bottom: 30px;
+ }
+ .dashBoard{
+    padding-right: 40px;
+    padding-left: 295px;
+ }
+ .dashBoard {
+    padding-right: 40px; 
+    padding-left: 8px;
+}
+ .dashSize{
+     font-size: 1.1rem;
+ }
+   
+     /* ---------------------------------- Home/Tables-------------------------------------------------- */
+     .homeTab{
+        width: 94%;
+        height: 64px;
+        margin-top: -30px;
+        margin-left: 3%;
+     }
+     .homeTab ul li{
+        display: inline;
+        line-height: 4rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .homeTab .homeT{
+       color: #DB6574;
+      
+   }
+   .homeTab .tableH{
+       color: #585a5f;
+   }
+   .homeT:hover{
+    color:#c52e41 ;
+}
+    /* --------------------------------------表单--------------------------------------------------------------- */
+
+    .formS{
+        width: 100%;
+        min-width: -101px;
+        height: 2812px;
+        /* background-color: blue; */
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .formBox{
+        background: #2d3035;
+        padding: 20px;
+        margin-left: 30px;
+        /* background: #2d3035; */
+        color: #8a8d93;
+        margin-bottom: 30px;
+    }
+    .formBox1{
+        height:306px ;
+    }
+    .formBox2{
+        height:288px ;
+    }
+    .formBox3{
+        height: 90px;
+    }
+    .formBox4{
+        height: 90px;
+    }
+    .formBox5{
+        height: 2500px;
+    }
+
+
+    .formTit{
+        margin-bottom: 20px;
+    }
+    .formTit .titleOne{
+        font-size: 1.25rem;
+        color: #a5a7ab;
+    }
+    .formTit .titleTwo{
+        display: block;
+    }
+    .form-group{
+        margin-bottom: 1rem;
+        position: relative;
+    }
+    .form-group .formLab{
+        color: #777;
+        font-size: 0.9rem;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: .5rem;
+    }
+    button, input {
+        overflow: visible;
+    }
+    input {
+        outline: none;
+    }
+    .form-group .formEma{
+        /* display: block; */
+        width: 97%;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.5;
+        height: 24px;
+        border: 1px solid #444951;
+        background: transparent;
+        border-radius: 0;
+        color: #979a9f;
+        padding: 0.45rem 0.75rem;
+    }
+    .form-group .formSub{
+        background-color: #DB6574;
+        border-color: #DB6574;
+        border: 1px solid transparent;
+        padding: 0.45rem 0.75rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 500;
+    }
+    .form-group .formSub:hover{
+        background-color: #d44658;
+    }
+    .form-group .formLab1{
+        margin-bottom: 3rem;
+    }
+    .form-group .form-email{
+        position: absolute;
+        left: 25%;
+        top: 0px;
+        padding-right: 8px;
+    }
+    .form-email .formSma{
+        font-size: 0.8rem;
+    }
+    .form-group .formSub1{
+        margin-left: 25%;
+        margin-top: 36px;
+    }
+
+
+    .form-group .formEma2{
+        width: 205px;
+    }
+    .form-group .formEma3{
+        width: 205px;
+        position: absolute;
+        left: 246px;
+        top: -64px;
+    }
+    .form-group .formSub3{
+        margin-top: -108px;
+        margin-left: 492px;
+    }
+    .form-group .formSub4{
+        margin-left: 30%;
+        cursor: pointer;
+    }
+
+
+    .form-email .formEmaNor{
+        width: 223%;
+     }
+     .form-group .formHelp{
+        width: 22%;
+     }
+     .form-group .form-help{
+        width: 72%;
+        margin-top: 10px;
+     }
+     .form-group .formPwd{
+        margin-top: 70px;
+     }
+     .form-email .form-pwd{
+        width: 223%;
+        margin-top: 70px;
+     }
+     .form-email  .formDis{
+         background: #444951;
+     }
+     .form-group .formChe{
+        width: 22%;
+        margin-top: 20px;
+     }
+     .formChe .text-primary{
+         color: #DB6574;
+         font-size: 0.7rem;
+     }
+     .form-group .checkLab{
+        width: 73%;
+        margin-left: 144px;
+        margin-top: -92px;
+        font-size: 0.9rem;
+     }
+     .checkLab .i-checks{
+        position: relative;
+        margin: 0px 0 0 8%;
+     }
+     .form-group .checkA{
+        margin: -27px 0 66px 26%;
+     }
+     .form-group .formChe1 {
+        width: 20%;
+        margin-bottom: 200px;
+        margin-top: -40px;
+     }
+     .checkLab{
+         position: relative;
+     }
+     .i-checks1 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -192px;
+     }
+     .i-checks1 .icon-square{
+         font-size: 2rem;
+         position: absolute;
+         left: -7px;
+         top: -205px;
+         cursor: pointer;
+     }
+    
+     .i-checks2 .icon-square2{
+         font-size: 1.8rem;
+         position: absolute;
+         left: -5px;
+         top: -170px;
+         color: #db6574;
+         cursor: pointer;
+     }
+     .i-checks2 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -158px;
+        
+     }
+     .i-checks3 .icon-square2{
+         font-size: 1.8rem;
+         position: absolute;
+         left: -5px;
+         top: -136px;
+         color: #db6574;
+         cursor: pointer;
+     }
+     .i-checks3 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -125px;
+        
+     }
+     .i-checks4 .icon-square{
+         font-size: 2rem;
+         position: absolute;
+         left: -7px;
+         top: -107px;
+         cursor: pointer;
+     }
+     .i-checks4 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -93px;
+        
+     }
+
+     .i-checks5 .icon-yuandian1{
+         font-size: 1.2rem;
+         position: absolute;
+         left: 0px;
+         top: -66px;
+         cursor: pointer;
+     }
+     .i-checks5 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -61px;
+        
+     }
+     .i-checks6 .icon-choiceO{
+         font-size: 1.7rem;
+         position: absolute;
+         left: -4px;
+         top: -38px;
+         color: #db6574;
+         cursor: pointer;
+     }
+     .i-checks6 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -28px;
+     }
+     .i-checks7 .icon-choiceO{
+         font-size: 1.7rem;
+         position: absolute;
+         left: -4px;
+         top: -7px;
+         color: #db6574;
+         cursor: pointer;
+     }
+     .i-checks7 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: 2px;
+     }
+     .i-checks8 .icon-yuandian1{
+         font-size: 1.2rem;
+         position: absolute;
+         left: 0px;
+         top: 28px;
+         cursor: pointer;
+     }
+     .i-checks8 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: 33px; 
+     }
+
+     .form-group .formSel{
+         margin: 82px 185px 120px 0;
+     }
+
+     .form-control{
+        width: 418%;
+        border: 1px solid #444951;
+        background: transparent;
+        border-radius: 0;
+        color: #979a9f;
+        padding: 0.75rem 0.75rem;
+        margin: 10px 0 -113px 0px;
+        font-size: 1rem;
+     }
+     .formControl{
+        margin: -107px 0 25px 0px;
+     }
+     .checkLab .boxSm1{
+        width: 100%;
+        margin: 44px 0 0px 8%;
+     }
+    
+    .checkLab .boxSm2{
+        margin: 0px 0 0px 8%;
+        width: 100%;
+    }
+
+    .checkLab .boxSm3{
+        width: 100%;
+        margin: 0px 0 0px 8%;
+    }
+
+     .form-group .formInp{
+         margin: 30px 0 10px 0;
+     }
+     .form-email .is-valid{
+        border-color: #28a745;
+        width: 181%;
+        margin: 20px 0 25px 0;
+     }
+     .form-email{
+         position: relative;
+     }
+     .form-email .icon-duihao1{
+         font-size: 1.5rem;
+         color: #28a745;
+         position: absolute;
+         left: 173%;
+         top: 25px;
+     }
+
+     .form-email .is-invalid{
+        border-color: #dc3545;
+        width: 181%;
+        margin: 4px 0 25px 0px;
+     }
+     .form-email .invalid-feedback{
+         width: 100%;
+         margin-top: .25rem;
+         font-size: 80%;
+         color: #dc3545;
+         margin: -22px 0 25px 0px;
+     }
+     .form-email .icon-cuohao{
+         font-size: 1.2rem;
+         font-weight: 600;
+         color: #dc3545;
+         position: absolute;
+         left: 175%;
+         top: 13px;
+     }
+     .form-group .formErr{
+         margin:0px 0 46px 0px;
+     }
+     .form-group .formCon{
+         margin: 0px 0 127px 0px;
+     }
+     .form-control-lg{
+        margin: 0px 0 0 0px;
+        width: 220%;
+         font-size: 0.9rem;
+         font-weight: 500;
+     }
+     .form-control-De{
+        width: 220%;
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 55px 0 0 0px;
+     }
+     .form-control-sm{
+         margin: 111px 0 0 0px;
+         width: 220%;
+         font-size: 0.9rem;
+         font-weight: 500;
+     }
+     .form-con1{
+         width: 32%;
+         padding: 0.6rem 0.75rem;
+         font-size: 0.9rem;
+         font-weight: 500;
+         display: inline-block;
+     }
+     .con2{
+         position: relative;
+     }
+     .form-con2{
+        margin: 0px 0 0 -39px;
+         width: 48%;
+         padding: 0.6rem 0.75rem;
+         font-size: 0.9rem;
+         font-weight: 500;
+         display: inline-block;
+         position: absolute;
+         left: 155px;
+         top: -30px;
+     }
+     .form-con3{
+        margin: 0px 0 0 -100px;
+         width: 81%;
+         padding: 0.6rem 0.75rem;
+         font-size: 0.9rem;
+         font-weight: 500;
+         display: inline-block;
+         position: absolute;
+         left: 360px;
+         top: -30px;
+     }
+     .formMat{
+        margin: 30px 100px 150px 0px;
+     }
+     .input-material{
+         border: none;
+         border-bottom: 1px solid #444951;
+         padding: 10px 0;
+         background: none;
+         color: #8a8d93;
+        
+     }
+     .material1{
+        width: 257%;
+        margin: 30px 0px 10px 0px;
+     }
+     .material2{
+        margin: 90px 0px 10px 0px;
+        width: 257%;
+     }
+     .material3{
+        margin: 150px 0px 10px 0px;
+        width: 257%;
+     }
+    .form-email .formTet{
+     color: #aaa;
+     cursor: text;
+     -webkit-transition: all 0.2s;
+     transition: all 0.2s;
+     font-weight: 300;
+     font-size: .8rem;
+     display: block;
+     margin-bottom: .5rem;
+    }
+    .form-email .formTet1{
+     margin-top: -38px;
+     margin-left: 3%;
+    }
+    .form-email .formTet2{
+        margin-top: -38px;
+        margin-left: 3%;
+    }
+    .form-email .formTet3{
+        margin-top: -34px;
+        margin-left: 4%;
+    }
+
+    .formGro{
+        margin: 0 0 100px 0;
+    }
+    .texts .formTexts{
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0px 0 0px 42px;
+        width: 163%;
+    }
+    .input-group-prepend{
+       position: relative;
+    }
+    .input-group-text{
+     padding: 0.4px 12px;
+     background: #363a40;
+     color: #8a8d93;
+     font-weight: 300;
+     border-radius: 0;
+     border: 1px solid #444951;
+     position: absolute;
+     left: 0%;
+     top: 0px;
+     text-align: center;
+     line-height: 40px;
+     z-index: 1;
+    }
+    .formTexts1{
+        width: 160%;
+     margin-top: 14px;
+     /* margin-left: 134px; */
+     margin-bottom: 0px;
+     height: 16px;
+    }
+    .group-text1{
+     position: absolute;
+     left: 172%;
+     top: -43px;
+    }
+    .group-text2{
+     position: absolute;
+     /* left: 37%; */
+     top: -43px;
+    }
+    .group-text3{
+        position: absolute;
+        left: 171%;
+        top: -43px;
+    }
+    .formTexts2{
+        width: 146%;
+    margin-left: 15%;
+    height: 17px;
+    }
+    .formTexts3{
+        width: 100%;
+        margin: 10px 0 0 10px;
+    }
+  
+    .input-group-prepend1{
+     width: 40px;
+     background: #363a40;
+     height: 42px;
+     position: absolute;
+     /* left: 37%; */
+     top: 10px;
+     border: 1px solid #444951;
+    }
+    .input-groups{
+        position: relative;
+    }
+    .formTexts4{
+        width: 163%;
+        position: absolute;
+        left: 18%;
+        /* top: -57px; */
+        height: 18px;
+ }
+ .inputTxt{
+    margin-top: 15px;
+    margin-left: 15px;
+ }
+ .input-group-prepend2{
+     position: absolute;
+     left: 13%;
+     top: -57px;
+ }
+ .formTexts5{
+     width: 163%;
+     position: absolute;
+     left: 18%;
+     top: 58px;
+     height: 18px;
+ }
+ .formTexts6{
+    width: 163%;
+    position: absolute;
+    left: 18%;
+    top: 116px;
+    height: 18px;
+ }
+ .formTexts7{
+    width: 163%;
+     position: absolute;
+     left: 18%;
+     top: 173px;
+     height: 18px;
+ }
+ .input-group-prepend2{
+    position: absolute;
+    left: 0%;
+    top: 68px;
+ }
+ .input-group-prepend3{
+    position: absolute;
+    left: 0%;
+    top: 126px;
+ }
+ .input-group-prepend4{
+     position: absolute;
+     /* left: 37%; */
+     top: 183px;
+ }
+ .input-groups .icon-yuandian1{
+     font-size: 1rem;
+     margin-left: 12px;
+     line-height: 2.5rem;
+ }
+ .inputTxt2{
+     margin-left: 15px;
+     margin-top: 15px;
+ }
+ .input-groups .icon-square{
+     margin-left: 9px;
+     line-height: 2.5rem;
+ }
+
+ .formAdd{
+     margin: 280px 0 0px 0;
+    }
+ .controlOne{
+    margin-top: 270px;
+    margin-left: 21%;
+    width: 161%;
+    height: 13px;
+ }
+ .subTo{
+     position: relative;
+ }
+ .subTo .formGo1{
+    position: absolute;
+    left: 0%;
+    top: 270px;
+ }
+ /* .subTo .formGo1:hover{
+     cursor: pointer;
+     background-color: #DB6574;
+     border-color: #DB6574;
+ } */
+ .controlTwo{
+    margin-top: 324px;
+    margin-left: 0%;
+    width: 161%;
+    height: 13px;
+ }
+ .subTo .formGo2{
+    position: absolute;
+    left: 172%;
+    top: -31px;
+ }
+ .formWit{
+     margin-top: 89px;
+ }
+ .toggle{
+     position: relative;
+ }
+ .dropdown-toggle{
+     width: 100px;
+     height: 44px;
+     border-top-left-radius: 0.25rem;
+     border-bottom-left-radius: .25rem;
+     cursor: pointer;
+     background-color: #2d3035;
+     position: absolute;
+     /* left: 136px; */
+     top: 84px;
+     color: #868e96;
+     border: 1px solid #868e96;
+     font-size: 1rem;
+ }
+ .toggle .dropdown-toggle:hover{
+     color: #fff;
+     background-color: #6c757d;
+     border-color: #6c757d;
+ }
+ .form-controlThree{
+    margin-top: 84px;
+    margin-left: 44%;
+    width: 139%;
+ }
+ .form-group .formCan{
+    margin-left: 25%;
+    background-color: #868e96;
+    border-color: #868e96;
+ }
+ .form-group .formCan:hover{
+     background-color: #6c757d;
+ }
+ .toggle .icon-english{
+     position: absolute;
+     left: 70px;
+     top: 8px;
+     color: #868e96;
+ }
+ .toggle .icon-english:hover{
+     color: #fff;
+ }
+ #formHe{
+    width: 413px;
+ }
+ .formControls{
+    margin-top: 67px;
+ }
+
+  
+ 
+
+    /* ------------------------------------------------底部------------------------------------------------- */
+
+    .foot{
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        padding: 20px;
+        background: #2d3035;
+        margin-top: 805px;
+        font-size: 0.8rem;
+    }
+
+
+
+
+   }
+
+   @media screen and (min-width: 580px) and (max-width: 656px){
+         /* header */
+
+    .header{
+        width: 100%;
+        height: 83px;
+        background-color: #2d3035;
+        position: relative;
+        border-bottom: 1px solid #34373d;
+}
+.h-top{
+    width: 97%;
+    height: 42px;
+    position: absolute;
+    left: 1.5%;
+    top: 25%;
+}
+
+/* 头部左边 */
+.topLeft{
+    width:200px ;
+    height:40px ;
+}
+.DarkAdmin{
+    font-size: 1.25rem;
+    /* display: block; */
+    padding: 5px;
+    display: none;
+}
+.leftDark{
+   color: #db6574;
+  
+}
+.leftAdmin{
+    font-weight: bold;
+    color: #8a8d93;
+
+}
+.leftImg{
+    float: right;
+    margin-top: -38px;
+    display: none;
+
+}
+.DA{
+    font-size: 1.25rem;
+    display: block;
+    padding: 5px;
+    position: relative;
+}
+.leftD{
+    color: #db6574;
+}
+.leftA{
+    font-weight: bold;
+    color: #8a8d93;
+}
+.DA img{
+    position: absolute;
+    top: 5px;
+    left: 52px;
+}
+
+.topRight{
+    width:412px ;
+    height:42px ;
+    float: right;
+    margin-top: -44px;
+    /* background-color: turquoise; */
+   
+}
+.topRight a .icon-shousuo{
+    font-size: 1.3rem;
+   color:#8a8d93 ; 
+   line-height: 5rem;
+}
+.topRight a .icon-youjian{
+    color:#8a8d93 ; 
+    font-size: 1.3rem;
+ }
+.topRight a .icon-jishiben{
+    color:#8a8d93 ; 
+    font-size: 1.3rem;
+ }
+ .topRight a{
+    color:#888b91;
+    display: inline-block;
+    margin-top: -12px;
+ }
+ .topRight a .icon-Mega{
+    color:#8a8d93 ; 
+ }
+ .topRight a .icon-english{
+    color:#8a8d93 ; 
+ }
+ .topRight .logRight{
+     position: relative;
+ }
+ .topRight .logImg{
+   position: absolute;
+   top: 0px;
+   right:-27px;
+ }
+
+
+ .m-left{
+    width:22% ; 
+    display: none;
+}
+
+.dashBoard {
+    padding-right: 40px;
+    padding-left: 8px;
+}
+
+  /* 右边中间部分 */
+  .m-right{
+    height: 857px;
+     /* background-color: lightgreen; */
+ }
+ /* 右边中间部分头部 */
+ .rightDash{
+     padding: 20px 15px;
+     background-color: #2d3035;
+     color: #8a8d93;
+     margin-bottom: 30px;
+ }
+ .dashBoard{
+    padding-right: 40px;
+    padding-left: 295px;
+ }
+ .dashBoard {
+    padding-right: 40px; 
+    padding-left: 8px;
+}
+ .dashSize{
+     font-size: 1.1rem;
+ }
+   
+     /* ---------------------------------- Home/Tables-------------------------------------------------- */
+     .homeTab{
+        width: 94%;
+        height: 64px;
+        margin-top: -30px;
+        margin-left: 3%;
+     }
+     .homeTab ul li{
+        display: inline;
+        line-height: 4rem;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+    .homeTab .homeT{
+       color: #DB6574;
+      
+   }
+   .homeTab .tableH{
+       color: #585a5f;
+   }
+
+   .homeT:hover{
+    color:#c52e41 ;
+}
+    /* --------------------------------------表单--------------------------------------------------------------- */
+
+    .formS{
+        width: 100%;
+        min-width: -101px;
+        height: 2812px;
+        /* background-color: blue; */
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .formBox{
+        background: #2d3035;
+        padding: 20px;
+        margin-left: 30px;
+        /* background: #2d3035; */
+        color: #8a8d93;
+        margin-bottom: 30px;
+    }
+    .formBox1{
+        height:306px ;
+    }
+    .formBox2{
+        height: 347px;
+    }
+    .formBox3{
+        height: 162px;
+    }
+    .formBox4{
+        height: 90px;
+    }
+    /* .formBox5{
+        height: 2205px;
+    } */
+
+
+    .formTit{
+        margin-bottom: 20px;
+    }
+    .formTit .titleOne{
+        font-size: 1.25rem;
+        color: #a5a7ab;
+    }
+    .formTit .titleTwo{
+        display: block;
+    }
+    .form-group{
+        margin-bottom: 1rem;
+        position: relative;
+    }
+    .form-group .formLab{
+        color: #777;
+        font-size: 0.9rem;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: .5rem;
+    }
+    button, input {
+        overflow: visible;
+    }
+    input {
+        outline: none;
+    }
+    .form-group .formEma{
+        /* display: block; */
+        width: 97%;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.5;
+        height: 24px;
+        border: 1px solid #444951;
+        background: transparent;
+        border-radius: 0;
+        color: #979a9f;
+        padding: 0.45rem 0.75rem;
+    }
+    .form-group .formSub{
+        background-color: #DB6574;
+        border-color: #DB6574;
+        border: 1px solid transparent;
+        padding: 0.45rem 0.75rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 500;
+    }
+    .form-group .formSub:hover{
+        background-color: #d44658;
+    }
+    .form-group .formLab1{
+        margin-bottom: 3rem;
+    }
+    .form-group .formLab2{
+        margin-top: 2rem;
+    }
+    .form-group .form-email{
+        position: absolute;
+        left: 0px;
+        top: 28px;
+        padding-right: 8px;
+    }
+    .form-group .form-pwd{
+        position: absolute;
+        left: 0px;
+        top: 60px;
+        padding-right: 8px;
+    }
+    .form-email .formSma{
+        font-size: 0.8rem;
+    }
+    .form-group .formSub1{
+        margin-left: 0px;
+        margin-top: 68px;
+    }
+
+
+    .form-group .formEma2{
+        width: 200px;
+    }
+    .form-group .formEma3{
+        width: 200px;
+        position: absolute;
+        left: 250px;
+        top: -65px;
+    }
+    .form-group .formSub3{
+        margin-top: -30px;
+    }
+    .form-group .formSub4{
+        margin-left: 30px;
+        cursor: pointer;
+    }
+
+
+    
+    .formBox5{
+        height: 2625px;
+    }
+    .formTit{
+        margin-bottom: 20px;
+    }
+    .formTit .titleOne{
+        font-size: 1.25rem;
+        color: #a5a7ab;
+    }
+    .formTit .titleTwo{
+        display: block;
+    }
+    .form-group{
+        margin-bottom: 1rem;
+        position: relative;
+    }
+    .form-group .formLab{
+        color: #777;
+        font-size: 0.9rem;
+    }
+    label {
+        display: inline-block;
+        margin-bottom: .5rem;
+    }
+    button, input {
+        overflow: visible;
+    }
+    input {
+        outline: none;
+    }
+    .form-group .formEma{
+        /* display: block; */
+        width: 97%;
+        font-size: 0.9rem;
+        font-weight: 400;
+        line-height: 1.5;
+        height: 24px;
+        border: 1px solid #444951;
+        background: transparent;
+        border-radius: 0;
+        color: #979a9f;
+        padding: 0.45rem 0.75rem;
+    }
+    .form-group .formSub{
+        background-color: #DB6574;
+        border-color: #DB6574;
+        border: 1px solid transparent;
+        padding: 0.45rem 0.75rem;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        color: #fff;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        font-weight: 500;
+    }
+    .form-group .formSub:hover{
+        background-color: #d44658;
+    }
+    .form-group .formLab1{
+        margin-bottom: 3rem;
+    }
+    .form-group .form-email{
+        position: absolute;
+        left: 25%;
+        top: 0px;
+        padding-right: 8px;
+    }
+    .form-email .formSma{
+        font-size: 0.8rem;
+    }
+    .form-group .formSub1{
+        margin-left: 25%;
+        margin-top: 36px;
+    }
+
+
+    .form-group .formEma2{
+        width: 205px;
+    }
+    .form-group .formEma3{
+        width: 205px;
+        position: absolute;
+        left: 246px;
+        top: -64px;
+    }
+    .form-group .formSub3{
+        margin-top: -30px;
+        margin-left: 0px;
+    }
+    .form-group .formSub4{
+        margin-left: 30%;
+        cursor: pointer;
+    }
+
+
+    .form-email .formEmaNor{
+        width: 185%;
+     }
+     .form-group .formHelp{
+        width: 22%;
+     }
+     .form-group .form-help{
+        width: 72%;
+        margin-top: 10px;
+     }
+     .form-group .formPwd{
+        margin-top: 70px;
+     }
+     .form-email .form-pwd{
+        width: 344px;
+        margin-top: 11px;
+     }
+     .form-email  .formDis{
+         background: #444951;
+     }
+     .form-group .formChe{
+        width: 22%;
+        margin-top: 20px;
+     }
+     .formChe .text-primary{
+         color: #DB6574;
+         font-size: 0.7rem;
+     }
+     .form-group .checkLab{
+        width: 73%;
+        margin-left: 144px;
+        margin-top: -92px;
+        font-size: 0.9rem;
+     }
+     .checkLab .i-checks{
+        position: relative;
+        margin: 0px 0 4% -4%;
+     }
+     .form-group .checkA{
+        margin: -41px 0 66px 26%;
+     }
+     .form-group .formChe1 {
+        width: 20%;
+        margin-bottom: 200px;
+        margin-top: -40px;
+     }
+     .checkLab{
+         position: relative;
+     }
+     .i-checks1 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -192px;
+     }
+     .i-checks1 .icon-square{
+         font-size: 2rem;
+         position: absolute;
+         left: -7px;
+         top: -205px;
+         cursor: pointer;
+     }
+    
+     .i-checks2 .icon-square2{
+         font-size: 1.8rem;
+         position: absolute;
+         left: -5px;
+         top: -170px;
+         color: #db6574;
+         cursor: pointer;
+     }
+     .i-checks2 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -158px;
+        
+     }
+     .i-checks3 .icon-square2{
+         font-size: 1.8rem;
+         position: absolute;
+         left: -5px;
+         top: -136px;
+         color: #db6574;
+         cursor: pointer;
+     }
+     .i-checks3 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -125px;
+        
+     }
+     .i-checks4 .icon-square{
+         font-size: 2rem;
+         position: absolute;
+         left: -7px;
+         top: -107px;
+         cursor: pointer;
+     }
+     .i-checks4 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -93px;
+        
+     }
+
+     .i-checks5 .icon-yuandian1{
+         font-size: 1.2rem;
+         position: absolute;
+         left: 0px;
+         top: -66px;
+         cursor: pointer;
+     }
+     .i-checks5 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -61px;
+        
+     }
+     .i-checks6 .icon-choiceO{
+         font-size: 1.7rem;
+         position: absolute;
+         left: -4px;
+         top: -38px;
+         color: #db6574;
+         cursor: pointer;
+     }
+     .i-checks6 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: -28px;
+     }
+     .i-checks7 .icon-choiceO{
+         font-size: 1.7rem;
+         position: absolute;
+         left: -4px;
+         top: -7px;
+         color: #db6574;
+         cursor: pointer;
+     }
+     .i-checks7 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: 2px;
+     }
+     .i-checks8 .icon-yuandian1{
+         font-size: 1.2rem;
+         position: absolute;
+         left: 0px;
+         top: 28px;
+         cursor: pointer;
+     }
+     .i-checks8 .iconTxt{
+         position: absolute;
+         left: 30px;
+         top: 33px; 
+     }
+
+     .form-group .formSel{
+         margin: 82px 185px 120px 0;
+     }
+
+     .form-control{
+        width: 418%;
+        border: 1px solid #444951;
+        background: transparent;
+        border-radius: 0;
+        color: #979a9f;
+        padding: 0.75rem 0.75rem;
+        margin: 10px 0 -113px 0px;
+        font-size: 1rem;
+     }
+     .formControl{
+        width: 355%;
+        margin: -107px 0 25px 0px;
+     }
+     .checkLab .boxSm1{
+        width: 100%;
+        margin: 0px 0 0px -5%;
+     }
+    
+    .checkLab .boxSm2{
+        margin: 0px 0 0px -5%;
+        width: 100%;
+    }
+
+    .checkLab .boxSm3{
+        margin: 0px 0 0px -5%;
+        width: 100%;
+    }
+
+     .form-group .formInp{
+        width: 15%;
+         margin: 30px 0 10px 0;
+     }
+     .form-email .is-valid{
+        border-color: #28a745;
+        width: 152%;
+        margin: 20px 0 25px 0;
+     }
+     .form-email{
+         position: relative;
+     }
+     .form-email .icon-duihao1{
+         font-size: 1.5rem;
+         color: #28a745;
+         position: absolute;
+         left: 145%;
+         top: 25px;
+     }
+
+     .form-email .is-invalid{
+        border-color: #dc3545;
+        width: 152%;
+        margin: 4px 0 25px 0px;
+     }
+     .form-email .invalid-feedback{
+         width: 100%;
+         margin-top: .25rem;
+         font-size: 80%;
+         color: #dc3545;
+         margin: -22px 0 25px 0px;
+     }
+     .form-email .icon-cuohao{
+         font-size: 1.2rem;
+         font-weight: 600;
+         color: #dc3545;
+         position: absolute;
+         left: 147%;
+         top: 13px;
+     }
+     .form-group .formErr{
+        width: 15%;
+         margin:0px 0 46px 0px;
+     }
+     .form-group .formCon{
+         margin: 0px 0 127px 0px;
+     }
+     .form-control-lg{
+        margin: 0px 0 0 0px;
+        width: 185%;
+         font-size: 0.9rem;
+         font-weight: 500;
+     }
+     .form-control-De{
+        width: 185%;
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 55px 0 0 0px;
+     }
+     .form-control-sm{
+         margin: 111px 0 0 0px;
+         width: 185%;
+         font-size: 0.9rem;
+         font-weight: 500;
+     }
+     .form-con1{
+        width: 185%;
+         padding: 0.6rem 0.75rem;
+         font-size: 0.9rem;
+         font-weight: 500;
+         display: inline-block;
+     }
+     .con2{
+         position: relative;
+     }
+     .form-con2{
+        margin: 0px 0 0 -39px;
+        width: 185%;
+         padding: 0.6rem 0.75rem;
+         font-size: 0.9rem;
+         font-weight: 500;
+         display: inline-block;
+         position: absolute;
+         left: 21%;
+         top: 25px;
+     }
+     .form-con3{
+        margin: 0px 0 0 -100px;
+        width: 185%;
+         padding: 0.6rem 0.75rem;
+         font-size: 0.9rem;
+         font-weight: 500;
+         display: inline-block;
+         position: absolute;
+         left: 54%;
+         top: 80px;
+     }
+     .formMat{
+        width: 15%;
+    margin: 122px 100px 150px 0px;
+     }
+     .input-material{
+         border: none;
+         border-bottom: 1px solid #444951;
+         padding: 10px 0;
+         background: none;
+         color: #8a8d93;
+        
+     }
+     .material1{
+        width: 215%;
+        margin: 135px 0px 10px 0px;
+     }
+     .material2{
+        margin: 200px 0px 10px 0px;
+        width: 215%;
+     }
+     .material3{
+        margin: 260px 0px 10px 0px;
+        width: 215%;
+     }
+    .form-email .formTet{
+     color: #aaa;
+     cursor: text;
+     -webkit-transition: all 0.2s;
+     transition: all 0.2s;
+     font-weight: 300;
+     font-size: .8rem;
+     display: block;
+     margin-bottom: .5rem;
+    }
+    .form-email .formTet1{
+     margin-top: -38px;
+     margin-left: 3%;
+    }
+    .form-email .formTet2{
+        margin-top: -38px;
+        margin-left: 3%;
+    }
+    .form-email .formTet3{
+        margin-top: -34px;
+        margin-left: 4%;
+    }
+
+    .formGro{
+        margin: 0 0 100px 0;
+    }
+    .texts .formTexts{
+        font-size: 0.9rem;
+        font-weight: 500;
+        margin: 0px 0 0px 42px;
+        width: 132%;
+    }
+    .input-group-prepend{
+       position: relative;
+    }
+    .input-group-text{
+     padding: 0.4px 12px;
+     background: #363a40;
+     color: #8a8d93;
+     font-weight: 300;
+     border-radius: 0;
+     border: 1px solid #444951;
+     position: absolute;
+     left: 0%;
+     top: 0px;
+     text-align: center;
+     line-height: 40px;
+     z-index: 1;
+    }
+    .formTexts1{
+        width: 130%;
+     margin-top: 14px;
+     /* margin-left: 134px; */
+     margin-bottom: 0px;
+     height: 16px;
+    }
+    .group-text1{
+     position: absolute;
+     left: 141%;
+     top: -43px;
+    }
+    .group-text2{
+     position: absolute;
+     /* left: 37%; */
+     top: -43px;
+    }
+    .group-text3{
+        position: absolute;
+        left: 141%;
+        top: -43px;
+    }
+    .formTexts2{
+        width: 115%;
+    margin-left: 15%;
+    height: 17px;
+    }
+    .formTexts3{
+        width: 100%;
+        margin: 10px 0 0 10px;
+    }
+  
+    .input-group-prepend1{
+     width: 40px;
+     background: #363a40;
+     height: 42px;
+     position: absolute;
+     /* left: 37%; */
+     top: 10px;
+     border: 1px solid #444951;
+    }
+    .input-groups{
+        position: relative;
+    }
+    .formTexts4{
+        width: 133%;
+        position: absolute;
+        left: 18%;
+        /* top: -57px; */
+        height: 18px;
+ }
+ .inputTxt{
+    margin-top: 15px;
+    margin-left: 15px;
+ }
+ .input-group-prepend2{
+     position: absolute;
+     left: 13%;
+     top: -57px;
+ }
+ .formTexts5{
+    width: 133%;
+     position: absolute;
+     left: 18%;
+     top: 58px;
+     height: 18px;
+ }
+ .formTexts6{
+    width: 133%;
+    position: absolute;
+    left: 18%;
+    top: 116px;
+    height: 18px;
+ }
+ .formTexts7{
+    width: 133%;
+     position: absolute;
+     left: 18%;
+     top: 173px;
+     height: 18px;
+ }
+ .input-group-prepend2{
+    position: absolute;
+    left: 0%;
+    top: 68px;
+ }
+ .input-group-prepend3{
+    position: absolute;
+    left: 0%;
+    top: 126px;
+ }
+ .input-group-prepend4{
+     position: absolute;
+     /* left: 37%; */
+     top: 183px;
+ }
+ .input-groups .icon-yuandian1{
+     font-size: 1rem;
+     margin-left: 12px;
+     line-height: 2.5rem;
+ }
+ .inputTxt2{
+     margin-left: 15px;
+     margin-top: 15px;
+ }
+ .input-groups .icon-square{
+     margin-left: 9px;
+     line-height: 2.5rem;
+ }
+
+ .formAdd{
+     margin: 280px 0 0px 0;
+    }
+ .controlOne{
+    margin-top: 270px;
+    margin-left: 21%;
+    width: 132%;
+    height: 13px;
+ }
+ .subTo{
+     position: relative;
+ }
+ .subTo .formGo1{
+    position: absolute;
+    left: 0%;
+    top: 270px;
+ }
+ /* .subTo .formGo1:hover{
+     cursor: pointer;
+     background-color: #DB6574;
+     border-color: #DB6574;
+ } */
+ .controlTwo{
+    margin-top: 324px;
+    margin-left: 0%;
+    width: 134%;
+    height: 13px;
+ }
+ .subTo .formGo2{
+    position: absolute;
+    left: 145%;
+    top: -31px;
+ }
+ .formWit{
+     margin-top: 89px;
+ }
+ .toggle{
+     position: relative;
+ }
+ .dropdown-toggle{
+     width: 100px;
+     height: 44px;
+     border-top-left-radius: 0.25rem;
+     border-bottom-left-radius: .25rem;
+     cursor: pointer;
+     background-color: #2d3035;
+     position: absolute;
+     /* left: 136px; */
+     top: 84px;
+     color: #868e96;
+     border: 1px solid #868e96;
+     font-size: 1rem;
+ }
+ .toggle .dropdown-toggle:hover{
+     color: #fff;
+     background-color: #6c757d;
+     border-color: #6c757d;
+ }
+ .form-controlThree{
+    margin-top: 84px;
+    margin-left: 44%;
+    width: 112%;
+ }
+ .form-group .formCan{
+    margin-left: 25%;
+    background-color: #868e96;
+    border-color: #868e96;
+ }
+ .form-group .formCan:hover{
+     background-color: #6c757d;
+ }
+ .toggle .icon-english{
+     position: absolute;
+     left: 70px;
+     top: 8px;
+     color: #868e96;
+ }
+ .toggle .icon-english:hover{
+     color: #fff;
+ }
+ #formHe{
+    width: 343px;
+ }
+ .formControls{
+    width: 348%;
+    margin-top: 67px;
+ }
+
+
+
+    /* ------------------------------------------------底部------------------------------------------------- */
+
+    .foot{
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        padding: 20px;
+        background: #2d3035;
+        margin-top: 1068px;
+        font-size: 0.8rem;
+    }
+
+
+
+
+   }
+
+   @media screen and (min-width: 576px) and (max-width: 579px){
+    /* header */
+
+.header{
+   width: 100%;
+   height: 83px;
+   background-color: #2d3035;
+   position: relative;
+   border-bottom: 1px solid #34373d;
+}
+.h-top{
+width: 97%;
+height: 42px;
+position: absolute;
+left: 1.5%;
+top: 25%;
+}
+
+/* 头部左边 */
+.topLeft{
+width:200px ;
+height:40px ;
+}
+.DarkAdmin{
+font-size: 1.25rem;
+/* display: block; */
+padding: 5px;
+display: none;
+}
+.leftDark{
+color: #db6574;
+
+}
+.leftAdmin{
+font-weight: bold;
+color: #8a8d93;
+
+}
+.leftImg{
+float: right;
+margin-top: -38px;
+display: none;
+
+}
+.DA{
+font-size: 1.25rem;
+display: block;
+padding: 5px;
+position: relative;
+}
+.leftD{
+color: #db6574;
+}
+.leftA{
+font-weight: bold;
+color: #8a8d93;
+}
+.DA img{
+position: absolute;
+top: 5px;
+left: 52px;
+}
+
+.topRight{
+width:412px ;
+height:42px ;
+float: right;
+margin-top: -44px;
+/* background-color: turquoise; */
+
+}
+.topRight a .icon-shousuo{
+font-size: 1.3rem;
+color:#8a8d93 ; 
+line-height: 5rem;
+}
+.topRight a .icon-youjian{
+color:#8a8d93 ; 
+font-size: 1.3rem;
+}
+.topRight a .icon-jishiben{
+color:#8a8d93 ; 
+font-size: 1.3rem;
+}
+.topRight a{
+color:#888b91;
+display: inline-block;
+margin-top: -12px;
+}
+.topRight a .icon-Mega{
+color:#8a8d93 ; 
+}
+.topRight a .icon-english{
+color:#8a8d93 ; 
+}
+.topRight .logRight{
+position: relative;
+}
+.topRight .logImg{
+position: absolute;
+top: 0px;
+right:-27px;
+}
+
+
+.m-left{
+width:22% ; 
+display: none;
+}
+
+.dashBoard {
+padding-right: 40px;
+padding-left: 8px;
+}
+
+/* 右边中间部分 */
+.m-right{
+height: 857px;
+/* background-color: lightgreen; */
+}
+/* 右边中间部分头部 */
+.rightDash{
+padding: 20px 15px;
+background-color: #2d3035;
+color: #8a8d93;
+margin-bottom: 30px;
+}
+.dashBoard{
+padding-right: 40px;
+padding-left: 295px;
+}
+.dashBoard {
+padding-right: 40px; 
+padding-left: 8px;
+}
+.dashSize{
+font-size: 1.1rem;
+}
+
+/* ---------------------------------- Home/Tables-------------------------------------------------- */
+.homeTab{
+   width: 94%;
+   height: 64px;
+   margin-top: -30px;
+   margin-left: 3%;
+}
+.homeTab ul li{
+   display: inline;
+   line-height: 4rem;
+   font-size: 0.9rem;
+   font-weight: 500;
+}
+.homeTab .homeT{
+  color: #DB6574;
+ 
+}
+.homeTab .tableH{
+  color: #585a5f;
+}
+
+.homeT:hover{
+    color:#c52e41 ;
+}
+/* --------------------------------------表单--------------------------------------------------------------- */
+
+.formS{
+   width: 100%;
+   min-width: -101px;
+   height: 2812px;
+   /* background-color: blue; */
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+.formBox{
+   /* background-color: pink; */
+   padding: 20px;
+   margin-left: 30px;
+   background: #2d3035;
+   color: #8a8d93;
+   margin-bottom: 30px;
+}
+.formBox1{
+   height:306px ;
+}
+.formBox2{
+   height: 347px;
+}
+.formBox3{
+   height: 162px;
+}
+.formBox4{
+   height: 90px;
+}
+/* .formBox5{
+   height: 2205px;
+} */
+
+
+.formTit{
+   margin-bottom: 20px;
+}
+.formTit .titleOne{
+   font-size: 1.25rem;
+   color: #a5a7ab;
+}
+.formTit .titleTwo{
+   display: block;
+}
+.form-group{
+   margin-bottom: 1rem;
+   position: relative;
+}
+.form-group .formLab{
+   color: #777;
+   font-size: 0.9rem;
+}
+label {
+   display: inline-block;
+   margin-bottom: .5rem;
+}
+button, input {
+   overflow: visible;
+}
+input {
+   outline: none;
+}
+.form-group .formEma{
+   /* display: block; */
+   width: 97%;
+   font-size: 0.9rem;
+   font-weight: 400;
+   line-height: 1.5;
+   height: 24px;
+   border: 1px solid #444951;
+   background: transparent;
+   border-radius: 0;
+   color: #979a9f;
+   padding: 0.45rem 0.75rem;
+}
+.form-group .formSub{
+   background-color: #DB6574;
+   border-color: #DB6574;
+   border: 1px solid transparent;
+   padding: 0.45rem 0.75rem;
+   font-size: 0.9rem;
+   line-height: 1.5;
+   border-radius: 0.25rem;
+   color: #fff;
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+   font-weight: 500;
+}
+.form-group .formSub:hover{
+   background-color: #d44658;
+}
+.form-group .formLab1{
+   margin-bottom: 3rem;
+}
+.form-group .formLab2{
+   margin-top: 2rem;
+}
+.form-group .form-email{
+   position: absolute;
+   left: 0px;
+   top: 28px;
+   padding-right: 8px;
+}
+.form-group .form-pwd{
+   position: absolute;
+   left: 0px;
+   top: 60px;
+   padding-right: 8px;
+}
+.form-email .formSma{
+   font-size: 0.8rem;
+}
+.form-group .formSub1{
+   margin-left: 0px;
+   margin-top: 68px;
+}
+
+
+.form-group .formEma2{
+   width: 200px;
+}
+.form-group .formEma3{
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: -24px;
+}
+.form-group .formSub3{
+    margin-top: -25px;
+    margin-left: 240px;
+}
+.form-group .formSub4{
+    margin-left: 26%;
+   cursor: pointer;
+}
+
+
+
+
+.formBox5{
+    height: 2625px;
+}
+.formTit{
+    margin-bottom: 20px;
+}
+.formTit .titleOne{
+    font-size: 1.25rem;
+    color: #a5a7ab;
+}
+.formTit .titleTwo{
+    display: block;
+}
+.form-group{
+    margin-bottom: 1rem;
+    position: relative;
+}
+.form-group .formLab{
+    color: #777;
+    font-size: 0.9rem;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+button, input {
+    overflow: visible;
+}
+input {
+    outline: none;
+}
+.form-group .formEma{
+    /* display: block; */
+    width: 97%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 24px;
+    border: 1px solid #444951;
+    background: transparent;
+    border-radius: 0;
+    color: #979a9f;
+    padding: 0.45rem 0.75rem;
+}
+.form-group .formSub{
+    background-color: #DB6574;
+    border-color: #DB6574;
+    border: 1px solid transparent;
+    padding: 0.45rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.form-group .formSub:hover{
+    background-color: #d44658;
+}
+.form-group .formLab1{
+    margin-bottom: 3rem;
+}
+.form-group .form-email{
+    position: absolute;
+    left: 25%;
+    top: 0px;
+    padding-right: 8px;
+}
+.form-email .formSma{
+    font-size: 0.8rem;
+}
+.form-group .formSub1{
+    margin-left: 25%;
+    margin-top: 36px;
+}
+
+
+.form-group .formEma2{
+    width: 205px;
+}
+.form-group .formEma3{
+    width: 205px;
+    position: absolute;
+    left: 0px;
+    top: -24px;
+}
+.form-group .formSub3{
+    margin-top: -30px;
+    margin-left: 245px;
+}
+.form-group .formSub4{
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+
+.form-email .formEmaNor{
+    width: 185%;
+ }
+ .form-group .formHelp{
+    width: 22%;
+ }
+ .form-group .form-help{
+    width: 72%;
+    margin-top: 10px;
+ }
+ .form-group .formPwd{
+    margin-top: 70px;
+ }
+ .form-email .form-pwd{
+    width: 344px;
+    margin-top: 11px;
+ }
+ .form-email  .formDis{
+     background: #444951;
+ }
+ .form-group .formChe{
+    width: 22%;
+    margin-top: 20px;
+ }
+ .formChe .text-primary{
+     color: #DB6574;
+     font-size: 0.7rem;
+ }
+ .form-group .checkLab{
+    width: 73%;
+    margin-left: 144px;
+    margin-top: -92px;
+    font-size: 0.9rem;
+ }
+ .checkLab .i-checks{
+    position: relative;
+    margin: 0px 0 4% -4%;
+ }
+ .form-group .checkA{
+    margin: -41px 0 66px 26%;
+ }
+ .form-group .formChe1 {
+    width: 20%;
+    margin-bottom: 200px;
+    margin-top: -40px;
+ }
+ .checkLab{
+     position: relative;
+ }
+ .i-checks1 .iconTxt{
+     position: absolute;
+     left: 30px;
+     top: -192px;
+ }
+ .i-checks1 .icon-square{
+     font-size: 2rem;
+     position: absolute;
+     left: -7px;
+     top: -205px;
+     cursor: pointer;
+ }
+
+ .i-checks2 .icon-square2{
+     font-size: 1.8rem;
+     position: absolute;
+     left: -5px;
+     top: -170px;
+     color: #db6574;
+     cursor: pointer;
+ }
+ .i-checks2 .iconTxt{
+     position: absolute;
+     left: 30px;
+     top: -158px;
+    
+ }
+ .i-checks3 .icon-square2{
+     font-size: 1.8rem;
+     position: absolute;
+     left: -5px;
+     top: -136px;
+     color: #db6574;
+     cursor: pointer;
+ }
+ .i-checks3 .iconTxt{
+     position: absolute;
+     left: 30px;
+     top: -125px;
+    
+ }
+ .i-checks4 .icon-square{
+     font-size: 2rem;
+     position: absolute;
+     left: -7px;
+     top: -107px;
+     cursor: pointer;
+ }
+ .i-checks4 .iconTxt{
+     position: absolute;
+     left: 30px;
+     top: -93px;
+    
+ }
+
+ .i-checks5 .icon-yuandian1{
+     font-size: 1.2rem;
+     position: absolute;
+     left: 0px;
+     top: -66px;
+     cursor: pointer;
+ }
+ .i-checks5 .iconTxt{
+     position: absolute;
+     left: 30px;
+     top: -61px;
+    
+ }
+ .i-checks6 .icon-choiceO{
+     font-size: 1.7rem;
+     position: absolute;
+     left: -4px;
+     top: -38px;
+     color: #db6574;
+     cursor: pointer;
+ }
+ .i-checks6 .iconTxt{
+     position: absolute;
+     left: 30px;
+     top: -28px;
+ }
+ .i-checks7 .icon-choiceO{
+     font-size: 1.7rem;
+     position: absolute;
+     left: -4px;
+     top: -7px;
+     color: #db6574;
+     cursor: pointer;
+ }
+ .i-checks7 .iconTxt{
+     position: absolute;
+     left: 30px;
+     top: 2px;
+ }
+ .i-checks8 .icon-yuandian1{
+     font-size: 1.2rem;
+     position: absolute;
+     left: 0px;
+     top: 28px;
+     cursor: pointer;
+ }
+ .i-checks8 .iconTxt{
+     position: absolute;
+     left: 30px;
+     top: 33px; 
+ }
+
+ .form-group .formSel{
+     margin: 82px 185px 120px 0;
+ }
+
+ .form-control{
+    width: 418%;
+    border: 1px solid #444951;
+    background: transparent;
+    border-radius: 0;
+    color: #979a9f;
+    padding: 0.75rem 0.75rem;
+    margin: 10px 0 -113px 0px;
+    font-size: 1rem;
+ }
+ .formControl{
+    width: 355%;
+    margin: -107px 0 25px 0px;
+ }
+ .checkLab .boxSm1{
+    width: 100%;
+    margin: 0px 0 0px -5%;
+ }
+
+.checkLab .boxSm2{
+    margin: 0px 0 0px -5%;
+    width: 100%;
+}
+
+.checkLab .boxSm3{
+    margin: 0px 0 0px -5%;
+    width: 100%;
+}
+
+ .form-group .formInp{
+    width: 15%;
+     margin: 30px 0 10px 0;
+ }
+ .form-email .is-valid{
+    border-color: #28a745;
+    width: 152%;
+    margin: 20px 0 25px 0;
+ }
+ .form-email{
+     position: relative;
+ }
+ .form-email .icon-duihao1{
+     font-size: 1.5rem;
+     color: #28a745;
+     position: absolute;
+     left: 145%;
+     top: 25px;
+ }
+
+ .form-email .is-invalid{
+    border-color: #dc3545;
+    width: 152%;
+    margin: 4px 0 25px 0px;
+ }
+ .form-email .invalid-feedback{
+     width: 100%;
+     margin-top: .25rem;
+     font-size: 80%;
+     color: #dc3545;
+     margin: -22px 0 25px 0px;
+ }
+ .form-email .icon-cuohao{
+     font-size: 1.2rem;
+     font-weight: 600;
+     color: #dc3545;
+     position: absolute;
+     left: 147%;
+     top: 13px;
+ }
+ .form-group .formErr{
+    width: 15%;
+     margin:0px 0 46px 0px;
+ }
+ .form-group .formCon{
+     margin: 0px 0 127px 0px;
+ }
+ .form-control-lg{
+    margin: 0px 0 0 0px;
+    width: 185%;
+     font-size: 0.9rem;
+     font-weight: 500;
+ }
+ .form-control-De{
+    width: 185%;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 55px 0 0 0px;
+ }
+ .form-control-sm{
+     margin: 111px 0 0 0px;
+     width: 185%;
+     font-size: 0.9rem;
+     font-weight: 500;
+ }
+ .form-con1{
+    width: 185%;
+     padding: 0.6rem 0.75rem;
+     font-size: 0.9rem;
+     font-weight: 500;
+     display: inline-block;
+ }
+ .con2{
+     position: relative;
+ }
+ .form-con2{
+    margin: 0px 0 0 -39px;
+    width: 185%;
+     padding: 0.6rem 0.75rem;
+     font-size: 0.9rem;
+     font-weight: 500;
+     display: inline-block;
+     position: absolute;
+     left: 21%;
+     top: 25px;
+ }
+ .form-con3{
+    margin: 0px 0 0 -100px;
+    width: 185%;
+     padding: 0.6rem 0.75rem;
+     font-size: 0.9rem;
+     font-weight: 500;
+     display: inline-block;
+     position: absolute;
+     left: 54%;
+     top: 80px;
+ }
+ .formMat{
+    width: 15%;
+margin: 122px 100px 150px 0px;
+ }
+ .input-material{
+     border: none;
+     border-bottom: 1px solid #444951;
+     padding: 10px 0;
+     background: none;
+     color: #8a8d93;
+    
+ }
+ .material1{
+    width: 215%;
+    margin: 135px 0px 10px 0px;
+ }
+ .material2{
+    margin: 200px 0px 10px 0px;
+    width: 215%;
+ }
+ .material3{
+    margin: 260px 0px 10px 0px;
+    width: 215%;
+ }
+.form-email .formTet{
+ color: #aaa;
+ cursor: text;
+ -webkit-transition: all 0.2s;
+ transition: all 0.2s;
+ font-weight: 300;
+ font-size: .8rem;
+ display: block;
+ margin-bottom: .5rem;
+}
+.form-email .formTet1{
+ margin-top: -38px;
+ margin-left: 3%;
+}
+.form-email .formTet2{
+    margin-top: -38px;
+    margin-left: 3%;
+}
+.form-email .formTet3{
+    margin-top: -34px;
+    margin-left: 4%;
+}
+
+.formGro{
+    margin: 0 0 100px 0;
+}
+.texts .formTexts{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0px 0 0px 42px;
+    width: 132%;
+}
+.input-group-prepend{
+   position: relative;
+}
+.input-group-text{
+ padding: 0.4px 12px;
+ background: #363a40;
+ color: #8a8d93;
+ font-weight: 300;
+ border-radius: 0;
+ border: 1px solid #444951;
+ position: absolute;
+ left: 0%;
+ top: 0px;
+ text-align: center;
+ line-height: 40px;
+ z-index: 1;
+}
+.formTexts1{
+    width: 130%;
+ margin-top: 14px;
+ /* margin-left: 134px; */
+ margin-bottom: 0px;
+ height: 16px;
+}
+.group-text1{
+ position: absolute;
+ left: 141%;
+ top: -43px;
+}
+.group-text2{
+ position: absolute;
+ /* left: 37%; */
+ top: -43px;
+}
+.group-text3{
+    position: absolute;
+    left: 141%;
+    top: -43px;
+}
+.formTexts2{
+    width: 115%;
+margin-left: 15%;
+height: 17px;
+}
+.formTexts3{
+    width: 100%;
+    margin: 10px 0 0 10px;
+}
+
+.input-group-prepend1{
+ width: 40px;
+ background: #363a40;
+ height: 42px;
+ position: absolute;
+ /* left: 37%; */
+ top: 10px;
+ border: 1px solid #444951;
+}
+.input-groups{
+    position: relative;
+}
+.formTexts4{
+    width: 133%;
+    position: absolute;
+    left: 18%;
+    /* top: -57px; */
+    height: 18px;
+}
+.inputTxt{
+margin-top: 15px;
+margin-left: 15px;
+}
+.input-group-prepend2{
+ position: absolute;
+ left: 13%;
+ top: -57px;
+}
+.formTexts5{
+width: 133%;
+ position: absolute;
+ left: 18%;
+ top: 58px;
+ height: 18px;
+}
+.formTexts6{
+width: 133%;
+position: absolute;
+left: 18%;
+top: 116px;
+height: 18px;
+}
+.formTexts7{
+width: 133%;
+ position: absolute;
+ left: 18%;
+ top: 173px;
+ height: 18px;
+}
+.input-group-prepend2{
+position: absolute;
+left: 0%;
+top: 68px;
+}
+.input-group-prepend3{
+position: absolute;
+left: 0%;
+top: 126px;
+}
+.input-group-prepend4{
+ position: absolute;
+ /* left: 37%; */
+ top: 183px;
+}
+.input-groups .icon-yuandian1{
+ font-size: 1rem;
+ margin-left: 12px;
+ line-height: 2.5rem;
+}
+.inputTxt2{
+ margin-left: 15px;
+ margin-top: 15px;
+}
+.input-groups .icon-square{
+ margin-left: 9px;
+ line-height: 2.5rem;
+}
+
+.formAdd{
+ margin: 280px 0 0px 0;
+}
+.controlOne{
+margin-top: 270px;
+margin-left: 21%;
+width: 132%;
+height: 13px;
+}
+.subTo{
+ position: relative;
+}
+.subTo .formGo1{
+position: absolute;
+left: 0%;
+top: 270px;
+}
+/* .subTo .formGo1:hover{
+ cursor: pointer;
+ background-color: #DB6574;
+ border-color: #DB6574;
+} */
+.controlTwo{
+margin-top: 324px;
+margin-left: 0%;
+width: 134%;
+height: 13px;
+}
+.subTo .formGo2{
+position: absolute;
+left: 145%;
+top: -31px;
+}
+.formWit{
+ margin-top: 89px;
+}
+.toggle{
+ position: relative;
+}
+.dropdown-toggle{
+ width: 100px;
+ height: 44px;
+ border-top-left-radius: 0.25rem;
+ border-bottom-left-radius: .25rem;
+ cursor: pointer;
+ background-color: #2d3035;
+ position: absolute;
+ /* left: 136px; */
+ top: 84px;
+ color: #868e96;
+ border: 1px solid #868e96;
+ font-size: 1rem;
+}
+.toggle .dropdown-toggle:hover{
+ color: #fff;
+ background-color: #6c757d;
+ border-color: #6c757d;
+}
+.form-controlThree{
+margin-top: 84px;
+margin-left: 44%;
+width: 112%;
+}
+.form-group .formCan{
+margin-left: 25%;
+background-color: #868e96;
+border-color: #868e96;
+}
+.form-group .formCan:hover{
+ background-color: #6c757d;
+}
+.toggle .icon-english{
+ position: absolute;
+ left: 70px;
+ top: 8px;
+ color: #868e96;
+}
+.toggle .icon-english:hover{
+ color: #fff;
+}
+#formHe{
+width: 343px;
+}
+.formControls{
+width: 348%;
+margin-top: 67px;
+}
+
+
+/* ------------------------------------------------底部------------------------------------------------- */
+
+.foot{
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+   padding: 20px;
+   background: #2d3035;
+   margin-top: 1065px;
+   font-size: 0.8rem;
+}
+
+
+
+
+}
+
+
+@media screen and (min-width: 548px) and (max-width: 575px){
+    /* header */
+
+.header{
+   width: 100%;
+   height: 83px;
+   background-color: #2d3035;
+   position: relative;
+   border-bottom: 1px solid #34373d;
+}
+.h-top{
+width: 97%;
+height: 42px;
+position: absolute;
+left: 1.5%;
+top: 25%;
+}
+
+/* 头部左边 */
+.topLeft{
+width:200px ;
+height:40px ;
+}
+.DarkAdmin{
+font-size: 1.25rem;
+/* display: block; */
+padding: 5px;
+display: none;
+}
+.leftDark{
+color: #db6574;
+
+}
+.leftAdmin{
+font-weight: bold;
+color: #8a8d93;
+
+}
+.leftImg{
+float: right;
+margin-top: -38px;
+display: none;
+
+}
+.DA{
+font-size: 1.25rem;
+display: block;
+padding: 5px;
+position: relative;
+}
+.leftD{
+color: #db6574;
+}
+.leftA{
+font-weight: bold;
+color: #8a8d93;
+}
+.DA img{
+position: absolute;
+top: 5px;
+left: 52px;
+}
+
+.topRight{
+width:412px ;
+height:42px ;
+float: right;
+margin-top: -44px;
+/* background-color: turquoise; */
+
+}
+.topRight a .icon-shousuo{
+font-size: 1.3rem;
+color:#8a8d93 ; 
+line-height: 5rem;
+}
+.topRight a .icon-youjian{
+color:#8a8d93 ; 
+font-size: 1.3rem;
+}
+.topRight a .icon-jishiben{
+color:#8a8d93 ; 
+font-size: 1.3rem;
+}
+.topRight a{
+color:#888b91;
+display: inline-block;
+margin-top: -12px;
+}
+.topRight a .icon-Mega{
+color:#8a8d93 ; 
+}
+.topRight a .icon-english{
+color:#8a8d93 ; 
+}
+.topRight .logRight{
+position: relative;
+}
+.topRight .logImg{
+position: absolute;
+top: 0px;
+right:-27px;
+}
+
+
+.m-left{
+width:22% ; 
+display: none;
+}
+
+.dashBoard {
+padding-right: 40px;
+padding-left: 8px;
+}
+
+/* 右边中间部分 */
+.m-right{
+height: 857px;
+/* background-color: lightgreen; */
+}
+/* 右边中间部分头部 */
+.rightDash{
+padding: 20px 15px;
+background-color: #2d3035;
+color: #8a8d93;
+margin-bottom: 30px;
+}
+.dashBoard{
+padding-right: 40px;
+padding-left: 295px;
+}
+.dashBoard {
+padding-right: 40px; 
+padding-left: 8px;
+}
+.dashSize{
+font-size: 1.1rem;
+}
+
+/* ---------------------------------- Home/Tables-------------------------------------------------- */
+.homeTab{
+   width: 94%;
+   height: 64px;
+   margin-top: -30px;
+   margin-left: 3%;
+}
+.homeTab ul li{
+   display: inline;
+   line-height: 4rem;
+   font-size: 0.9rem;
+   font-weight: 500;
+}
+.homeTab .homeT{
+  color: #DB6574;
+ 
+}
+.homeTab .tableH{
+  color: #585a5f;
+}
+
+.homeT:hover{
+    color:#c52e41 ;
+}
+/* --------------------------------------表单--------------------------------------------------------------- */
+
+.formS{
+   width: 100%;
+   min-width: -101px;
+   height: 2812px;
+   /* background-color: blue; */
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+.formBox{
+   /* background-color: pink; */
+   padding: 20px;
+   margin-left: 30px;
+   background: #2d3035;
+   color: #8a8d93;
+   margin-bottom: 30px;
+}
+.formBox1{
+   height:306px ;
+}
+.formBox2{
+   height: 347px;
+}
+.formBox3{
+   height: 162px;
+}
+.formBox4{
+   height: 90px;
+}
+
+.formTit{
+   margin-bottom: 20px;
+}
+.formTit .titleOne{
+   font-size: 1.25rem;
+   color: #a5a7ab;
+}
+.formTit .titleTwo{
+   display: block;
+}
+.form-group{
+   margin-bottom: 1rem;
+   position: relative;
+}
+.form-group .formLab{
+   color: #777;
+   font-size: 0.9rem;
+}
+label {
+   display: inline-block;
+   margin-bottom: .5rem;
+}
+button, input {
+   overflow: visible;
+}
+input {
+   outline: none;
+}
+.form-group .formEma{
+   /* display: block; */
+   width: 97%;
+   font-size: 0.9rem;
+   font-weight: 400;
+   line-height: 1.5;
+   height: 24px;
+   border: 1px solid #444951;
+   background: transparent;
+   border-radius: 0;
+   color: #979a9f;
+   padding: 0.45rem 0.75rem;
+}
+.form-group .formSub{
+   background-color: #DB6574;
+   border-color: #DB6574;
+   border: 1px solid transparent;
+   padding: 0.45rem 0.75rem;
+   font-size: 0.9rem;
+   line-height: 1.5;
+   border-radius: 0.25rem;
+   color: #fff;
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+   font-weight: 500;
+}
+.form-group .formSub:hover{
+   background-color: #d44658;
+}
+.form-group .formLab1{
+   margin-bottom: 3rem;
+}
+.form-group .formLab2{
+   margin-top: 2rem;
+}
+.form-group .form-email{
+   position: absolute;
+   left: 0px;
+   top: 28px;
+   padding-right: 8px;
+}
+.form-group .form-pwd{
+   position: absolute;
+   left: 0px;
+   top: 60px;
+   padding-right: 8px;
+}
+.form-email .formSma{
+   font-size: 0.8rem;
+}
+.form-group .formSub1{
+   margin-left: 0px;
+   margin-top: 68px;
+}
+
+
+.form-group .formEma2{
+   width: 200px;
+}
+.form-group .formEma3{
+    width: 200px;
+    position: absolute;
+    left: 226px;
+    top: -64px;
+}
+.form-group .formSub3{
+    margin-top: -10px;
+    margin-left: 0px;
+}
+.form-group .formSub4{
+    margin-left: 26%;
+   cursor: pointer;
+}
+
+
+
+.formBox5{
+    height: 2840px;
+}
+.formTit{
+    margin-bottom: 20px;
+}
+.formTit .titleOne{
+    font-size: 1.25rem;
+    color: #a5a7ab;
+}
+.formTit .titleTwo{
+    display: block;
+}
+.form-group{
+    margin-bottom: 1rem;
+    position: relative;
+}
+.form-group .formLab{
+    color: #777;
+    font-size: 0.9rem;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+button, input {
+    overflow: visible;
+}
+input {
+    outline: none;
+}
+.form-group .formEma{
+    /* display: block; */
+    width: 97%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 24px;
+    border: 1px solid #444951;
+    background: transparent;
+    border-radius: 0;
+    color: #979a9f;
+    padding: 0.45rem 0.75rem;
+}
+.form-group .formSub{
+    background-color: #DB6574;
+    border-color: #DB6574;
+    border: 1px solid transparent;
+    padding: 0.45rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.form-group .formSub:hover{
+    background-color: #d44658;
+}
+.form-group .formLab1{
+    margin-bottom: 3rem;
+}
+.form-group .form-email{
+    position: absolute;
+    left: 25%;
+    top: 0px;
+    padding-right: 8px;
+}
+.form-email .formSma{
+    font-size: 0.8rem;
+}
+.form-group .formSub1{
+    margin-left: 25%;
+    margin-top: 36px;
+}
+
+
+.form-group .formEma2{
+    width: 205px;
+}
+.form-group .formEma3{
+    width: 205px;
+    position: absolute;
+    left: 230px;
+    top: -64px;
+}
+.form-group .formSub3{
+    margin-top: -10px;
+    margin-left: 0px;
+}
+.form-group .formSub4{
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+
+.form-email .formEmaNor{
+    width: 680%;
+    margin-left: -120px;
+    margin-top: 28px;
+ }
+ .form-group .formHelp{
+    width: 26%;
+ }
+ .form-group .form-help{
+    width: 98%;
+    margin-top: 57px;
+    margin-left: -119px;
+ }
+ .form-group .formPwd{
+    margin-top: 80px;
+ }
+ .form-email .form-pwd{
+    width: 445px;
+    margin-top: 42px;
+    margin-left: -119px;
+ }
+ .form-email  .formDis{
+     background: #444951;
+ }
+ .form-group .formChe{
+    width: 35%;
+    margin-top: 32px;
+ }
+ .formChe .text-primary{
+     color: #DB6574;
+     font-size: 0.7rem;
+ }
+ .form-group .checkLab{
+    width: 73%;
+    margin-left: 144px;
+    margin-top: -92px;
+    font-size: 0.9rem;
+ }
+ .checkLab .i-checks{
+    position: relative;
+    margin: 0px 0 4% -4%;
+ }
+ .form-group .checkA{
+    margin: 0px 0 30px 0px;;
+ }
+ .form-group .formChe1 {
+    width: 31%;
+    margin-bottom: 200px;
+    margin-top: -40px;
+ }
+ .checkLab{
+     position: relative;
+ }
+ .i-checks1 .iconTxt{
+    position: absolute;
+    left: -95px;
+    top: -117px;
+ }
+ .i-checks1 .icon-square{
+    font-size: 2rem;
+    position: absolute;
+    left: -133px;
+    top: -130px;
+    cursor: pointer;
+ }
+
+ .i-checks2 .icon-square2{
+    font-size: 1.8rem;
+    position: absolute;
+    left: -131px;
+    top: -100px;
+    color: #db6574;
+    cursor: pointer;
+ }
+ .i-checks2 .iconTxt{
+    position: absolute;
+    left: -95px;
+    top: -90px;
+    
+ }
+ .i-checks3 .icon-square2{
+    font-size: 1.8rem;
+    position: absolute;
+    left: -131px;
+    top: -72px;
+    color: #db6574;
+    cursor: pointer;
+ }
+ .i-checks3 .iconTxt{
+    position: absolute;
+    left: -95px;
+    top: -62px;
+    
+ }
+ .i-checks4 .icon-square{
+     font-size: 2rem;
+     position: absolute;
+     left: -133px;
+     top: -48px;
+     cursor: pointer;
+ }
+ .i-checks4 .iconTxt{
+     position: absolute;
+     left: -96px;
+     top: -35px;  
+ }
+
+ .i-checks5 .icon-yuandian1{
+     font-size: 1.2rem;
+     position: absolute;
+     left: -126px;
+    top: -12px;
+     cursor: pointer;
+ }
+ .i-checks5 .iconTxt{
+     position: absolute;
+     left: -96px;
+    top: -10px;
+    
+ }
+ .i-checks6 .icon-choiceO{
+     font-size: 1.7rem;
+     position: absolute;
+     left: -130px;
+     top: 8px;
+     color: #db6574;
+     cursor: pointer;
+ }
+ .i-checks6 .iconTxt{
+     position: absolute;
+     left: -96px;
+    top: 15px;
+ }
+ .i-checks7 .icon-choiceO{
+     font-size: 1.7rem;
+     position: absolute;
+     left: -130px;
+     top: 38px;
+     color: #db6574;
+     cursor: pointer;
+ }
+ .i-checks7 .iconTxt{
+     position: absolute;
+     left: -96px;
+    top: 46px;
+ }
+ .i-checks8 .icon-yuandian1{
+     font-size: 1.2rem;
+     position: absolute;
+     left: -125px;
+    top: 72px;
+     cursor: pointer;
+ }
+ .i-checks8 .iconTxt{
+     position: absolute;
+     left: -96px;
+     top: 75px;
+ }
+
+ .form-group .formSel{
+    margin: 115px 185px 120px 0;
+ }
+
+ .form-control{
+    width: 418%;
+    border: 1px solid #444951;
+    background: transparent;
+    border-radius: 0;
+    color: #979a9f;
+    padding: 0.75rem 0.75rem;
+    margin: 10px 0 -113px 0px;
+    font-size: 1rem;
+ }
+ .formControl{
+    width: 470px;
+    margin: -72px 0 25px -117px;
+ }
+ .checkLab .boxSm1{
+    margin: 85px 0 0px -40%;
+    width: 135%;
+ }
+
+.checkLab .boxSm2{
+    margin: 0px 0 0px -40%;
+    width: 135%;
+}
+
+.checkLab .boxSm3{
+    margin: 0px 0 0px -40%;
+    width: 135%;
+}
+
+ .form-group .formInp{
+    width: 35%;
+    margin: 50px 0 10px 0;
+ }
+ .form-email .is-valid{
+    border-color: #28a745;
+    /* width: 156px; */
+    margin: 81px 0 25px -120px;
+ }
+ .form-email{
+     position: relative;
+ }
+ .form-email .icon-duihao1{
+     font-size: 1.5rem;
+     color: #28a745;
+     position: absolute;
+     left: 280%;
+    top: 84px;
+ }
+
+ .form-email .is-invalid{
+    border-color: #dc3545;
+    width: 446px;
+    margin: 74px 0 25px -120px;
+ }
+ .form-email .invalid-feedback{
+     width: 100%;
+     margin-top: .25rem;
+     font-size: 80%;
+     color: #dc3545;
+     margin: -22px 0 25px -120px;
+ }
+ .form-email .icon-cuohao{
+     font-size: 1.2rem;
+     font-weight: 600;
+     color: #dc3545;
+     position: absolute;
+     left: 90%;
+    top: 82px;
+ }
+ .form-group .formErr{
+    width: 35%;
+    margin: 45px 0 0px 0px;
+ }
+ .form-group .formCon{
+    margin: 77px 0 155px 0px;
+    width: 35%;
+ }
+ .form-control-lg{
+    margin: 106px 0 0 -117px;
+    width: 442px;
+     font-size: 0.9rem;
+     font-weight: 500;
+ }
+ .form-control-De{
+    width: 442px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 160px 0 0 -117px;
+ }
+ .form-control-sm{
+    margin: 215px 0 0 -117px;
+    width: 442px;
+     font-size: 0.9rem;
+     font-weight: 500;
+ }
+ .form-con1{
+    width: 442px;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-block;
+    margin: 32px 0 0 -117px;
+ }
+ .con2{
+     position: relative;
+ }
+ .form-con2{
+    margin: 0px 0 0 -190px;
+    width: 442px;
+     padding: 0.6rem 0.75rem;
+     font-size: 0.9rem;
+     font-weight: 500;
+     display: inline-block;
+     position: absolute;
+     left: 21%;
+     top: 25px;
+ }
+ .form-con3{
+    margin: 0px 0 0 -305px;
+    width: 442px;
+     padding: 0.6rem 0.75rem;
+     font-size: 0.9rem;
+     font-weight: 500;
+     display: inline-block;
+     position: absolute;
+     left: 54%;
+     top: 80px;
+ }
+ .formMat{
+    width: 35%;
+    margin: 154px 100px 150px 0px;
+ }
+ .input-material{
+     border: none;
+     border-bottom: 1px solid #444951;
+     padding: 10px 0;
+     background: none;
+     color: #8a8d93;
+    
+ }
+ .material1{
+    width: 468px;
+    margin: 170px 0px 10px -117px;
+ }
+ .material2{
+    margin: 220px 0px 10px -117px;
+    width: 468px;
+ }
+ .material3{
+    margin: 270px 0px 10px -117px;
+    width: 468px;
+ }
+.form-email .formTet{
+ color: #aaa;
+ cursor: text;
+ -webkit-transition: all 0.2s;
+ transition: all 0.2s;
+ font-weight: 300;
+ font-size: .8rem;
+ display: block;
+ margin-bottom: .5rem;
+}
+.form-email .formTet1{
+    margin-top: -32px;
+    margin-left: -33%;
+}
+.form-email .formTet2{
+    margin-top: -32px;
+    margin-left: -33%;
+}
+.form-email .formTet3{
+    margin-top: -32px;
+    margin-left: -33%;
+}
+
+.formGro{
+    margin: 0 0 100px 0;
+}
+.texts .formTexts{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 30px 0 0px -76px;
+    width: 177%;
+}
+.input-group-prepend{
+   position: relative;
+}
+.input-group-text{
+ padding: 0.4px 12px;
+ background: #363a40;
+ color: #8a8d93;
+ font-weight: 300;
+ border-radius: 0;
+ border: 1px solid #444951;
+ position: absolute;
+ left: -52%;
+top: 30px;
+ text-align: center;
+ line-height: 40px;
+ z-index: 1;
+}
+.formTexts1{
+    width: 175%;
+    margin-top: 12px;
+    margin-left: -119px;
+    margin-bottom: 0px;
+    height: 16px;
+}
+.group-text1{
+    position: absolute;
+    left: 134%;
+    top: -43px;
+}
+.group-text2{
+ position: absolute;
+ /* left: 37%; */
+ top: -43px;
+}
+.group-text3{
+    position: absolute;
+    left: 134%;
+    top: -43px;
+}
+.formTexts2{
+    width: 160%;
+    margin-left: -37%;
+    height: 17px;
+}
+.formTexts3{
+    width: 100%;
+    margin: 10px 0 0 10px;
+}
+
+.input-group-prepend1{
+ width: 40px;
+ background: #363a40;
+ height: 42px;
+ position: absolute;
+ left: -52%;
+ top: 10px;
+ border: 1px solid #444951;
+}
+.input-groups{
+    position: relative;
+}
+.formTexts4{
+    width: 178%;
+    position: absolute;
+    left: -34%;
+    /* top: -57px; */
+    height: 18px;
+}
+.inputTxt{
+    margin-top: -15px;
+    margin-left: 36px;
+}
+
+.formTexts5{
+    width: 177%;
+    position: absolute;
+    left: -33%;
+    top: 58px;
+    height: 18px;
+}
+.formTexts6{
+    width: 177%;
+    position: absolute;
+    left: -33%;
+    top: 116px;
+    height: 18px;
+}
+.formTexts7{
+width: 177%;
+ position: absolute;
+ left: -34%;
+ top: 173px;
+ height: 18px;
+}
+.input-group-prepend2{
+    position: absolute;
+    left: -51%;
+    top: 68px;
+}
+.input-group-prepend3{
+    position: absolute;
+    left: -51%;
+    top: 126px;
+}
+.input-group-prepend4{
+ position: absolute;
+ /* left: 37%; */
+ top: 183px;
+}
+.input-groups .icon-yuandian1{
+ font-size: 1rem;
+ margin-left: 12px;
+ line-height: 2.5rem;
+}
+.inputTxt2{
+    margin-left: 35px;
+    margin-top: -15px;
+}
+.input-groups .icon-square{
+ margin-left: 9px;
+ line-height: 2.5rem;
+}
+
+.formAdd{
+ margin: 280px 0 0px 0;
+}
+.controlOne{
+    margin-top: 310px;
+    margin-left: -31%;
+    width: 173%;
+    height: 13px;
+}
+.subTo{
+ position: relative;
+}
+.subTo .formGo1{
+    position: absolute;
+    left: -52%;
+    top: 310px;
+}
+/* .subTo .formGo1:hover{
+ cursor: pointer;
+ background-color: #DB6574;
+ border-color: #DB6574;
+} */
+.controlTwo{
+    margin-top: 365px;
+    margin-left: -52%;
+    width: 173%;
+    height: 13px;
+}
+.subTo .formGo2{
+    position: absolute;
+    left: 132%;
+    top: -32px;
+}
+.formWit{
+    margin-top: 105px;
+}
+.toggle{
+ position: relative;
+}
+.dropdown-toggle{
+ width: 100px;
+ height: 44px;
+ border-top-left-radius: 0.25rem;
+ border-bottom-left-radius: .25rem;
+ cursor: pointer;
+ background-color: #2d3035;
+ position: absolute;
+ /* left: 136px; */
+ top: 84px;
+ color: #868e96;
+ border: 1px solid #868e96;
+ font-size: 1rem;
+ margin-left: -120px;
+margin-top: 55px;
+}
+.toggle .dropdown-toggle:hover{
+ color: #fff;
+ background-color: #6c757d;
+ border-color: #6c757d;
+}
+.form-controlThree{
+    margin-left: -20px;
+    /* background-color: #868e96; */
+    /* border-color: #868e96; */
+    margin-top: 139px;
+    width: 164%;
+}
+.form-group .formCan{
+    margin-left: 0%;
+    background-color: #868e96;
+    border-color: #868e96;
+    margin-top: 55px;
+}
+.form-group .formCan:hover{
+ background-color: #6c757d;
+}
+.toggle .icon-english{
+ position: absolute;
+ left: 70px;
+ top: 8px;
+ color: #868e96;
+}
+.toggle .icon-english:hover{
+ color: #fff;
+}
+#formHe{
+    width: 447px;
+}
+.formControls{
+    width: 470px;
+    margin-top: 143px;
+    margin-left: -118px;
+}
+.formHelp1{
+    margin-top: 34px;
+}
+.formSav{
+    margin-top: 57px;
+}
+
+
+
+
+/* ------------------------------------------------底部------------------------------------------------- */
+
+.foot{
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+   padding: 20px;
+   background: #2d3035;
+   margin-top: 1285px;
+   font-size: 0.8rem;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 547px){
+    /* header */
+
+.header{
+   width: 100%;
+   height: 83px;
+   background-color: #2d3035;
+   position: relative;
+   border-bottom: 1px solid #34373d;
+}
+.h-top{
+width: 97%;
+height: 42px;
+position: absolute;
+left: 1.5%;
+top: 25%;
+}
+
+/* 头部左边 */
+.topLeft{
+width:200px ;
+height:40px ;
+}
+.DarkAdmin{
+font-size: 1.25rem;
+/* display: block; */
+padding: 5px;
+display: none;
+}
+.leftDark{
+color: #db6574;
+
+}
+.leftAdmin{
+font-weight: bold;
+color: #8a8d93;
+
+}
+.leftImg{
+float: right;
+margin-top: -38px;
+display: none;
+
+}
+.DA{
+font-size: 1.25rem;
+display: block;
+padding: 5px;
+position: relative;
+}
+.leftD{
+color: #db6574;
+}
+.leftA{
+font-weight: bold;
+color: #8a8d93;
+}
+.DA img{
+position: absolute;
+top: 5px;
+left: 52px;
+}
+
+.topRight{
+width:412px ;
+height:42px ;
+float: right;
+margin-top: -44px;
+/* background-color: turquoise; */
+
+}
+.topRight a .icon-shousuo{
+font-size: 1.3rem;
+color:#8a8d93 ; 
+line-height: 5rem;
+}
+.topRight a .icon-youjian{
+color:#8a8d93 ; 
+font-size: 1.3rem;
+}
+.topRight a .icon-jishiben{
+color:#8a8d93 ; 
+font-size: 1.3rem;
+}
+.topRight a{
+color:#888b91;
+display: inline-block;
+margin-top: -12px;
+}
+.topRight a .icon-Mega{
+color:#8a8d93 ; 
+}
+.topRight a .icon-english{
+color:#8a8d93 ; 
+}
+.topRight .logRight{
+position: relative;
+}
+.topRight .logImg{
+position: absolute;
+top: 0px;
+right:-27px;
+}
+
+
+.m-left{
+width:22% ; 
+display: none;
+}
+
+.dashBoard {
+padding-right: 40px;
+padding-left: 8px;
+}
+
+/* 右边中间部分 */
+.m-right{
+height: 857px;
+/* background-color: lightgreen; */
+}
+/* 右边中间部分头部 */
+.rightDash{
+padding: 20px 15px;
+background-color: #2d3035;
+color: #8a8d93;
+margin-bottom: 30px;
+}
+.dashBoard{
+padding-right: 40px;
+padding-left: 295px;
+}
+.dashBoard {
+padding-right: 40px; 
+padding-left: 8px;
+}
+.dashSize{
+font-size: 1.1rem;
+}
+
+/* ---------------------------------- Home/Tables-------------------------------------------------- */
+.homeTab{
+   width: 94%;
+   height: 64px;
+   margin-top: -30px;
+   margin-left: 3%;
+}
+.homeTab ul li{
+   display: inline;
+   line-height: 4rem;
+   font-size: 0.9rem;
+   font-weight: 500;
+}
+.homeTab .homeT{
+  color: #DB6574;
+ 
+}
+.homeTab .tableH{
+  color: #585a5f;
+}
+
+.homeT:hover{
+    color:#c52e41 ;
+}
+/* --------------------------------------表单--------------------------------------------------------------- */
+
+.formS{
+   width: 100%;
+   min-width: -101px;
+   height: 2812px;
+   /* background-color: blue; */
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+.formBox{
+   /* background-color: pink; */
+   padding: 20px;
+   margin-left: 30px;
+   background: #2d3035;
+   color: #8a8d93;
+   margin-bottom: 30px;
+}
+.formBox1{
+   height:306px ;
+}
+.formBox2{
+   height: 347px;
+}
+.formBox3{
+   height: 162px;
+}
+.formBox4{
+   height: 90px;
+}
+
+.formTit{
+   margin-bottom: 20px;
+}
+.formTit .titleOne{
+   font-size: 1.25rem;
+   color: #a5a7ab;
+}
+.formTit .titleTwo{
+   display: block;
+}
+.form-group{
+   margin-bottom: 1rem;
+   position: relative;
+}
+.form-group .formLab{
+   color: #777;
+   font-size: 0.9rem;
+}
+label {
+   display: inline-block;
+   margin-bottom: .5rem;
+}
+button, input {
+   overflow: visible;
+}
+input {
+   outline: none;
+}
+.form-group .formEma{
+   /* display: block; */
+   width: 97%;
+   font-size: 0.9rem;
+   font-weight: 400;
+   line-height: 1.5;
+   height: 24px;
+   border: 1px solid #444951;
+   background: transparent;
+   border-radius: 0;
+   color: #979a9f;
+   padding: 0.45rem 0.75rem;
+}
+.form-group .formSub{
+   background-color: #DB6574;
+   border-color: #DB6574;
+   border: 1px solid transparent;
+   padding: 0.45rem 0.75rem;
+   font-size: 0.9rem;
+   line-height: 1.5;
+   border-radius: 0.25rem;
+   color: #fff;
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+   font-weight: 500;
+}
+.form-group .formSub:hover{
+   background-color: #d44658;
+}
+.form-group .formLab1{
+   margin-bottom: 3rem;
+}
+.form-group .formLab2{
+   margin-top: 2rem;
+}
+.form-group .form-email{
+   position: absolute;
+   left: 0px;
+   top: 28px;
+   padding-right: 8px;
+}
+.form-group .form-pwd{
+   position: absolute;
+   left: 0px;
+   top: 60px;
+   padding-right: 8px;
+}
+.form-email .formSma{
+   font-size: 0.8rem;
+}
+.form-group .formSub1{
+   margin-left: 0px;
+   margin-top: 68px;
+}
+
+
+.form-group .formEma2{
+   width: 200px;
+}
+.form-group .formEma3{
+    width: 200px;
+    position: absolute;
+    left: 0px;
+    top: -11px;
+}
+.form-group .formSub3{
+    margin-top: -10px;
+    margin-left: 226px;
+}
+.form-group .formSub4{
+    margin-left: 26%;
+   cursor: pointer;
+}
+
+
+
+.formBox5{
+    height: 2928px;
+}
+.formTit{
+    margin-bottom: 20px;
+}
+.formTit .titleOne{
+    font-size: 1.25rem;
+    color: #a5a7ab;
+}
+.formTit .titleTwo{
+    display: block;
+}
+.form-group{
+    margin-bottom: 1rem;
+    position: relative;
+}
+.form-group .formLab{
+    color: #777;
+    font-size: 0.9rem;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+button, input {
+    overflow: visible;
+}
+input {
+    outline: none;
+}
+.form-group .formEma{
+    /* display: block; */
+    width: 97%;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 24px;
+    border: 1px solid #444951;
+    background: transparent;
+    border-radius: 0;
+    color: #979a9f;
+    padding: 0.45rem 0.75rem;
+}
+.form-group .formSub{
+    background-color: #DB6574;
+    border-color: #DB6574;
+    border: 1px solid transparent;
+    padding: 0.45rem 0.75rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 500;
+}
+.form-group .formSub:hover{
+    background-color: #d44658;
+}
+.form-group .formLab1{
+    margin-bottom: 3rem;
+}
+.form-group .form-email{
+    position: absolute;
+    left: 25%;
+    top: 0px;
+    padding-right: 8px;
+}
+.form-email .formSma{
+    font-size: 0.8rem;
+}
+.form-group .formSub1{
+    margin-left: 25%;
+    margin-top: 36px;
+}
+
+
+.form-group .formEma2{
+    width: 205px;
+}
+.form-group .formEma3{
+    width: 205px;
+    position: absolute;
+    left: 0px;
+    top: -10px;
+}
+.form-group .formSub3{
+    margin-top: -10px;
+    margin-left: 231px;
+}
+.form-group .formSub4{
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+
+.form-email .formEmaNor{
+    width: 622%;
+    margin-left: -120px;
+    margin-top: 28px;
+ }
+ .form-group .formHelp{
+    width: 40%;
+ }
+ .form-group .form-help{
+    width: 98%;
+    margin-top: 57px;
+    margin-left: -119px;
+ }
+ .form-group .formPwd{
+    margin-top: 80px;
+ }
+ .form-email .form-pwd{
+    width: 407px;
+    margin-top: 42px;
+    margin-left: -119px;
+ }
+ .form-email  .formDis{
+     background: #444951;
+ }
+ .form-group .formChe{
+    width: 40%;
+    margin-top: 32px;
+ }
+ .formChe .text-primary{
+     color: #DB6574;
+     font-size: 0.7rem;
+ }
+ .form-group .checkLab{
+    width: 73%;
+    margin-left: 144px;
+    margin-top: -92px;
+    font-size: 0.9rem;
+ }
+ .checkLab .i-checks{
+    position: relative;
+    margin: 0px 0 4% -4%;
+ }
+ .form-group .checkA{
+    margin: 0px 0 30px 0px;;
+ }
+ .form-group .formChe1 {
+    width: 40%;
+    margin-bottom: 200px;
+    margin-top: -40px;
+ }
+ .checkLab{
+     position: relative;
+ }
+ .i-checks1 .iconTxt{
+    position: absolute;
+    left: -95px;
+    top: -117px;
+ }
+ .i-checks1 .icon-square{
+    font-size: 2rem;
+    position: absolute;
+    left: -133px;
+    top: -130px;
+    cursor: pointer;
+ }
+
+ .i-checks2 .icon-square2{
+    font-size: 1.8rem;
+    position: absolute;
+    left: -131px;
+    top: -100px;
+    color: #db6574;
+    cursor: pointer;
+ }
+ .i-checks2 .iconTxt{
+    position: absolute;
+    left: -95px;
+    top: -90px;
+    
+ }
+ .i-checks3 .icon-square2{
+    font-size: 1.8rem;
+    position: absolute;
+    left: -131px;
+    top: -72px;
+    color: #db6574;
+    cursor: pointer;
+ }
+ .i-checks3 .iconTxt{
+    position: absolute;
+    left: -95px;
+    top: -62px;
+    
+ }
+ .i-checks4 .icon-square{
+     font-size: 2rem;
+     position: absolute;
+     left: -133px;
+     top: -48px;
+     cursor: pointer;
+ }
+ .i-checks4 .iconTxt{
+     position: absolute;
+     left: -96px;
+     top: -35px;  
+ }
+
+ .i-checks5 .icon-yuandian1{
+     font-size: 1.2rem;
+     position: absolute;
+     left: -126px;
+    top: -12px;
+     cursor: pointer;
+ }
+ .i-checks5 .iconTxt{
+     position: absolute;
+     left: -96px;
+    top: -10px;
+    
+ }
+ .i-checks6 .icon-choiceO{
+     font-size: 1.7rem;
+     position: absolute;
+     left: -130px;
+     top: 8px;
+     color: #db6574;
+     cursor: pointer;
+ }
+ .i-checks6 .iconTxt{
+     position: absolute;
+     left: -96px;
+    top: 15px;
+ }
+ .i-checks7 .icon-choiceO{
+     font-size: 1.7rem;
+     position: absolute;
+     left: -130px;
+     top: 38px;
+     color: #db6574;
+     cursor: pointer;
+ }
+ .i-checks7 .iconTxt{
+     position: absolute;
+     left: -96px;
+    top: 46px;
+ }
+ .i-checks8 .icon-yuandian1{
+     font-size: 1.2rem;
+     position: absolute;
+     left: -125px;
+    top: 72px;
+     cursor: pointer;
+ }
+ .i-checks8 .iconTxt{
+     position: absolute;
+     left: -96px;
+     top: 75px;
+ }
+
+ .form-group .formSel{
+    margin: 115px 185px 120px 0;
+ }
+
+ .form-control{
+    width: 384%;
+    border: 1px solid #444951;
+    background: transparent;
+    border-radius: 0;
+    color: #979a9f;
+    padding: 0.75rem 0.75rem;
+    margin: 10px 0 -113px 0px;
+    font-size: 1rem;
+ }
+ .formControl{
+    width: 433px;
+    margin: -72px 0 25px -117px;
+ }
+ .checkLab .boxSm1{
+    margin: 85px 0 0px -40%;
+    width: 135%;
+ }
+
+.checkLab .boxSm2{
+    margin: 0px 0 0px -40%;
+    width: 135%;
+}
+
+.checkLab .boxSm3{
+    margin: 0px 0 0px -40%;
+    width: 135%;
+}
+
+ .form-group .formInp{
+    width: 35%;
+    margin: 50px 0 10px 0;
+ }
+ .form-email .is-valid{
+    border-color: #28a745;
+    /* width: 156px; */
+    margin: 81px 0 25px -120px;
+ }
+ .form-email{
+     position: relative;
+ }
+ .form-email .icon-duihao1{
+     font-size: 1.5rem;
+     color: #28a745;
+     position: absolute;
+     left: 248%;
+    top: 84px;
+ }
+
+ .form-email .is-invalid{
+    border-color: #dc3545;
+    width: 409px;
+    margin: 74px 0 25px -120px;
+ }
+ .form-email .invalid-feedback{
+     width: 100%;
+     margin-top: .25rem;
+     font-size: 80%;
+     color: #dc3545;
+     margin: -22px 0 25px -120px;
+ }
+ .form-email .icon-cuohao{
+     font-size: 1.2rem;
+     font-weight: 600;
+     color: #dc3545;
+     position: absolute;
+     left: 90%;
+    top: 82px;
+ }
+ .form-group .formErr{
+    width: 35%;
+    margin: 45px 0 0px 0px;
+ }
+ .form-group .formCon{
+    margin: 77px 0 155px 0px;
+    width: 35%;
+ }
+ .form-control-lg{
+    margin: 106px 0 0 -117px;
+    width: 406px;
+     font-size: 0.9rem;
+     font-weight: 500;
+ }
+ .form-control-De{
+    width: 406px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 160px 0 0 -117px;
+ }
+ .form-control-sm{
+    margin: 215px 0 0 -117px;
+    width: 406px;
+     font-size: 0.9rem;
+     font-weight: 500;
+ }
+ .form-con1{
+    width: 406px;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-block;
+    margin: 32px 0 0 -117px;
+ }
+ .con2{
+     position: relative;
+ }
+ .form-con2{
+    margin: 0px 0 0 -190px;
+    width: 408px;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    left: 23%;
+    top: 25px;
+ }
+ .form-con3{
+    margin: 0px 0 0 -305px;
+    width: 406px;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-block;
+    position: absolute;
+    left: 60%;
+    top: 80px;
+ }
+ .formMat{
+    width: 35%;
+    margin: 154px 100px 150px 0px;
+ }
+ .input-material{
+     border: none;
+     border-bottom: 1px solid #444951;
+     padding: 10px 0;
+     background: none;
+     color: #8a8d93;
+    
+ }
+ .material1{
+    width: 420px;
+    margin: 170px 0px 10px -107px;
+ }
+ .material2{
+    margin: 220px 0px 10px -107px;
+    width: 420px;
+ }
+ .material3{
+    margin: 270px 0px 10px -107px;
+    width: 420px;
+ }
+.form-email .formTet{
+ color: #aaa;
+ cursor: text;
+ -webkit-transition: all 0.2s;
+ transition: all 0.2s;
+ font-weight: 300;
+ font-size: .8rem;
+ display: block;
+ margin-bottom: .5rem;
+}
+.form-email .formTet1{
+    margin-top: -32px;
+    margin-left: -33%;
+}
+.form-email .formTet2{
+    margin-top: -32px;
+    margin-left: -33%;
+}
+.form-email .formTet3{
+    margin-top: -32px;
+    margin-left: -33%;
+}
+
+.formGro{
+    margin: 0 0 100px 0;
+}
+.texts .formTexts{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 30px 0 0px -76px;
+    width: 160%;
+}
+.input-group-prepend{
+   position: relative;
+}
+.input-group-text{
+ padding: 0.4px 12px;
+ background: #363a40;
+ color: #8a8d93;
+ font-weight: 300;
+ border-radius: 0;
+ border: 1px solid #444951;
+ position: absolute;
+ left: -52%;
+top: 30px;
+ text-align: center;
+ line-height: 40px;
+ z-index: 1;
+}
+.formTexts1{
+    width: 159%;
+    margin-top: 12px;
+    margin-left: -119px;
+    margin-bottom: 0px;
+    height: 16px;
+}
+.group-text1{
+    position: absolute;
+    left: 117%;
+    top: -43px;
+}
+.group-text2{
+ position: absolute;
+ /* left: 37%; */
+ top: -43px;
+}
+.group-text3{
+    position: absolute;
+    left: 117%;
+    top: -43px;
+}
+.formTexts2{
+    width: 143%;
+    margin-left: -37%;
+    height: 17px;
+}
+.formTexts3{
+    width: 100%;
+    margin: 10px 0 0 10px;
+}
+
+.input-group-prepend1{
+ width: 40px;
+ background: #363a40;
+ height: 42px;
+ position: absolute;
+ left: -52%;
+ top: 10px;
+ border: 1px solid #444951;
+}
+.input-groups{
+    position: relative;
+}
+.formTexts4{
+    width: 160%;
+    position: absolute;
+    left: -34%;
+    /* top: -57px; */
+    height: 18px;
+}
+.inputTxt{
+    margin-top: -15px;
+    margin-left: 36px;
+}
+
+.formTexts5{
+    width: 160%;
+    position: absolute;
+    left: -33%;
+    top: 58px;
+    height: 18px;
+}
+.formTexts6{
+    width: 160%;
+    position: absolute;
+    left: -33%;
+    top: 116px;
+    height: 18px;
+}
+.formTexts7{
+    width: 160%;
+ position: absolute;
+ left: -34%;
+ top: 173px;
+ height: 18px;
+}
+.input-group-prepend2{
+    position: absolute;
+    left: -51%;
+    top: 68px;
+}
+.input-group-prepend3{
+    position: absolute;
+    left: -51%;
+    top: 126px;
+}
+.input-group-prepend4{
+ position: absolute;
+ /* left: 37%; */
+ top: 183px;
+}
+.input-groups .icon-yuandian1{
+ font-size: 1rem;
+ margin-left: 12px;
+ line-height: 2.5rem;
+}
+.inputTxt2{
+    margin-left: 35px;
+    margin-top: -15px;
+}
+.input-groups .icon-square{
+ margin-left: 9px;
+ line-height: 2.5rem;
+}
+
+.formAdd{
+ margin: 280px 0 0px 0;
+}
+.controlOne{
+    margin-top: 310px;
+    margin-left: -31%;
+    width: 157%;
+    height: 13px;
+}
+.subTo{
+ position: relative;
+}
+.subTo .formGo1{
+    position: absolute;
+    left: -52%;
+    top: 310px;
+}
+/* .subTo .formGo1:hover{
+ cursor: pointer;
+ background-color: #DB6574;
+ border-color: #DB6574;
+} */
+.controlTwo{
+    margin-top: 365px;
+    margin-left: -52%;
+    width: 157%;
+    height: 13px;
+}
+.subTo .formGo2{
+    position: absolute;
+    left: 116%;
+    top: -32px;
+}
+.formWit{
+    margin-top: 105px;
+}
+.toggle{
+ position: relative;
+}
+.dropdown-toggle{
+ width: 100px;
+ height: 44px;
+ border-top-left-radius: 0.25rem;
+ border-bottom-left-radius: .25rem;
+ cursor: pointer;
+ background-color: #2d3035;
+ position: absolute;
+ /* left: 136px; */
+ top: 84px;
+ color: #868e96;
+ border: 1px solid #868e96;
+ font-size: 1rem;
+ margin-left: -120px;
+margin-top: 55px;
+}
+.toggle .dropdown-toggle:hover{
+ color: #fff;
+ background-color: #6c757d;
+ border-color: #6c757d;
+}
+.form-controlThree{
+    margin-left: -20px;
+    /* background-color: #868e96; */
+    /* border-color: #868e96; */
+    margin-top: 139px;
+    width: 148%;
+}
+.form-group .formCan{
+    margin-left: -3%;
+    background-color: #868e96;
+    border-color: #868e96;
+    margin-top: 55px;
+}
+.form-group .formCan:hover{
+ background-color: #6c757d;
+}
+.toggle .icon-english{
+ position: absolute;
+ left: 70px;
+ top: 8px;
+ color: #868e96;
+}
+.toggle .icon-english:hover{
+ color: #fff;
+}
+#formHe{
+    width: 407px;
+}
+.formControls{
+    width: 434px;
+    margin-top: 143px;
+    margin-left: -118px;
+}
+.formHelp1{
+    margin-top: 34px;
+}
+.formSav{
+    margin-top: 57px;
+}
+
+
+
+/* ------------------------------------------------底部------------------------------------------------- */
+
+.foot{
+   height: 50px;
+   text-align: center;
+   line-height: 50px;
+   padding: 20px;
+   background: #2d3035;
+   margin-top: 1370px;
+   font-size: 0.8rem;
+}
+
+
+}
+
+
+
